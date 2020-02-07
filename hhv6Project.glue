@@ -1,0 +1,18 @@
+delete project hhv6
+
+create project hhv6 "Comparative analysis of adeno-associated viruses (AAVs)" --minVersion 0.1.66
+
+schema-project hhv6
+
+  run file glue/core/hhv6SchemaExtensions.glue
+  exit
+
+# Build core project
+run file glue/build/buildCoreProject.glue
+  
+# Build EVE extension (incorporates EVE loci)
+run file glue/build/buildEveExtension.glue
+  
+# Build project extension (incorporates curated set of all dependoparvovirus sequences in GenBank )
+#run file glue/build/buildExtensionDependo.glue
+

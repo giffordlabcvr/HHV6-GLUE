@@ -1,0 +1,3 @@
+# Download Dependoparvovirus sequences from NCBI GenBank  
+create module -f modules/ncbiImporters/parvoviridaeNcbiImporterProto.xml ncbiImporterProto
+module ncbiImporterProto import

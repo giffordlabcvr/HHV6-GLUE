@@ -1,0 +1,24 @@
+project aav
+
+  import source sources/ncbi-curated/
+  
+  module aavGenbankXmlPopulator populate
+  
+  #module aavTextFilePopulator populate -f tabular/aav-data.tsv
+  
+  # Extend constrained alignment tree
+  run file glue/aavAlignmentTreeExtension.glue
+
+  
+  exit
+  
+
+
+
+
+
+
+
+
+
+

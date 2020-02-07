@@ -1,0 +1,62 @@
+  ### Constrained alignment tree for the Parvoviridae
+
+  #~# Root level (Genus)
+ 
+  create alignment AL_MASTER_Dependoparvovirus --r REF_SnakePV
+  alignment AL_MASTER_Dependoparvovirus add member --allSequences
+
+  #~# Internal nodes (Dependoparvovirus sub-lineages)
+  
+  alignment AL_MASTER_Dependoparvovirus
+  
+    extract child AL_AAV_primate       --refName REF_AAV2
+    demote member AL_AAV_primate       --whereClause "sequence.clade = 'AAV_primate'"
+    
+    extract child AL_AAV_rodent        --refName REF_Mouse-AAV1
+    demote member AL_AAV_rodent        --whereClause "sequence.clade = 'AAV_rodent'"
+    
+    extract child AL_AAV_reptile       --refName REF_SnakePV
+    demote member AL_AAV_reptile       --whereClause "sequence.clade = 'AAV_reptile'"
+    
+    extract child AL_AAV_aves          --refName REF_MDPV
+    demote member AL_AAV_aves          --whereClause "sequence.clade = 'AAV_aves'"
+     
+    exit
+
+
+  #~# Tip alignments (virus species level)
+
+  alignment AL_AAV_primate
+  
+    extract child AL_AAV2              --refName REF_AAV2
+    demote member AL_AAV2              --whereClause "sequence.name = 'AAV-2'" 
+    extract child AL_AAV3              --refName REF_AAV3
+    demote member AL_AAV3              --whereClause "sequence.name = 'AAV-3'" 
+    extract child AL_AAV4              --refName REF_AAV4
+    demote member AL_AAV4              --whereClause "sequence.name = 'AAV-4'" 
+    extract child AL_AAV6              --refName REF_AAV6
+    demote member AL_AAV6              --whereClause "sequence.name = 'AAV-6'" 
+    extract child AL_AAV7              --refName REF_AAV7
+    demote member AL_AAV7              --whereClause "sequence.name = 'AAV-7'" 
+    extract child AL_AAV8              --refName REF_AAV8
+    demote member AL_AAV8              --whereClause "sequence.name = 'AAV-8'" 
+    extract child AL_AAV9              --refName REF_AAV9
+    demote member AL_AAV9              --whereClause "sequence.name = 'AAV-9'" 
+    #extract child AL_AAV10             --refName REF_AAV10
+    #demote member AL_AAV10             --whereClause "sequence.name = 'AAV-10'" 
+    extract child AL_AAV11             --refName REF_AAV11
+    demote member AL_AAV11             --whereClause "sequence.name = 'AAV-11'" 
+    extract child AL_AAV12             --refName REF_AAV12
+    demote member AL_AAV12             --whereClause "sequence.name = 'AAV-12'" 
+    exit
+
+
+  #~# Derive constrained alignment segments from unconstrained alignments
+  alignment AL_MASTER_Dependoparvovirus
+    derive segments AL_DEPENDO_UNC -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_AAV_primate
+    derive segments AL_UNCONSTRAINED_AAV -a --mergeStrategy OVERWRITE
+    exit
+
