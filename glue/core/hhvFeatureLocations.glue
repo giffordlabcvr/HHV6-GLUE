@@ -7,455 +7,431 @@
       add segment 1 159378
       exit
 
-    add feature-location gag
-    feature-location gag
-      add segment 336 1838
-      exit
-
-    add feature-location tat
-    feature-location tat
-      add segment 5377 5591 --spliceIndex 1
-      add segment 7925 7970 --spliceIndex 2
-      exit
-
-    add feature-location DR1 protein -p whole_genome "protein DR1"
-  feature DR1 set metatag OWN_CODON_NUMBERING true
-  feature DR1 set metatag INCLUDE_IN_SUMMARY true
-  feature DR1 set metatag CODES_AMINO_ACIDS true
-
-    add feature-location DR6 -p whole_genome "protein DR6"
-  feature DR1 set metatag OWN_CODON_NUMBERING true
-  feature DR1 set metatag INCLUDE_IN_SUMMARY true
-  feature DR1 set metatag CODES_AMINO_ACIDS true
+    add feature-location DR1 
+    feature-location DR1 
+     add segment 501 759 --spliceIndex 1
+     add segment 843 2653 --spliceIndex 2
+     exit
   
-    add feature-location UL23 -p whole_genome "tegument protein UL23"
-  feature UL23 set metatag OWN_CODON_NUMBERING true
-  feature UL23 set metatag INCLUDE_IN_SUMMARY true
-  feature UL23 set metatag CODES_AMINO_ACIDS true
-
-    add feature-location UL24 -p whole_genome "tegument protein UL24"
-  feature UL24 set metatag OWN_CODON_NUMBERING true
-  feature UL24 set metatag INCLUDE_IN_SUMMARY true
-  feature UL24 set metatag CODES_AMINO_ACIDS true
   
-    add feature-location UL27 -p whole_genome "protein UL27"
-  feature UL27 set metatag OWN_CODON_NUMBERING true
-  feature UL27 set metatag INCLUDE_IN_SUMMARY true
-  feature UL27 set metatag CODES_AMINO_ACIDS true
+    add feature-location DR6
+    feature-location DR6
+     add segment 4725 5028 --spliceIndex 1
+     add segment 5837 6702 --spliceIndex 2
+     exit
+     
+    add feature-location DR6R
+    feature-location DR6R
+     add segment 156013 156316 --spliceIndex 1
+     add segment 157125 157990 --spliceIndex 2
+       
+    add feature-location U2
+    feature-location U2 
+     add segment 8712 9812
+     exit
+
+
+    add feature-location U3 
+    feature-location U3 
+     add segment 10151 11272
+     exit
+  
+    add feature-location U4 
+    feature-location U4
+     add segment 11481 13088
+     exit
+
+    add feature-location U7
+    feature-location U7 
+     add segment 13210 14854 --spliceIndex 1
+     add segment 14944 15919 --spliceIndex 2
+     add segment 16025 17087 --spliceIndex 3
+     exit
+
  
-    add feature-location UL28 -p whole_genome "protein UL28"
-  feature UL28 set metatag OWN_CODON_NUMBERING true
-  feature UL28 set metatag INCLUDE_IN_SUMMARY true
-  feature UL28 set metatag CODES_AMINO_ACIDS true
- 
-    add feature-location UL31 -p whole_genome "protein UL31"
-  feature UL31 set metatag OWN_CODON_NUMBERING true
-  feature UL31 set metatag INCLUDE_IN_SUMMARY true
-  feature UL31 set metatag CODES_AMINO_ACIDS true
+    add feature-location U10
+    feature-location U10 
+     add segment 17600 19111
+     exit
   
-    add feature-location pp150 -p whole_genome "tegument protein pp150"
-  feature pp150 set metatag OWN_CODON_NUMBERING true
-  feature pp150 set metatag INCLUDE_IN_SUMMARY true
-  feature pp150 set metatag CODES_AMINO_ACIDS true
+    add feature-location U36 
+    feature-location U36 
+     add segment 19015 21627
+     exit
 
-    add feature-location UL33 -p whole_genome "membrane protein UL33"
-  feature UL33 set metatag OWN_CODON_NUMBERING true
-  feature UL33 set metatag INCLUDE_IN_SUMMARY true
-  feature UL33 set metatag CODES_AMINO_ACIDS true
+    add feature-location U35
+    feature-location U35 
+     add segment 21729 21761 --spliceIndex 1
+     add segment 21851 22861 --spliceIndex 2
+     exit
 
-    add feature-location U13 -p whole_genome "protein U13"
-  feature U13 set metatag OWN_CODON_NUMBERING true
-  feature U13 set metatag INCLUDE_IN_SUMMARY true
-  feature U13 set metatag CODES_AMINO_ACIDS true
+    add feature-location U13
+    feature-location U13
+     add segment 22947 23267
+     exit
 
-    add feature-location UL35 -p whole_genome "tegument protein UL35"
-  feature UL35 set metatag OWN_CODON_NUMBERING true
-  feature UL35 set metatag INCLUDE_IN_SUMMARY true
-  feature UL35 set metatag CODES_AMINO_ACIDS true
+    add feature-location U33
+    feature-location U33
+     add segment 51772 53184 
+     exit
 
-    add feature-location U15 -p whole_genome "protein U15"
-  feature U15 set metatag OWN_CODON_NUMBERING true
-  feature U15 set metatag INCLUDE_IN_SUMMARY true
-  feature U15 set metatag CODES_AMINO_ACIDS true
+    add feature-location U15
+    feature-location U15 
+     add segment 25228 25413 --spliceIndex 1
+     add segment 25579 25651 --spliceIndex 2
+     add segment 25725 26041 --spliceIndex 3
+     exit
 
-    add feature-location vICA -p whole_genome "tegument protein vICA"
-  feature vICA set metatag OWN_CODON_NUMBERING true
-  feature vICA set metatag INCLUDE_IN_SUMMARY true
-  feature vICA set metatag CODES_AMINO_ACIDS true
+    add feature-location U17
+    feature-location U17 
+     add segment 26308 27083 --spliceIndex 1
+     add segment 27170 27398 --spliceIndex 2
+     exit
 
-    add feature-location UL37 -p whole_genome "membrane protein UL37"
-  feature UL37 set metatag OWN_CODON_NUMBERING true
-  feature UL37 set metatag INCLUDE_IN_SUMMARY true
-  feature UL37 set metatag CODES_AMINO_ACIDS true
+    add feature-location U18 
+    feature-location U18 
+     add segment 13210 17087 
+     exit
 
-    add feature-location U20 -p whole_genome "membrane protein U20"
-  feature U20 set metatag OWN_CODON_NUMBERING true
-  feature U20 set metatag INCLUDE_IN_SUMMARY true
-  feature U20 set metatag CODES_AMINO_ACIDS true
+    add feature-location U20
+    feature-location U20 
+     add segment 31118 32386 
+     exit
 
-    add feature-location U21 -p whole_genome "membrane protein U21"
-  feature U21 set metatag OWN_CODON_NUMBERING true
-  feature U21 set metatag INCLUDE_IN_SUMMARY true
-  feature U21 set metatag CODES_AMINO_ACIDS true
+    add feature-location U21
+    feature-location U21 
+     add segment 32389 33690 
+     exit
 
-    add feature-location U22 -p whole_genome "membrane protein U22"
-  feature U22 set metatag OWN_CODON_NUMBERING true
-  feature U22 set metatag INCLUDE_IN_SUMMARY true
-  feature U22 set metatag CODES_AMINO_ACIDS true
+    add feature-location U22
+    feature-location U22 
+     add segment 33788 34396 
+     exit
 
-    add feature-location U23 -p whole_genome "membrane protein U23"
-  feature U23 set metatag OWN_CODON_NUMBERING true
-  feature U23 set metatag INCLUDE_IN_SUMMARY true
-  feature U23 set metatag CODES_AMINO_ACIDS true
+    add feature-location U23
+    feature-location U23 
+     add segment 34424 35134 
+     exit
 
-    add feature-location U24 -p whole_genome "protein U24"
-  feature U24 set metatag OWN_CODON_NUMBERING true
-  feature U24 set metatag INCLUDE_IN_SUMMARY true
-  feature U24 set metatag CODES_AMINO_ACIDS true
+    add feature-location U24
+    feature-location U24 
+     add segment 35441 35704
+     exit
 
-    add feature-location U24A -p whole_genome "protein U24A"
-  feature U24A set metatag OWN_CODON_NUMBERING true
-  feature U24A set metatag INCLUDE_IN_SUMMARY true
-  feature U24A set metatag CODES_AMINO_ACIDS true
+    add feature-location U24A
+    feature-location U24A
+     add segment 35723 35896 
+     exit
 
-    add feature-location UL43 -p whole_genome "tegument protein UL43"
-  feature UL43 set metatag OWN_CODON_NUMBERING true
-  feature UL43 set metatag INCLUDE_IN_SUMMARY true
-  feature UL43 set metatag CODES_AMINO_ACIDS true
-  
-    add feature-location UL43 -p whole_genome "envelope protein UL43"
-  feature UL43 set metatag OWN_CODON_NUMBERING true
-  feature UL43 set metatag INCLUDE_IN_SUMMARY true
-  feature UL43 set metatag CODES_AMINO_ACIDS true
+    add feature-location U25
+    feature-location U25
+     add segment 35913 36863 
+     exit
  
-    add feature-location UL44 -p whole_genome "DNA polymerase processivity subunit UL44"
-  feature UL44 set metatag OWN_CODON_NUMBERING true
-  feature UL44 set metatag INCLUDE_IN_SUMMARY true
-  feature UL44 set metatag CODES_AMINO_ACIDS true
+    add feature-location U27
+    feature-location U27 
+     add segment 37846 39027 
+     exit
 
-    add feature-location UL39 -p whole_genome "Ribonucleotide reductase subunit 1 UL39"
-  feature UL39 set metatag OWN_CODON_NUMBERING true
-  feature UL39 set metatag INCLUDE_IN_SUMMARY true
-  feature UL39 set metatag CODES_AMINO_ACIDS true
+    add feature-location U28
+    feature-location U28 
+     add segment 39069 41483 
+     exit
 
-    add feature-location UL38 -p whole_genome "Capsid triplex subunit 1 UL38"
-  feature UL38 set metatag OWN_CODON_NUMBERING true
-  feature UL38 set metatag INCLUDE_IN_SUMMARY true
-  feature UL38 set metatag CODES_AMINO_ACIDS true
+    add feature-location U29
+    feature-location U29 
+     add segment 41506 42405 
+     exit
   
-    add feature-location tegument protein UL37
-    add feature-location UL37 -p whole_genome "tegument protein UL37"
-  feature UL37 set metatag OWN_CODON_NUMBERING true
-  feature UL37 set metatag INCLUDE_IN_SUMMARY true
-  feature UL37 set metatag CODES_AMINO_ACIDS true
+    add feature-location U30
+    feature-location U30
+     add segment 41933 45181 
+     exit
   
-    add feature-location UL36 -p whole_genome "large tegument protein UL36"
-  feature UL36 set metatag OWN_CODON_NUMBERING true
-  feature UL36 set metatag INCLUDE_IN_SUMMARY true
-  feature UL36 set metatag CODES_AMINO_ACIDS true
+    add feature-location U31
+    feature-location U31 
+     add segment 45199 51432 
+     exit
 
-    add feature-location   small capsid protein 
-    add feature-location SCP -p whole_genome "small capsid protein"
-  feature SCP set metatag OWN_CODON_NUMBERING true
-  feature SCP set metatag INCLUDE_IN_SUMMARY true
-  feature SCP set metatag CODES_AMINO_ACIDS true
- 
-    add feature-location UL49 -p whole_genome "protein UL49"
-  feature UL49 set metatag OWN_CODON_NUMBERING true
-  feature UL49 set metatag INCLUDE_IN_SUMMARY true
-  feature UL49 set metatag CODES_AMINO_ACIDS true
+    add feature-location U33
+    feature-location U33 
+     add segment 51772 53184 
+     exit
   
-    add feature-location UL34 -p whole_genome "Nuclear egress membrane protein UL34"
-  feature UL34 set metatag OWN_CODON_NUMBERING true
-  feature UL34 set metatag INCLUDE_IN_SUMMARY true
-  feature UL34 set metatag CODES_AMINO_ACIDS true
+    add feature-location U34
+    feature-location U34 
+     add segment 53135 53965
+     exit
 
-    add feature-location UL33 -p whole_genome "DNA packaging protein UL33"
-  feature UL33 set metatag OWN_CODON_NUMBERING true
-  feature UL33 set metatag INCLUDE_IN_SUMMARY true
-  feature UL33 set metatag CODES_AMINO_ACIDS true
+    add feature-location U35
+    feature-location U35 
+     add segment 53982 54302
+     exit
 
-    add feature-location UL32 -p whole_genome "DNA packaging protein UL32"
-  feature UL32 set metatag OWN_CODON_NUMBERING true
-  feature UL32 set metatag INCLUDE_IN_SUMMARY true
-  feature UL32 set metatag CODES_AMINO_ACIDS true
+    add feature-location U36
+    feature-location U36 
+     add segment 54301 55755
+     exit
 
-    add feature-location UL31 -p whole_genome "Nuclear egress membrane protein UL31
-  feature UL31 set metatag OWN_CODON_NUMBERING true
-  feature UL31 set metatag INCLUDE_IN_SUMMARY true
-  feature UL31 set metatag CODES_AMINO_ACIDS true
+    add feature-location U37 
+    feature-location U37 
+     add segment 55759 56553
+     exit
 
-    add feature-location UL30 -p whole_genome "DNA polymerase catalytic subunit UL30"
-  feature UL30 set metatag OWN_CODON_NUMBERING true
-  feature UL30 set metatag INCLUDE_IN_SUMMARY true
-  feature UL30 set metatag CODES_AMINO_ACIDS true
+    add feature-location U38
+    feature-location U38
+     add segment 56599 59637
+     exit
 
-    add feature-location mpB -p whole_genome "membrane protein B"
-  feature mpB set metatag OWN_CODON_NUMBERING true
-  feature mpB set metatag INCLUDE_IN_SUMMARY true
-  feature mpB set metatag CODES_AMINO_ACIDS true
+    add feature-location U26 
+    feature-location U26 
+     add segment 36971 37858
+     exit
 
-    add feature-location UL56 -p whole_genome "DNA packaging terminase subunit 2 UL56"
-  feature UL56 set metatag OWN_CODON_NUMBERING true
-  feature UL56 set metatag INCLUDE_IN_SUMMARY true
-  feature UL56 set metatag CODES_AMINO_ACIDS true</u>
+    add feature-location U40
+    feature-location U40 
+     add segment 62083 64263
+     exit
 
-    add feature-location DBP -p whole_genome "single-stranded DNA-binding protein"
-  feature DBP set metatag OWN_CODON_NUMBERING true
-  feature DBP set metatag INCLUDE_IN_SUMMARY true
-  feature DBP set metatag CODES_AMINO_ACIDS true
+    add feature-location U41
+    feature-location U41 
+     add segment 64271 67669
+     exit
 
-    add feature-location UL54 -p whole_genome "multifunctional expression regulator UL54"
-  feature UL54 set metatag OWN_CODON_NUMBERING true
-  feature UL54 set metatag INCLUDE_IN_SUMMARY true
-  feature UL54 set metatag CODES_AMINO_ACIDS true
+    add feature-location U42
+    feature-location U42 
+     add segment 69103 70650
+     exit
 
-    add feature-location UL52 -p whole_genome "helicase-primase primase subunit UL52"
-  feature UL52 set metatag OWN_CODON_NUMBERING true
-  feature UL52 set metatag INCLUDE_IN_SUMMARY true
-  feature UL52 set metatag CODES_AMINO_ACIDS true
+    add feature-location U44
+    feature-location U44 
+     add segment 73522 74139
+     exit
 
-    add feature-location UL51 -p whole_genome "tegument protein UL51"
-  feature UL51 set metatag OWN_CODON_NUMBERING true
-  feature UL51 set metatag INCLUDE_IN_SUMMARY true
-  feature UL51 set metatag CODES_AMINO_ACIDS true
+    add feature-location U45
+    feature-location U45 
+     add segment 74140 75270
+     exit
 
-    add feature-location UL50 -p whole_genome "deoxyuridine triphosphatase UL50"
-  feature UL50 set metatag OWN_CODON_NUMBERING true
-  feature UL50 set metatag INCLUDE_IN_SUMMARY true
-  feature UL50 set metatag CODES_AMINO_ACIDS true
+    add feature-location U72
+    feature-location U72 
+     add segment 107330 108364
+     exit
 
-    add feature-location mpN -p whole_genome "membrane protein N"
-  feature mpN set metatag OWN_CODON_NUMBERING true
-  feature mpN set metatag INCLUDE_IN_SUMMARY true
-  feature mpN set metatag CODES_AMINO_ACIDS true
+    add feature-location U47
+    feature-location U47 
+     add segment 107330 108364
+     exit
 
-    add feature-location mpO -p whole_genome "membrane protein O"
-  feature mpO set metatag OWN_CODON_NUMBERING true
-  feature mpO set metatag INCLUDE_IN_SUMMARY true
-  feature mpO set metatag CODES_AMINO_ACIDS true
+    add feature-location U48
+    feature-location U48 
+     add segment 78086 80170
+     exit
+     
+    add feature-location U24
+    feature-location U24 
+     add segment 35441 35704
+     exit
 
-    add feature-location mp24 -p whole_genome "membrane protein 24"
-  feature mp24 set metatag OWN_CODON_NUMBERING true
-  feature mp24 set metatag INCLUDE_IN_SUMMARY true
-  feature mp24 set metatag CODES_AMINO_ACIDS true
+    add feature-location U49
+    feature-location U34 
+     add segment 53135 53965
+     exit
+     
+    add feature-location U82
+    feature-location U82 
+     add segment 122705 123457
+     exit
 
-    add feature-location mpH -p whole_genome "membrane protein H"
-  feature mpH set metatag OWN_CODON_NUMBERING true
-  feature mpH set metatag INCLUDE_IN_SUMMARY true
-  feature mpH set metatag CODES_AMINO_ACIDS true
+    add feature-location U14
+    feature-location U14 
+     add segment 23365 25194
+     exit
 
-    add feature-location UL24 -p whole_genome "nuclear protein UL24"
-  feature UL24 set metatag OWN_CODON_NUMBERING true
-  feature UL24 set metatag INCLUDE_IN_SUMMARY true
-  feature UL24 set metatag CODES_AMINO_ACIDS true
+    add feature-location U51
+    feature-location U51 
+     add segment 82626 83531
+     exit
 
-    add feature-location UL25 -p whole_genome "DNA packaging tegument protein UL25"
-  feature UL25 set metatag OWN_CODON_NUMBERING true
-  feature UL25 set metatag INCLUDE_IN_SUMMARY true
-  feature UL25 set metatag CODES_AMINO_ACIDS true
+    add feature-location U52
+    feature-location U52 
+     add segment 83550 84326
+     exit
 
-    add feature-location UL78 -p whole_genome "envelope protein UL78"
-  feature UL78 set metatag OWN_CODON_NUMBERING true
-  feature UL78 set metatag INCLUDE_IN_SUMMARY true
-  feature UL78 set metatag CODES_AMINO_ACIDS true
+    add feature-location U53
+    feature-location U53 
+     add segment 84333 85919
+     exit
 
-    add feature-location UL79 -p whole_genome "protein UL79"
-  feature UL79 set metatag OWN_CODON_NUMBERING true
-  feature UL79 set metatag INCLUDE_IN_SUMMARY true
-  feature UL79 set metatag CODES_AMINO_ACIDS true
+    add feature-location U54
+    feature-location U54 
+     add segment 86103 87479
+     exit
 
-    add feature-location U53 -p whole_genome "Capsid maturation protease U53"
-  feature U53 set metatag OWN_CODON_NUMBERING true
-  feature U53 set metatag INCLUDE_IN_SUMMARY true
-  feature U53 set metatag CODES_AMINO_ACIDS true
+    add feature-location U55
+    feature-location U55 
+     add segment 87557 88855
+     exit
 
-    add feature-location UL26 -p whole_genome "Capsid scaffold protein UL26"
-  feature UL26 set metatag OWN_CODON_NUMBERING true
-  feature UL26 set metatag INCLUDE_IN_SUMMARY true
-  feature UL26 set metatag CODES_AMINO_ACIDS true
+    add feature-location U56
+    feature-location U56 
+     add segment 89035 89925
+     exit
+     
+     add feature-location U57
+     feature-location U57 
+     add segment 89927 93964
+     exit
 
-    add feature-location pp65 -p whole_genome "tegument protein pp65"
-  feature pp65 set metatag OWN_CODON_NUMBERING true
-  feature pp65 set metatag INCLUDE_IN_SUMMARY true
-  feature pp65 set metatag CODES_AMINO_ACIDS true
+    add feature-location U58
+    feature-location U58 
+     add segment 93976 96294
+     exit
 
-    add feature-location UL84 -p whole_genome "protein UL84"
-  feature UL84 set metatag OWN_CODON_NUMBERING true
-  feature UL84 set metatag INCLUDE_IN_SUMMARY true
-  feature UL84 set metatag CODES_AMINO_ACIDS true
+    add feature-location U59
+    feature-location U59 
+     add segment 96291 97343
+     exit
 
-    add feature-location UL18 -p whole_genome "Capsid triplex subunit 2 UL18"
-  feature UL18 set metatag OWN_CODON_NUMBERING true
-  feature UL18 set metatag INCLUDE_IN_SUMMARY true
-  feature UL18 set metatag CODES_AMINO_ACIDS true
+
+    add feature-location U35
+    feature-location U35 
+     add segment 53982 54302
+     exit
+
+    add feature-location U62 
+    feature-location U62 
+     add segment 98479 98736
+     exit
+
+    add feature-location U63
+    feature-location U63 
+     add segment 98684 99334
+     exit
+
+    add feature-location U64
+    feature-location U64 
+     add segment 99312 100640
+     exit
+
+    add feature-location U65
+    feature-location U65 
+     add segment 100597 101604
+     exit
+
+    add feature-location U67
+    feature-location U67 
+     add segment 102510 103571
+     exit
+
+    add feature-location U69
+    feature-location U69 
+     add segment 103918 105606
+     exit
+
+    add feature-location U70
+    feature-location U70 
+     add segment 105614 107080
+     exit
  
-    add feature-location MCP -p whole_genome "Major capsid protein"
-  feature MCP set metatag OWN_CODON_NUMBERING true
-  feature MCP set metatag INCLUDE_IN_SUMMARY true
-  feature MCP set metatag CODES_AMINO_ACIDS true
+    add feature-location U71
+    feature-location U71 
+     add segment 107017 107250
+     exit
 
-    add feature-location UL87 -p whole_genome "protein UL87"
-  feature UL87 set metatag OWN_CODON_NUMBERING true
-  feature UL87 set metatag INCLUDE_IN_SUMMARY true
-  feature UL87 set metatag CODES_AMINO_ACIDS true
+    add feature-location U73
+    feature-location U73 
+     add segment 108377 110719
+     exit
 
-    add feature-location UL88 -p whole_genome "tegument protein UL88"
-  feature UL88 set metatag OWN_CODON_NUMBERING true
-  feature UL88 set metatag INCLUDE_IN_SUMMARY true
-  feature UL88 set metatag CODES_AMINO_ACIDS true
+    add feature-location U74
+    feature-location U74 
+     add segment 110688 112676
+     exit
 
-
-    add feature-location TRM1 -p whole_genome "DNA packaging terminase subunit 1"
-  feature TRM1 set metatag OWN_CODON_NUMBERING true
-  feature TRM1 set metatag INCLUDE_IN_SUMMARY true
-  feature TRM1 set metatag CODES_AMINO_ACIDS true
-
-    add feature-location UL91 -p whole_genome "protein UL91"
-  feature UL91 set metatag OWN_CODON_NUMBERING true
-  feature UL91 set metatag INCLUDE_IN_SUMMARY true
-  feature UL91 set metatag CODES_AMINO_ACIDS true
-
-    add feature-location UL92 -p whole_genome "protein UL92"
-  feature UL92 set metatag OWN_CODON_NUMBERING true
-  feature UL92 set metatag INCLUDE_IN_SUMMARY true
-  feature UL92 set metatag CODES_AMINO_ACIDS true
-
-    add feature-location UL17 -p whole_genome "DNA packaging tegument protein UL17"
-  feature UL17 set metatag OWN_CODON_NUMBERING true
-  feature UL17 set metatag INCLUDE_IN_SUMMARY true
-  feature UL17 set metatag CODES_AMINO_ACIDS true
-
-    add feature-location UL16 -p whole_genome "tegument protein UL16"
-  feature UL16 set metatag OWN_CODON_NUMBERING true
-  feature UL16 set metatag INCLUDE_IN_SUMMARY true
-  feature UL16 set metatag CODES_AMINO_ACIDS true
-
-    add feature-location UL95 -p whole_genome "protein UL95"
-  feature UL95 set metatag OWN_CODON_NUMBERING true
-  feature UL95 set metatag INCLUDE_IN_SUMMARY true
-  feature UL95 set metatag CODES_AMINO_ACIDS true
-
-    add feature-location UL14 -p whole_genome "tegument protein UL14"
-  feature UL14 set metatag OWN_CODON_NUMBERING true
-  feature UL14 set metatag INCLUDE_IN_SUMMARY true
-  feature UL14 set metatag CODES_AMINO_ACIDS true
-
-    add feature-location UL97 -p whole_genome "Tegument serine/threonine protein kinase UL97"
-  feature UL97 set metatag OWN_CODON_NUMBERING true
-  feature UL97 set metatag INCLUDE_IN_SUMMARY true
-  feature UL97 set metatag CODES_AMINO_ACIDS true
-
-    add feature-location DR -p whole_genome "Deoxyribonuclease"
-  feature DR set metatag OWN_CODON_NUMBERING true
-  feature DR set metatag INCLUDE_IN_SUMMARY true
-  feature DR set metatag CODES_AMINO_ACIDS true
+    add feature-location U75
+    feature-location U75 
+     add segment 112711 113460
+     exit
  
-    add feature-location UL99 -p whole_genome "Myristylated tegument protein UL99"
-  feature UL99 set metatag OWN_CODON_NUMBERING true
-  feature UL99 set metatag INCLUDE_IN_SUMMARY true
-  feature UL99 set metatag CODES_AMINO_ACIDS true
+    add feature-location U76
+    feature-location U76 
+     add segment 113369 115309
+     exit
 
-    add feature-location mpM -p whole_genome "membrane protein M"
-  feature mpM set metatag OWN_CODON_NUMBERING true
-  feature mpM set metatag INCLUDE_IN_SUMMARY true
-  feature mpM set metatag CODES_AMINO_ACIDS true
+    add feature-location U77
+    feature-location U77 
+     add segment 115152 117626
+     exit
 
-    add feature-location UL9 -p whole_genome "DNA replication origin-binding helicase UL9"
-  feature UL9 set metatag OWN_CODON_NUMBERING true
-  feature UL9 set metatag INCLUDE_IN_SUMMARY true
-  feature UL9 set metatag CODES_AMINO_ACIDS true
+    add feature-location U79
+    feature-location U79 
+     add segment 120216 121818
+     exit
 
-    add feature-location UL8 -p whole_genome "helicase-primase subunit UL8"
-  feature UL8 set metatag OWN_CODON_NUMBERING true
-  feature UL8 set metatag INCLUDE_IN_SUMMARY true
-  feature UL8 set metatag CODES_AMINO_ACIDS true
+    add feature-location U81
+    feature-location U81 
+     add segment 121862 122629
+     exit
 
-    add feature-location UL7 -p whole_genome "tegument protein UL7"
-  feature UL7 set metatag OWN_CODON_NUMBERING true
-  feature UL7 set metatag INCLUDE_IN_SUMMARY true
-  feature UL7 set metatag CODES_AMINO_ACIDS true
- 
-    add feature-location UL6 -p whole_genome "capsid portal protein UL6"
-  feature UL6 set metatag OWN_CODON_NUMBERING true
-  feature UL6 set metatag INCLUDE_IN_SUMMARY true
-  feature UL6 set metatag CODES_AMINO_ACIDS true
+    add feature-location U82 
+    feature-location U82 
+     add segment 122705 123457
+     exit
 
-    add feature-location UL5 -p whole_genome "helicase-primase helicase subunit UL5"
-  feature UL5 set metatag OWN_CODON_NUMBERING true
-  feature UL5 set metatag INCLUDE_IN_SUMMARY true
-  feature UL5 set metatag CODES_AMINO_ACIDS true
+    add feature-location U83 
+    feature-location U83 
+     add segment 123580 123873
+     exit
 
-    add feature-location UL112 -p whole_genome "protein UL112"
-  feature UL112 set metatag OWN_CODON_NUMBERING true
-  feature UL112 set metatag INCLUDE_IN_SUMMARY true
-  feature UL112 set metatag CODES_AMINO_ACIDS true
+    add feature-location U84
+    feature-location U84 
+     add segment 123977 125005
+     exit
 
-    add feature-location U81 -p whole_genome "uracil-DNA glycosylase U81"
-  feature U81 set metatag OWN_CODON_NUMBERING true
-  feature U81 set metatag INCLUDE_IN_SUMMARY true
-  feature U81 set metatag CODES_AMINO_ACIDS true
+    add feature-location U85
+    feature-location U85 
+     add segment 125033 125905
+     exit
 
-    add feature-location mpL -p whole_genome "membrane protein L"
-  feature mpL set metatag OWN_CODON_NUMBERING true
-  feature mpL set metatag INCLUDE_IN_SUMMARY true
-  feature mpL set metatag CODES_AMINO_ACIDS true
+    add feature-location U86
+    feature-location U86 
+     add segment 126041 130146 --spliceIndex 1
+     add segment 135826 136019 --spliceIndex 2
+     add segment 136108 136166 --spliceIndex 3
+     exit
 
-    add feature-location U83 -p whole_genome "chemokine U83"
-  feature U83 set metatag OWN_CODON_NUMBERING true
-  feature U83 set metatag INCLUDE_IN_SUMMARY true
-  feature U83 set metatag CODES_AMINO_ACIDS true
+    add feature-location U90
+    feature-location U90 
+     add segment 127549 128233
+     exit
 
-    add feature-location UL117 -p whole_genome "protein UL117"
-  feature UL117 set metatag OWN_CODON_NUMBERING true
-  feature UL117 set metatag INCLUDE_IN_SUMMARY true
-  feature UL117 set metatag CODES_AMINO_ACIDS true
+    add feature-location U91
+    feature-location U91 
+     add segment 136321 136884
+     exit
 
-    add feature-location UL119 -p whole_genome "membrane glycoprotein UL119"
-  feature UL119 set metatag OWN_CODON_NUMBERING true
-  feature UL119 set metatag INCLUDE_IN_SUMMARY true
-  feature UL119 set metatag CODES_AMINO_ACIDS true
-
-    add feature-location IE2 -p whole_genome "regulatory protein IE2"
-  feature IE2 set metatag OWN_CODON_NUMBERING true
-  feature IE2 set metatag INCLUDE_IN_SUMMARY true
-  feature IE2 set metatag CODES_AMINO_ACIDS true
-
-    add feature-location IE1 -p whole_genome "regulatory protein IE1"
-  feature IE1 set metatag OWN_CODON_NUMBERING true
-  feature IE1 set metatag INCLUDE_IN_SUMMARY true
-  feature IE1 set metatag CODES_AMINO_ACIDS true
-
-    add feature-location UL124 -p whole_genome "membrane protein UL124"
-  feature UL124 set metatag OWN_CODON_NUMBERING true
-  feature UL124 set metatag INCLUDE_IN_SUMMARY true
-  feature UL124 set metatag CODES_AMINO_ACIDS true
-
-    add feature-location U94 -p whole_genome "protein U94/rep"
-  feature U94 set metatag OWN_CODON_NUMBERING true
-  feature U94 set metatag INCLUDE_IN_SUMMARY true
-  feature U94 set metatag CODES_AMINO_ACIDS true
-
-    add feature-location U95 -p whole_genome "protein U95"
-  feature U95 set metatag OWN_CODON_NUMBERING true
-  feature U95 set metatag INCLUDE_IN_SUMMARY true
-  feature U95 set metatag CODES_AMINO_ACIDS true
+    add feature-location U94
+    feature-location U94
+     add segment 140076 140951
+     exit
   
-    add feature-location mpQ -p whole_genome "membrane protein Q"
-  feature mpQ set metatag OWN_CODON_NUMBERING true
-  feature mpQ set metatag INCLUDE_IN_SUMMARY true
-  feature mpQ set metatag CODES_AMINO_ACIDS true
+    add feature-location U95
+    feature-location U59 
+     add segment 142996 146361
+     exit
+  
+    add feature-location U100
+    feature-location U100 
+     add segment 146696 150336
+     exit
 
 
-    add feature-location DR1 -p whole_genome "protein DR1"
-  feature DR1 set metatag OWN_CODON_NUMBERING true
-  feature DR1 set metatag INCLUDE_IN_SUMMARY true
-  feature DR1 set metatag CODES_AMINO_ACIDS true
+    add feature-location DR1R
+    feature-location DR1R
+     add segment 151289 159378
+     exit
 
-    add feature-location US22 -p whole_genome "US22 family"
-  feature US22 set metatag OWN_CODON_NUMBERING true
-  feature US22 set metatag INCLUDE_IN_SUMMARY true
-  feature US22 set metatag CODES_AMINO_ACIDS true
 
            
   exit 
