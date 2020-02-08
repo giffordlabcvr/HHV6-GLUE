@@ -11,42 +11,117 @@
 
   create feature 5UTR -p whole_genome "5' UTR"
 
-  create feature NS -p whole_genome "Replicase protein"
-  feature NS set field displayName "Replicase"
-  feature NS set metatag OWN_CODON_NUMBERING true
-  feature NS set metatag INCLUDE_IN_SUMMARY true
-  feature NS set metatag CODES_AMINO_ACIDS true
+  create feature  DR1 protein -p whole_genome "protein DR1"
+  feature DR1 set metatag OWN_CODON_NUMBERING true
+  feature DR1 set metatag INCLUDE_IN_SUMMARY true
+  feature DR1 set metatag CODES_AMINO_ACIDS true
 
-  create feature NS1 -p whole_genome "Replicase protein NS1"
-  feature NS1 set field displayName "Replicase N1"
-  feature NS1 set metatag OWN_CODON_NUMBERING true
-  feature NS1 set metatag INCLUDE_IN_SUMMARY true
-  feature NS1 set metatag CODES_AMINO_ACIDS true
+  create feature  DR6 -p whole_genome "protein DR6"
+  feature DR1 set metatag OWN_CODON_NUMBERING true
+  feature DR1 set metatag INCLUDE_IN_SUMMARY true
+  feature DR1 set metatag CODES_AMINO_ACIDS true
+  
+  create feature   UL23 -p whole_genome "tegument protein UL23"
+  feature UL23 set metatag OWN_CODON_NUMBERING true
+  feature UL23 set metatag INCLUDE_IN_SUMMARY true
+  feature UL23 set metatag CODES_AMINO_ACIDS true
 
-  create feature NS2 -p whole_genome "Replicase protein NS2"
-  feature NS2 set field displayName "Replicase NS2"
-  feature NS2 set metatag OWN_CODON_NUMBERING true
-  feature NS2 set metatag INCLUDE_IN_SUMMARY true
-  feature NS2 set metatag CODES_AMINO_ACIDS true
-
-  create feature NS2-P -p whole_genome "Nonstructural protein NS2-P"
-  feature NS2-P set field displayName "NS2-P"
-  feature NS2-P set metatag OWN_CODON_NUMBERING true
-  feature NS2-P set metatag INCLUDE_IN_SUMMARY true
-  feature NS2-P set metatag CODES_AMINO_ACIDS true
-
-  create feature NS2-L -p whole_genome "Nonstructural protein NS2-L"
-  feature NS2-L set field displayName "NS2-L"
-  feature NS2-L set metatag OWN_CODON_NUMBERING true
-  feature NS2-L set metatag INCLUDE_IN_SUMMARY true
-  feature NS2-L set metatag CODES_AMINO_ACIDS true
-
-
-  create feature VP -p whole_genome "Capsid protein"
-  feature VP set field displayName "Capsid"
-  feature VP set metatag OWN_CODON_NUMBERING true
-  feature VP set metatag INCLUDE_IN_SUMMARY true
-  feature VP set metatag CODES_AMINO_ACIDS true
+  create feature   UL24 -p whole_genome "tegument protein UL24"
+  feature UL24 set metatag OWN_CODON_NUMBERING true
+  feature UL24 set metatag INCLUDE_IN_SUMMARY true
+  feature UL24 set metatag CODES_AMINO_ACIDS true
+  
+  create feature   UL27 -p whole_genome "protein UL27"
+  feature UL27 set metatag OWN_CODON_NUMBERING true
+  feature UL27 set metatag INCLUDE_IN_SUMMARY true
+  feature UL27 set metatag CODES_AMINO_ACIDS true
+ 
+  create feature   protein UL28
+  
+  create feature   protein UL31
+  
+  create feature   tegument protein pp150
+  
+  create feature   membrane protein UL33
+  create feature   protein U13
+  create feature   tegument protein UL35
+  create feature   protein U15
+  create feature   tegument protein vICA
+  create feature   membrane protein UL37
+  create feature   protein UL38
+  create feature   membrane protein U20
+  create feature   membrane protein U21
+  create feature   membrane protein U22
+  create feature   membrane protein U23
+  create feature   protein U24
+  create feature   protein U24A
+  create feature   tegument protein UL43
+  create feature   envelope protein UL43
+  create feature   DNApolymeraseprocessivitysubunit
+  create feature   ribonucleotidereductasesubunit1
+  create feature   capsidtriplexsubunit1
+  create feature   tegument protein UL37
+  create feature   largetegument protein 
+  create feature   smallcapsidprotein 
+  create feature   protein UL49
+  create feature   nuclearegressmembrane protein 
+  create feature   DNApackagingprotein UL33
+  create feature   DNApackagingprotein UL32
+  create feature   nuclearegresslaminaprotein 
+  create feature   DNApolymerasecatalyticsubunit
+  create feature   membrane protein B
+  create feature   DNApackagingterminasesubunit2
+  create feature   single-strandedDNA-bindingprotein 
+  create feature   multifunctionalexpressionregulator
+  create feature   helicase-primaseprimasesubunit
+  create feature   tegument protein UL51
+  create feature   deoxyuridinetriphosphatase
+  create feature   membrane protein N
+  create feature   membrane protein O
+  create feature   membrane protein 24
+  create feature   membrane protein H
+  create feature   nuclearprotein UL24
+  create feature   DNApackagingtegument protein UL25
+  create feature   envelope protein UL78
+  create feature   protein UL79
+  create feature   capsidmaturationprotease
+  create feature   capsidscaffoldprotein 
+  create feature   tegument protein pp65
+  create feature   protein UL84
+  create feature   capsidtriplexsubunit2
+  create feature   majorcapsidprotein 
+  create feature   protein UL87
+  create feature   tegument protein UL88
+  create feature   DNApackagingterminasesubunit1
+  create feature   protein UL91
+  create feature   protein UL92
+  create feature   DNApackagingtegument protein UL17
+  create feature   tegument protein UL16
+  create feature   protein UL95
+  create feature   tegument protein UL14
+  create feature   tegumentserine/threonineprotein kinase
+  create feature   deoxyribonuclease
+  create feature   myristylatedtegument protein 
+  create feature   membrane protein M
+  create feature   DNAreplicationorigin-bindinghelicase
+  create feature   helicase-primasesubunit
+  create feature   tegument protein UL7
+  create feature   capsidportalprotein 
+  create feature   helicase-primasehelicasesubunit
+  create feature   protein UL112
+  create feature   uracil-DNAglycosylase
+  create feature   membrane protein L
+  create feature   chemokineU83
+  create feature   protein UL117
+  create feature   membraneglycoprotein UL119
+  create feature   regulatoryprotein IE2
+  create feature   regulatoryprotein IE1
+  create feature   membrane protein UL124
+  create feature   protein U94/rep
+  create feature   protein U95
+  create feature   membrane protein Q
+  create feature   protein DR1
+  create feature   US22family
 
   create feature 3UTR "3' UTR"
 
