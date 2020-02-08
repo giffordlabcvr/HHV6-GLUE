@@ -11,117 +11,448 @@
 
   create feature 5UTR -p whole_genome "5' UTR"
 
-  create feature  DR1 protein -p whole_genome "protein DR1"
+  create feature DR1 protein -p whole_genome "protein DR1"
   feature DR1 set metatag OWN_CODON_NUMBERING true
   feature DR1 set metatag INCLUDE_IN_SUMMARY true
   feature DR1 set metatag CODES_AMINO_ACIDS true
 
-  create feature  DR6 -p whole_genome "protein DR6"
+  create feature DR6 -p whole_genome "protein DR6"
   feature DR1 set metatag OWN_CODON_NUMBERING true
   feature DR1 set metatag INCLUDE_IN_SUMMARY true
   feature DR1 set metatag CODES_AMINO_ACIDS true
   
-  create feature   UL23 -p whole_genome "tegument protein UL23"
+  create feature UL23 -p whole_genome "tegument protein UL23"
   feature UL23 set metatag OWN_CODON_NUMBERING true
   feature UL23 set metatag INCLUDE_IN_SUMMARY true
   feature UL23 set metatag CODES_AMINO_ACIDS true
 
-  create feature   UL24 -p whole_genome "tegument protein UL24"
+  create feature UL24 -p whole_genome "tegument protein UL24"
   feature UL24 set metatag OWN_CODON_NUMBERING true
   feature UL24 set metatag INCLUDE_IN_SUMMARY true
   feature UL24 set metatag CODES_AMINO_ACIDS true
   
-  create feature   UL27 -p whole_genome "protein UL27"
+  create feature UL27 -p whole_genome "protein UL27"
   feature UL27 set metatag OWN_CODON_NUMBERING true
   feature UL27 set metatag INCLUDE_IN_SUMMARY true
   feature UL27 set metatag CODES_AMINO_ACIDS true
  
-  create feature   protein UL28
+  create feature UL28 -p whole_genome "protein UL28"
+  feature UL28 set metatag OWN_CODON_NUMBERING true
+  feature UL28 set metatag INCLUDE_IN_SUMMARY true
+  feature UL28 set metatag CODES_AMINO_ACIDS true
+ 
+  create feature UL31 -p whole_genome "protein UL31"
+  feature UL31 set metatag OWN_CODON_NUMBERING true
+  feature UL31 set metatag INCLUDE_IN_SUMMARY true
+  feature UL31 set metatag CODES_AMINO_ACIDS true
   
-  create feature   protein UL31
-  
-  create feature   tegument protein pp150
-  
-  create feature   membrane protein UL33
-  create feature   protein U13
-  create feature   tegument protein UL35
-  create feature   protein U15
-  create feature   tegument protein vICA
-  create feature   membrane protein UL37
-  create feature   protein UL38
-  create feature   membrane protein U20
-  create feature   membrane protein U21
-  create feature   membrane protein U22
-  create feature   membrane protein U23
-  create feature   protein U24
-  create feature   protein U24A
-  create feature   tegument protein UL43
-  create feature   envelope protein UL43
-  create feature   DNApolymeraseprocessivitysubunit
-  create feature   ribonucleotidereductasesubunit1
-  create feature   capsidtriplexsubunit1
-  create feature   tegument protein UL37
-  create feature   largetegument protein 
-  create feature   smallcapsidprotein 
-  create feature   protein UL49
-  create feature   nuclearegressmembrane protein 
-  create feature   DNApackagingprotein UL33
-  create feature   DNApackagingprotein UL32
-  create feature   nuclearegresslaminaprotein 
-  create feature   DNApolymerasecatalyticsubunit
-  create feature   membrane protein B
-  create feature   DNApackagingterminasesubunit2
-  create feature   single-strandedDNA-bindingprotein 
-  create feature   multifunctionalexpressionregulator
-  create feature   helicase-primaseprimasesubunit
-  create feature   tegument protein UL51
-  create feature   deoxyuridinetriphosphatase
-  create feature   membrane protein N
-  create feature   membrane protein O
-  create feature   membrane protein 24
-  create feature   membrane protein H
-  create feature   nuclearprotein UL24
-  create feature   DNApackagingtegument protein UL25
-  create feature   envelope protein UL78
-  create feature   protein UL79
-  create feature   capsidmaturationprotease
-  create feature   capsidscaffoldprotein 
-  create feature   tegument protein pp65
-  create feature   protein UL84
-  create feature   capsidtriplexsubunit2
-  create feature   majorcapsidprotein 
-  create feature   protein UL87
-  create feature   tegument protein UL88
-  create feature   DNApackagingterminasesubunit1
-  create feature   protein UL91
-  create feature   protein UL92
-  create feature   DNApackagingtegument protein UL17
-  create feature   tegument protein UL16
-  create feature   protein UL95
-  create feature   tegument protein UL14
-  create feature   tegumentserine/threonineprotein kinase
-  create feature   deoxyribonuclease
-  create feature   myristylatedtegument protein 
-  create feature   membrane protein M
-  create feature   DNAreplicationorigin-bindinghelicase
-  create feature   helicase-primasesubunit
-  create feature   tegument protein UL7
-  create feature   capsidportalprotein 
-  create feature   helicase-primasehelicasesubunit
-  create feature   protein UL112
-  create feature   uracil-DNAglycosylase
-  create feature   membrane protein L
-  create feature   chemokineU83
-  create feature   protein UL117
-  create feature   membraneglycoprotein UL119
-  create feature   regulatoryprotein IE2
-  create feature   regulatoryprotein IE1
-  create feature   membrane protein UL124
-  create feature   protein U94/rep
-  create feature   protein U95
-  create feature   membrane protein Q
-  create feature   protein DR1
-  create feature   US22family
+  create feature pp150 -p whole_genome "tegument protein pp150"
+  feature pp150 set metatag OWN_CODON_NUMBERING true
+  feature pp150 set metatag INCLUDE_IN_SUMMARY true
+  feature pp150 set metatag CODES_AMINO_ACIDS true
 
-  create feature 3UTR "3' UTR"
+  create feature UL33 -p whole_genome "membrane protein UL33"
+  feature UL33 set metatag OWN_CODON_NUMBERING true
+  feature UL33 set metatag INCLUDE_IN_SUMMARY true
+  feature UL33 set metatag CODES_AMINO_ACIDS true
+
+  create feature U13 -p whole_genome "protein U13"
+  feature U13 set metatag OWN_CODON_NUMBERING true
+  feature U13 set metatag INCLUDE_IN_SUMMARY true
+  feature U13 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL35 -p whole_genome "tegument protein UL35"
+  feature UL35 set metatag OWN_CODON_NUMBERING true
+  feature UL35 set metatag INCLUDE_IN_SUMMARY true
+  feature UL35 set metatag CODES_AMINO_ACIDS true
+
+  create feature U15 -p whole_genome "protein U15"
+  feature U15 set metatag OWN_CODON_NUMBERING true
+  feature U15 set metatag INCLUDE_IN_SUMMARY true
+  feature U15 set metatag CODES_AMINO_ACIDS true
+
+  create feature vICA -p whole_genome "tegument protein vICA"
+  feature vICA set metatag OWN_CODON_NUMBERING true
+  feature vICA set metatag INCLUDE_IN_SUMMARY true
+  feature vICA set metatag CODES_AMINO_ACIDS true
+
+  create feature UL37 -p whole_genome "membrane protein UL37"
+  feature UL37 set metatag OWN_CODON_NUMBERING true
+  feature UL37 set metatag INCLUDE_IN_SUMMARY true
+  feature UL37 set metatag CODES_AMINO_ACIDS true
+
+  create feature U20 -p whole_genome "membrane protein U20"
+  feature U20 set metatag OWN_CODON_NUMBERING true
+  feature U20 set metatag INCLUDE_IN_SUMMARY true
+  feature U20 set metatag CODES_AMINO_ACIDS true
+
+  create feature U21 -p whole_genome "membrane protein U21"
+  feature U21 set metatag OWN_CODON_NUMBERING true
+  feature U21 set metatag INCLUDE_IN_SUMMARY true
+  feature U21 set metatag CODES_AMINO_ACIDS true
+
+  create feature U22 -p whole_genome "membrane protein U22"
+  feature U22 set metatag OWN_CODON_NUMBERING true
+  feature U22 set metatag INCLUDE_IN_SUMMARY true
+  feature U22 set metatag CODES_AMINO_ACIDS true
+
+  create feature U23 -p whole_genome "membrane protein U23"
+  feature U23 set metatag OWN_CODON_NUMBERING true
+  feature U23 set metatag INCLUDE_IN_SUMMARY true
+  feature U23 set metatag CODES_AMINO_ACIDS true
+
+  create feature U24 -p whole_genome "protein U24"
+  feature U24 set metatag OWN_CODON_NUMBERING true
+  feature U24 set metatag INCLUDE_IN_SUMMARY true
+  feature U24 set metatag CODES_AMINO_ACIDS true
+
+  create feature U24A -p whole_genome "protein U24A"
+  feature U24A set metatag OWN_CODON_NUMBERING true
+  feature U24A set metatag INCLUDE_IN_SUMMARY true
+  feature U24A set metatag CODES_AMINO_ACIDS true
+
+  create feature UL43 -p whole_genome "tegument protein UL43"
+  feature UL43 set metatag OWN_CODON_NUMBERING true
+  feature UL43 set metatag INCLUDE_IN_SUMMARY true
+  feature UL43 set metatag CODES_AMINO_ACIDS true
+  
+  create feature UL43 -p whole_genome "envelope protein UL43"
+  feature UL43 set metatag OWN_CODON_NUMBERING true
+  feature UL43 set metatag INCLUDE_IN_SUMMARY true
+  feature UL43 set metatag CODES_AMINO_ACIDS true
+ 
+  create feature UL44 -p whole_genome "DNA polymerase processivity subunit UL44"
+  feature UL44 set metatag OWN_CODON_NUMBERING true
+  feature UL44 set metatag INCLUDE_IN_SUMMARY true
+  feature UL44 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL39 -p whole_genome "Ribonucleotide reductase subunit 1 UL39"
+  feature UL39 set metatag OWN_CODON_NUMBERING true
+  feature UL39 set metatag INCLUDE_IN_SUMMARY true
+  feature UL39 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL38 -p whole_genome "Capsid triplex subunit 1 UL38"
+  feature UL38 set metatag OWN_CODON_NUMBERING true
+  feature UL38 set metatag INCLUDE_IN_SUMMARY true
+  feature UL38 set metatag CODES_AMINO_ACIDS true
+  
+  create feature tegument protein UL37
+  create feature UL37 -p whole_genome "tegument protein UL37"
+  feature UL37 set metatag OWN_CODON_NUMBERING true
+  feature UL37 set metatag INCLUDE_IN_SUMMARY true
+  feature UL37 set metatag CODES_AMINO_ACIDS true
+  
+  create feature UL36 -p whole_genome "large tegument protein UL36"
+  feature UL36 set metatag OWN_CODON_NUMBERING true
+  feature UL36 set metatag INCLUDE_IN_SUMMARY true
+  feature UL36 set metatag CODES_AMINO_ACIDS true
+
+  create feature   small capsid protein 
+  create feature SCP -p whole_genome "small capsid protein"
+  feature SCP set metatag OWN_CODON_NUMBERING true
+  feature SCP set metatag INCLUDE_IN_SUMMARY true
+  feature SCP set metatag CODES_AMINO_ACIDS true
+ 
+  create feature UL49 -p whole_genome "protein UL49"
+  feature UL49 set metatag OWN_CODON_NUMBERING true
+  feature UL49 set metatag INCLUDE_IN_SUMMARY true
+  feature UL49 set metatag CODES_AMINO_ACIDS true
+  
+  create feature UL34 -p whole_genome "Nuclear egress membrane protein UL34"
+  feature UL34 set metatag OWN_CODON_NUMBERING true
+  feature UL34 set metatag INCLUDE_IN_SUMMARY true
+  feature UL34 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL33 -p whole_genome "DNA packaging protein UL33"
+  feature UL33 set metatag OWN_CODON_NUMBERING true
+  feature UL33 set metatag INCLUDE_IN_SUMMARY true
+  feature UL33 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL32 -p whole_genome "DNA packaging protein UL32"
+  feature UL32 set metatag OWN_CODON_NUMBERING true
+  feature UL32 set metatag INCLUDE_IN_SUMMARY true
+  feature UL32 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL31 -p whole_genome "Nuclear egress membrane protein UL31
+  feature UL31 set metatag OWN_CODON_NUMBERING true
+  feature UL31 set metatag INCLUDE_IN_SUMMARY true
+  feature UL31 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL30 -p whole_genome "DNA polymerase catalytic subunit UL30"
+  feature UL30 set metatag OWN_CODON_NUMBERING true
+  feature UL30 set metatag INCLUDE_IN_SUMMARY true
+  feature UL30 set metatag CODES_AMINO_ACIDS true
+
+  create feature mpB -p whole_genome "membrane protein B"
+  feature mpB set metatag OWN_CODON_NUMBERING true
+  feature mpB set metatag INCLUDE_IN_SUMMARY true
+  feature mpB set metatag CODES_AMINO_ACIDS true
+
+  create feature UL56 -p whole_genome "DNA packaging terminase subunit 2 UL56"
+  feature UL56 set metatag OWN_CODON_NUMBERING true
+  feature UL56 set metatag INCLUDE_IN_SUMMARY true
+  feature UL56 set metatag CODES_AMINO_ACIDS true</u>
+
+  create feature DBP -p whole_genome "single-stranded DNA-binding protein"
+  feature DBP set metatag OWN_CODON_NUMBERING true
+  feature DBP set metatag INCLUDE_IN_SUMMARY true
+  feature DBP set metatag CODES_AMINO_ACIDS true
+
+  create feature UL54 -p whole_genome "multifunctional expression regulator UL54"
+  feature UL54 set metatag OWN_CODON_NUMBERING true
+  feature UL54 set metatag INCLUDE_IN_SUMMARY true
+  feature UL54 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL52 -p whole_genome "helicase-primase primase subunit UL52"
+  feature UL52 set metatag OWN_CODON_NUMBERING true
+  feature UL52 set metatag INCLUDE_IN_SUMMARY true
+  feature UL52 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL51 -p whole_genome "tegument protein UL51"
+  feature UL51 set metatag OWN_CODON_NUMBERING true
+  feature UL51 set metatag INCLUDE_IN_SUMMARY true
+  feature UL51 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL50 -p whole_genome "deoxyuridine triphosphatase UL50"
+  feature UL50 set metatag OWN_CODON_NUMBERING true
+  feature UL50 set metatag INCLUDE_IN_SUMMARY true
+  feature UL50 set metatag CODES_AMINO_ACIDS true
+
+  create feature mpN -p whole_genome "membrane protein N"
+  feature mpN set metatag OWN_CODON_NUMBERING true
+  feature mpN set metatag INCLUDE_IN_SUMMARY true
+  feature mpN set metatag CODES_AMINO_ACIDS true
+
+  create feature mpO -p whole_genome "membrane protein O"
+  feature mpO set metatag OWN_CODON_NUMBERING true
+  feature mpO set metatag INCLUDE_IN_SUMMARY true
+  feature mpO set metatag CODES_AMINO_ACIDS true
+
+  create feature mp24 -p whole_genome "membrane protein 24"
+  feature mp24 set metatag OWN_CODON_NUMBERING true
+  feature mp24 set metatag INCLUDE_IN_SUMMARY true
+  feature mp24 set metatag CODES_AMINO_ACIDS true
+
+  create feature mpH -p whole_genome "membrane protein H"
+  feature mpH set metatag OWN_CODON_NUMBERING true
+  feature mpH set metatag INCLUDE_IN_SUMMARY true
+  feature mpH set metatag CODES_AMINO_ACIDS true
+
+  create feature UL24 -p whole_genome "nuclear protein UL24"
+  feature UL24 set metatag OWN_CODON_NUMBERING true
+  feature UL24 set metatag INCLUDE_IN_SUMMARY true
+  feature UL24 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL25 -p whole_genome "DNA packaging tegument protein UL25"
+  feature UL25 set metatag OWN_CODON_NUMBERING true
+  feature UL25 set metatag INCLUDE_IN_SUMMARY true
+  feature UL25 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL78 -p whole_genome "envelope protein UL78"
+  feature UL78 set metatag OWN_CODON_NUMBERING true
+  feature UL78 set metatag INCLUDE_IN_SUMMARY true
+  feature UL78 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL79 -p whole_genome "protein UL79"
+  feature UL79 set metatag OWN_CODON_NUMBERING true
+  feature UL79 set metatag INCLUDE_IN_SUMMARY true
+  feature UL79 set metatag CODES_AMINO_ACIDS true
+
+  create feature U53 -p whole_genome "Capsid maturation protease U53"
+  feature U53 set metatag OWN_CODON_NUMBERING true
+  feature U53 set metatag INCLUDE_IN_SUMMARY true
+  feature U53 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL26 -p whole_genome "Capsid scaffold protein UL26"
+  feature UL26 set metatag OWN_CODON_NUMBERING true
+  feature UL26 set metatag INCLUDE_IN_SUMMARY true
+  feature UL26 set metatag CODES_AMINO_ACIDS true
+
+  create feature pp65 -p whole_genome "tegument protein pp65"
+  feature pp65 set metatag OWN_CODON_NUMBERING true
+  feature pp65 set metatag INCLUDE_IN_SUMMARY true
+  feature pp65 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL84 -p whole_genome "protein UL84"
+  feature UL84 set metatag OWN_CODON_NUMBERING true
+  feature UL84 set metatag INCLUDE_IN_SUMMARY true
+  feature UL84 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL18 -p whole_genome "Capsid triplex subunit 2 UL18"
+  feature UL18 set metatag OWN_CODON_NUMBERING true
+  feature UL18 set metatag INCLUDE_IN_SUMMARY true
+  feature UL18 set metatag CODES_AMINO_ACIDS true
+ 
+  create feature MCP -p whole_genome "Major capsid protein"
+  feature MCP set metatag OWN_CODON_NUMBERING true
+  feature MCP set metatag INCLUDE_IN_SUMMARY true
+  feature MCP set metatag CODES_AMINO_ACIDS true
+
+  create feature UL87 -p whole_genome "protein UL87"
+  feature UL87 set metatag OWN_CODON_NUMBERING true
+  feature UL87 set metatag INCLUDE_IN_SUMMARY true
+  feature UL87 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL88 -p whole_genome "tegument protein UL88"
+  feature UL88 set metatag OWN_CODON_NUMBERING true
+  feature UL88 set metatag INCLUDE_IN_SUMMARY true
+  feature UL88 set metatag CODES_AMINO_ACIDS true
+
+
+  create feature TRM1 -p whole_genome "DNA packaging terminase subunit 1"
+  feature TRM1 set metatag OWN_CODON_NUMBERING true
+  feature TRM1 set metatag INCLUDE_IN_SUMMARY true
+  feature TRM1 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL91 -p whole_genome "protein UL91"
+  feature UL91 set metatag OWN_CODON_NUMBERING true
+  feature UL91 set metatag INCLUDE_IN_SUMMARY true
+  feature UL91 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL92 -p whole_genome "protein UL92"
+  feature UL92 set metatag OWN_CODON_NUMBERING true
+  feature UL92 set metatag INCLUDE_IN_SUMMARY true
+  feature UL92 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL17 -p whole_genome "DNA packaging tegument protein UL17"
+  feature UL17 set metatag OWN_CODON_NUMBERING true
+  feature UL17 set metatag INCLUDE_IN_SUMMARY true
+  feature UL17 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL16 -p whole_genome "tegument protein UL16"
+  feature UL16 set metatag OWN_CODON_NUMBERING true
+  feature UL16 set metatag INCLUDE_IN_SUMMARY true
+  feature UL16 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL95 -p whole_genome "protein UL95"
+  feature UL95 set metatag OWN_CODON_NUMBERING true
+  feature UL95 set metatag INCLUDE_IN_SUMMARY true
+  feature UL95 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL14 -p whole_genome "tegument protein UL14"
+  feature UL14 set metatag OWN_CODON_NUMBERING true
+  feature UL14 set metatag INCLUDE_IN_SUMMARY true
+  feature UL14 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL97 -p whole_genome "Tegument serine/threonine protein kinase UL97"
+  feature UL97 set metatag OWN_CODON_NUMBERING true
+  feature UL97 set metatag INCLUDE_IN_SUMMARY true
+  feature UL97 set metatag CODES_AMINO_ACIDS true
+
+  create feature DR -p whole_genome "Deoxyribonuclease"
+  feature DR set metatag OWN_CODON_NUMBERING true
+  feature DR set metatag INCLUDE_IN_SUMMARY true
+  feature DR set metatag CODES_AMINO_ACIDS true
+ 
+  create feature UL99 -p whole_genome "Myristylated tegument protein UL99"
+  feature UL99 set metatag OWN_CODON_NUMBERING true
+  feature UL99 set metatag INCLUDE_IN_SUMMARY true
+  feature UL99 set metatag CODES_AMINO_ACIDS true
+
+  create feature mpM -p whole_genome "membrane protein M"
+  feature mpM set metatag OWN_CODON_NUMBERING true
+  feature mpM set metatag INCLUDE_IN_SUMMARY true
+  feature mpM set metatag CODES_AMINO_ACIDS true
+
+  create feature UL9 -p whole_genome "DNA replication origin-binding helicase UL9"
+  feature UL9 set metatag OWN_CODON_NUMBERING true
+  feature UL9 set metatag INCLUDE_IN_SUMMARY true
+  feature UL9 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL8 -p whole_genome "helicase-primase subunit UL8"
+  feature UL8 set metatag OWN_CODON_NUMBERING true
+  feature UL8 set metatag INCLUDE_IN_SUMMARY true
+  feature UL8 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL7 -p whole_genome "tegument protein UL7"
+  feature UL7 set metatag OWN_CODON_NUMBERING true
+  feature UL7 set metatag INCLUDE_IN_SUMMARY true
+  feature UL7 set metatag CODES_AMINO_ACIDS true
+ 
+  create feature UL6 -p whole_genome "capsid portal protein UL6"
+  feature UL6 set metatag OWN_CODON_NUMBERING true
+  feature UL6 set metatag INCLUDE_IN_SUMMARY true
+  feature UL6 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL5 -p whole_genome "helicase-primase helicase subunit UL5"
+  feature UL5 set metatag OWN_CODON_NUMBERING true
+  feature UL5 set metatag INCLUDE_IN_SUMMARY true
+  feature UL5 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL112 -p whole_genome "protein UL112"
+  feature UL112 set metatag OWN_CODON_NUMBERING true
+  feature UL112 set metatag INCLUDE_IN_SUMMARY true
+  feature UL112 set metatag CODES_AMINO_ACIDS true
+
+  create feature U81 -p whole_genome "uracil-DNA glycosylase U81"
+  feature U81 set metatag OWN_CODON_NUMBERING true
+  feature U81 set metatag INCLUDE_IN_SUMMARY true
+  feature U81 set metatag CODES_AMINO_ACIDS true
+
+  create feature mpL -p whole_genome "membrane protein L"
+  feature mpL set metatag OWN_CODON_NUMBERING true
+  feature mpL set metatag INCLUDE_IN_SUMMARY true
+  feature mpL set metatag CODES_AMINO_ACIDS true
+
+  create feature U83 -p whole_genome "chemokine U83"
+  feature U83 set metatag OWN_CODON_NUMBERING true
+  feature U83 set metatag INCLUDE_IN_SUMMARY true
+  feature U83 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL117 -p whole_genome "protein UL117"
+  feature UL117 set metatag OWN_CODON_NUMBERING true
+  feature UL117 set metatag INCLUDE_IN_SUMMARY true
+  feature UL117 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL119 -p whole_genome "membrane glycoprotein UL119"
+  feature UL119 set metatag OWN_CODON_NUMBERING true
+  feature UL119 set metatag INCLUDE_IN_SUMMARY true
+  feature UL119 set metatag CODES_AMINO_ACIDS true
+
+  create feature IE2 -p whole_genome "regulatory protein IE2"
+  feature IE2 set metatag OWN_CODON_NUMBERING true
+  feature IE2 set metatag INCLUDE_IN_SUMMARY true
+  feature IE2 set metatag CODES_AMINO_ACIDS true
+
+  create feature IE1 -p whole_genome "regulatory protein IE1"
+  feature IE1 set metatag OWN_CODON_NUMBERING true
+  feature IE1 set metatag INCLUDE_IN_SUMMARY true
+  feature IE1 set metatag CODES_AMINO_ACIDS true
+
+  create feature UL124 -p whole_genome "membrane protein UL124"
+  feature UL124 set metatag OWN_CODON_NUMBERING true
+  feature UL124 set metatag INCLUDE_IN_SUMMARY true
+  feature UL124 set metatag CODES_AMINO_ACIDS true
+
+  create feature U94 -p whole_genome "protein U94/rep"
+  feature U94 set metatag OWN_CODON_NUMBERING true
+  feature U94 set metatag INCLUDE_IN_SUMMARY true
+  feature U94 set metatag CODES_AMINO_ACIDS true
+
+  create feature U95 -p whole_genome "protein U95"
+  feature U95 set metatag OWN_CODON_NUMBERING true
+  feature U95 set metatag INCLUDE_IN_SUMMARY true
+  feature U95 set metatag CODES_AMINO_ACIDS true
+  
+  create feature mpQ -p whole_genome "membrane protein Q"
+  feature mpQ set metatag OWN_CODON_NUMBERING true
+  feature mpQ set metatag INCLUDE_IN_SUMMARY true
+  feature mpQ set metatag CODES_AMINO_ACIDS true
+
+
+  create feature DR1 -p whole_genome "protein DR1"
+  feature DR1 set metatag OWN_CODON_NUMBERING true
+  feature DR1 set metatag INCLUDE_IN_SUMMARY true
+  feature DR1 set metatag CODES_AMINO_ACIDS true
+
+  create feature US22 -p whole_genome "US22 family"
+  feature US22 set metatag OWN_CODON_NUMBERING true
+  feature US22 set metatag INCLUDE_IN_SUMMARY true
+  feature US22 set metatag CODES_AMINO_ACIDS true
+
+  create feature 3UTR -p whole_genome "3' UTR"
+  feature 3UTR set metatag OWN_CODON_NUMBERING true
+  feature 3UTR set metatag INCLUDE_IN_SUMMARY true
+  feature 3UTR set metatag CODES_AMINO_ACIDS true
+
 
