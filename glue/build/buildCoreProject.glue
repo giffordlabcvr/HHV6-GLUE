@@ -22,8 +22,7 @@ project hhv
   run file glue/core/hhvFeatureLocations.glue
 
   # Import alignments and build constrained alignment tree
-  run file glue/core/hhvAlignments.glue
-  run file glue/core/hhvAlignmentTree.glue
+  #run file glue/core/hhvAlignments.glue
 
   # Validate
   validate
