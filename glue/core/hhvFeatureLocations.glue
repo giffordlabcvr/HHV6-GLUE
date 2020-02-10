@@ -418,7 +418,7 @@
      exit
   
     add feature-location U95
-    feature-location U59 
+    feature-location U95 
      add segment 142996 146361
      exit
   
@@ -430,7 +430,8 @@
 
     add feature-location DR1R
     feature-location DR1R
-     add segment 151289 159378
+     add segment 151789 152047 --spliceIndex 1
+     add segment 152131 153941 --spliceIndex 2
      exit
 
 
