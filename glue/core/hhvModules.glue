@@ -1,8 +1,8 @@
-  create module -f modules/aavSideDataImporter.xml 
-  create module -f modules/aavGenbankXmlPopulator.xml genbankXmlPopulator
+  create module -f modules/hhvSideDataImporter.xml 
+  create module -f modules/hhvGenbankXmlPopulator.xml genbankXmlPopulator
   create module -f modules/featureLocationTextToGlue.xml 
 
-  create module -f modules/aavTabularUtility.xml aavTabularUtility
-  create module -f modules/aavCompoundAligner.xml
+  create module -f modules/hhvTabularUtility.xml hhvTabularUtility
+  create module -f modules/hhvCompoundAligner.xml
 
   create module -f modules/unconstrainedAlignmentImporter.xml 

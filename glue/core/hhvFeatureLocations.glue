@@ -24,6 +24,7 @@
     feature-location DR6R
      add segment 156013 156316 --spliceIndex 1
      add segment 157125 157990 --spliceIndex 2
+     exit
        
     add feature-location U2
     feature-location U2 
@@ -153,30 +154,30 @@
      add segment 45199 51432 
      exit
 
-    add feature-location U33
-    feature-location U33 
-     add segment 51772 53184 
-     exit
+    #add feature-location U33
+    #feature-location U33 
+    # add segment 51772 53184 
+    # exit
   
     add feature-location U34
     feature-location U34 
      add segment 53135 53965
      exit
 
-    add feature-location U35
-    feature-location U35 
-     add segment 53982 54302
-     exit
+    #add feature-location U35
+    #feature-location U35 
+    # add segment 53982 54302
+    # exit
 
-    add feature-location U36
-    feature-location U36 
-     add segment 54301 55755
-     exit
+    #add feature-location U36
+    #feature-location U36 
+    # add segment 54301 55755
+    # exit
 
-    add feature-location U37 
-    feature-location U37 
-     add segment 55759 56553
-     exit
+    #add feature-location U37 
+    #feature-location U37 
+    # add segment 55759 56553
+    # exit
 
     add feature-location U38
     feature-location U38
@@ -228,13 +229,13 @@
      add segment 78086 80170
      exit
      
-    add feature-location U24
-    feature-location U24 
-     add segment 35441 35704
-     exit
+    #add feature-location U24
+    #feature-location U24 
+    # add segment 35441 35704
+    # exit
 
     add feature-location U49
-    feature-location U34 
+    feature-location U49 
      add segment 53135 53965
      exit
      
@@ -294,10 +295,10 @@
      exit
 
 
-    add feature-location U35
-    feature-location U35 
-     add segment 53982 54302
-     exit
+    #add feature-location U35
+    #feature-location U35 
+    # add segment 53982 54302
+    # exit
 
     add feature-location U62 
     feature-location U62 
@@ -374,10 +375,10 @@
      add segment 121862 122629
      exit
 
-    add feature-location U82 
-    feature-location U82 
-     add segment 122705 123457
-     exit
+    #add feature-location U82 
+    #feature-location U82 
+    # add segment 122705 123457
+    # exit
 
     add feature-location U83 
     feature-location U83 

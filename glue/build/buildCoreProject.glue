@@ -19,7 +19,7 @@ project hhv
   run file glue/core/hhvReferences.glue
 
   # Add feature locations to reference sequences
-  module featureLocationTextToGlue transform tabular/references/reference_feature_locations.tsv -r
+  run file glue/core/hhvFeatureLocations.glue
 
   # Import alignments and build constrained alignment tree
   run file glue/core/hhvAlignments.glue

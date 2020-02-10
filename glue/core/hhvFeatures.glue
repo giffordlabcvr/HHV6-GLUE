@@ -9,12 +9,12 @@
   feature 5flank set field displayName "5' flank"
   feature 5flank set metatag INCLUDE_IN_SUMMARY true
 
-  create feature DR1 protein -p whole_genome "protein DR1"
+  create feature DR1 -p whole_genome "protein DR1"
   feature DR1 set metatag OWN_CODON_NUMBERING true
   feature DR1 set metatag INCLUDE_IN_SUMMARY true
   feature DR1 set metatag CODES_AMINO_ACIDS true
 
-  create feature DR1R protein -p whole_genome "protein DR1R"
+  create feature DR1R -p whole_genome "protein DR1R"
   feature DR1R set metatag OWN_CODON_NUMBERING true
   feature DR1R set metatag INCLUDE_IN_SUMMARY true
   feature DR1R set metatag CODES_AMINO_ACIDS true
@@ -23,7 +23,6 @@
   feature DR1 set metatag OWN_CODON_NUMBERING true
   feature DR1 set metatag INCLUDE_IN_SUMMARY true
   feature DR1 set metatag CODES_AMINO_ACIDS true
-  
   
   create feature DR6R -p whole_genome "protein DR6R"
   feature DR6R set metatag OWN_CODON_NUMBERING true
@@ -150,35 +149,35 @@
   feature U31 set metatag INCLUDE_IN_SUMMARY true
   feature U31 set metatag CODES_AMINO_ACIDS true
  
-  create feature U33 -p whole_genome "small capsid protein U33"
-  feature U33 set metatag OWN_CODON_NUMBERING true
-  feature U33 set metatag INCLUDE_IN_SUMMARY true
-  feature U33 set metatag CODES_AMINO_ACIDS true
+  create feature U33a -p whole_genome "small capsid protein U33"
+  feature U33a set metatag OWN_CODON_NUMBERING true
+  feature U33a set metatag INCLUDE_IN_SUMMARY true
+  feature U33a set metatag CODES_AMINO_ACIDS true
  
   create feature U34 -p whole_genome "protein U34"
   feature U34 set metatag OWN_CODON_NUMBERING true
   feature U34 set metatag INCLUDE_IN_SUMMARY true
   feature U34 set metatag CODES_AMINO_ACIDS true
   
-  create feature U13 -p whole_genome "Nuclear egress membrane protein U13"
-  feature U13 set metatag OWN_CODON_NUMBERING true
-  feature U13 set metatag INCLUDE_IN_SUMMARY true
-  feature U13 set metatag CODES_AMINO_ACIDS true
+  #create feature U13 -p whole_genome "Nuclear egress membrane protein U13"
+  #feature U13 set metatag OWN_CODON_NUMBERING true
+  #feature U13 set metatag INCLUDE_IN_SUMMARY true
+  #feature U13 set metatag CODES_AMINO_ACIDS true
 
   create feature U12 -p whole_genome "DNA packaging protein U12"
   feature U12 set metatag OWN_CODON_NUMBERING true
   feature U12 set metatag INCLUDE_IN_SUMMARY true
   feature U12 set metatag CODES_AMINO_ACIDS true
 
-  create feature U36 -p whole_genome "DNA packaging protein U36"
-  feature U36 set metatag OWN_CODON_NUMBERING true
-  feature U36 set metatag INCLUDE_IN_SUMMARY true
-  feature U36 set metatag CODES_AMINO_ACIDS true
+  #create feature U36 -p whole_genome "DNA packaging protein U36"
+  #feature U36 set metatag OWN_CODON_NUMBERING true
+  #feature U36 set metatag INCLUDE_IN_SUMMARY true
+  #feature U36 set metatag CODES_AMINO_ACIDS true
 
-  create feature U37 -p whole_genome "Nuclear egress membrane protein U37
-  feature U37 set metatag OWN_CODON_NUMBERING true
-  feature U37 set metatag INCLUDE_IN_SUMMARY true
-  feature U37 set metatag CODES_AMINO_ACIDS true
+  #create feature U37 -p whole_genome "Nuclear egress membrane protein U37
+  #feature U37 set metatag OWN_CODON_NUMBERING true
+  #feature U37 set metatag INCLUDE_IN_SUMMARY true
+  #feature U37 set metatag CODES_AMINO_ACIDS true
 
   create feature U38 -p whole_genome "DNA polymerase catalytic subunit U38"
   feature U38 set metatag OWN_CODON_NUMBERING true
@@ -230,10 +229,10 @@
   feature U48 set metatag INCLUDE_IN_SUMMARY true
   feature U48 set metatag CODES_AMINO_ACIDS true
   
-  create feature U24 -p whole_genome "Glycoprotein U24"
-  feature U24 set metatag OWN_CODON_NUMBERING true
-  feature U24 set metatag INCLUDE_IN_SUMMARY true
-  feature U24 set metatag CODES_AMINO_ACIDS true
+  #create feature U24 -p whole_genome "Glycoprotein U24"
+  #feature U24 set metatag OWN_CODON_NUMBERING true
+  #feature U24 set metatag INCLUDE_IN_SUMMARY true
+  #feature U24 set metatag CODES_AMINO_ACIDS true
   
   create feature U82 -p whole_genome "Glycoprotein U82"
   feature U82 set metatag OWN_CODON_NUMBERING true
@@ -297,10 +296,10 @@
   feature U59 set metatag CODES_AMINO_ACIDS true
 
 
-  create feature U35 -p whole_genome "DNA packaging terminase subunit 1 U35"
-  feature U35 set metatag OWN_CODON_NUMBERING true
-  feature U35 set metatag INCLUDE_IN_SUMMARY true
-  feature U35 set metatag CODES_AMINO_ACIDS true
+  #create feature U35 -p whole_genome "DNA packaging terminase subunit 1 U35"
+  #feature U35 set metatag OWN_CODON_NUMBERING true
+  #feature U35 set metatag INCLUDE_IN_SUMMARY true
+  #feature U35 set metatag CODES_AMINO_ACIDS true
 
   create feature U62 -p whole_genome "protein U62"
   feature U62 set metatag OWN_CODON_NUMBERING true
@@ -377,10 +376,10 @@
   feature U81 set metatag INCLUDE_IN_SUMMARY true
   feature U81 set metatag CODES_AMINO_ACIDS true
 
-  create feature U82 -p whole_genome "membrane protein L U82"
-  feature U82 set metatag OWN_CODON_NUMBERING true
-  feature U82 set metatag INCLUDE_IN_SUMMARY true
-  feature U82 set metatag CODES_AMINO_ACIDS true
+  #create feature U82 -p whole_genome "membrane protein L U82"
+  #feature U82 set metatag OWN_CODON_NUMBERING true
+  #feature U82 set metatag INCLUDE_IN_SUMMARY true
+  #feature U82 set metatag CODES_AMINO_ACIDS true
 
   create feature U83 -p whole_genome "chemokine U83"
   feature U83 set metatag OWN_CODON_NUMBERING true
@@ -427,9 +426,8 @@
   feature U100 set metatag INCLUDE_IN_SUMMARY true
   feature U100 set metatag CODES_AMINO_ACIDS true
 
-
-  create feature DR1 -p whole_genome "protein DR1"
-  feature DR1 set metatag OWN_CODON_NUMBERING true
-  feature DR1 set metatag INCLUDE_IN_SUMMARY true
-  feature DR1 set metatag CODES_AMINO_ACIDS true
+  #create feature DR1 -p whole_genome "protein DR1"
+  #feature DR1 set metatag OWN_CODON_NUMBERING true
+  #feature DR1 set metatag INCLUDE_IN_SUMMARY true
+  #feature DR1 set metatag CODES_AMINO_ACIDS true
 
