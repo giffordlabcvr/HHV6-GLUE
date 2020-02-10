@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HH6CPOL</GBSeq_locus>
+    <GBSeq_length>518</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>04-APR-2017</GBSeq_update-date>
+    <GBSeq_create-date>01-MAR-1994</GBSeq_create-date>
+    <GBSeq_definition>Human betaherpesvirus 6A strain U1102 ribonucleotide reductase large subunit gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>L29124</GBSeq_primary-accession>
+    <GBSeq_accession-version>L29124.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|L29124.1|HH6CPOL</GBSeqid>
+      <GBSeqid>gi|457217</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>ribonucleotide reductase large subunit</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Human betaherpesvirus 6A</GBSeq_source>
+    <GBSeq_organism>Human betaherpesvirus 6A</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; dsDNA viruses, no RNA stage; Herpesvirales; Herpesviridae; Betaherpesvirinae; Roseolovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..518</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Thompson,J.R.</GBAuthor>
+          <GBAuthor>Agulnick,A.D.</GBAuthor>
+          <GBAuthor>Ricciardi,R.P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>A novel cis element essential for stimulated transcription of the p41 promoter of human Herpesvirus 6</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>Original source text: Human herpesvirus 6 (sub_strain GS, strain U1102) (library: HHV-6 EcoRI) DNA.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..518</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>518</GBInterval_to>
+            <GBInterval_accession>L29124.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human betaherpesvirus 6A</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>U1102</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>sub_strain</GBQualifier_name>
+            <GBQualifier_value>GS</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:32603</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>tissue_lib</GBQualifier_name>
+            <GBQualifier_value>HHV-6 EcoRI</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..402</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>402</GBInterval_to>
+            <GBInterval_accession>L29124.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>ribonucleotide reductase large subunit</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAA43845.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>NDVTSVYSSELKSLYIPVYNNLLLNRFNKHQQYLKTVGYRGLNVDTNLFTDKELDDLGVFKDGFSYHLNDLIEMYKSGLPFLDTGQANVFYFDDTVSLRLLLPLLYKHLDLSNPLPLIGKCSDGVVMHVKNIL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>regulatory</GBFeature_key>
+        <GBFeature_location>396..417</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>396</GBInterval_from>
+            <GBInterval_to>417</GBInterval_to>
+            <GBInterval_accession>L29124.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>regulatory_class</GBQualifier_name>
+            <GBQualifier_value>enhancer</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>regulatory</GBFeature_key>
+        <GBFeature_location>438..444</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>438</GBInterval_from>
+            <GBInterval_to>444</GBInterval_to>
+            <GBInterval_accession>L29124.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>regulatory_class</GBQualifier_name>
+            <GBQualifier_value>TATA_box</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aatgatgtcacttcagtttattcgtcggaattaaaatcgttatatatccccgtgtataacaatctgttgctcaacagatttaacaagcatcagcaatatttgaagactgtgggatataggggattaaacgtggacacgaacctatttacggacaaggagttggatgatttaggcgttttcaaagatggttttagttatcatttgaatgatttgattgagatgtataagagtggattgccttttttagatacggggcaggcaaatgtgttttatttcgacgatactgtgagtttgagactcttgctaccgttgctgtataaacaccttgatttatcaaatccgttaccgttgatcgggaaatgttcggatggtgtggttatgcacgtaaagaacattttgtagtgatgtaataaaatgttggcggcaaaaaaatacagtatataatgtgttggtcatttcatttgttttttaaagcacataaggcgcgagttggtgctaggacttcgttcttgacagag</GBSeq_sequence>
+  </GBSeq>

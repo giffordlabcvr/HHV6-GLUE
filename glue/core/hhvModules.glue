@@ -4,5 +4,3 @@
 
   create module -f modules/hhvTabularUtility.xml hhvTabularUtility
   create module -f modules/hhvCompoundAligner.xml
-
-  create module -f modules/unconstrainedAlignmentImporter.xml 

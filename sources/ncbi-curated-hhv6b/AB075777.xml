@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AB075777</GBSeq_locus>
+    <GBSeq_length>3545</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>mRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>12-APR-2017</GBSeq_update-date>
+    <GBSeq_create-date>28-MAR-2002</GBSeq_create-date>
+    <GBSeq_definition>Human betaherpesvirus 6B mRNA for ORF142, immediate early 1, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>AB075777</GBSeq_primary-accession>
+    <GBSeq_accession-version>AB075777.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|AB075777.1|</GBSeqid>
+      <GBSeqid>gi|19773445</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human betaherpesvirus 6B</GBSeq_source>
+    <GBSeq_organism>Human betaherpesvirus 6B</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; dsDNA viruses, no RNA stage; Herpesvirales; Herpesviridae; Betaherpesvirinae; Roseolovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..3545</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kondo,K.</GBAuthor>
+          <GBAuthor>Shimada,K.</GBAuthor>
+          <GBAuthor>Sashihara,J.</GBAuthor>
+          <GBAuthor>Tanaka-Taya,K.</GBAuthor>
+          <GBAuthor>Yamanishi,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Identification of human herpesvirus 6 latency-associated transcripts</GBReference_title>
+        <GBReference_journal>J. Virol. 76 (8), 4145-4151 (2002)</GBReference_journal>
+        <GBReference_pubmed>11907257</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..3545</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kondo,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-DEC-2001) Contact:Kazuhiro Kondo Osaka University Medical School, Department of Microbiology; 2-2 Yamada-Oka, Suita, Osaka 565-0871, Japan</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..3545</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>3545</GBInterval_to>
+            <GBInterval_accession>AB075777.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human betaherpesvirus 6B</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:32604</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>originally submitted as `Human herpesvirus 6`</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>164..3477</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>164</GBInterval_from>
+            <GBInterval_to>3477</GBInterval_to>
+            <GBInterval_accession>AB075777.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>Type II IE1 H6LT</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>164..592</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>164</GBInterval_from>
+            <GBInterval_to>592</GBInterval_to>
+            <GBInterval_accession>AB075777.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>Type II IE1 H6LT</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Type II IE1-related HHV-6 latency-associated transcript</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>ORF142</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BAB86863.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MLQRHSHSFEISSNSRRCLNLHLNIQWSQQKIQPLLLCSFSENPLETTWNPMRNVCKTTIPIQWWKNPSKKYWKRVSSVMCPLKACFFQNWKPLIFSSQSLPTTSLPRMCPIPVMWKKEHLKNSKLWLLSPLALASKVLVHQ</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>241..3477</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>241</GBInterval_from>
+            <GBInterval_to>3477</GBInterval_to>
+            <GBInterval_accession>AB075777.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>Type II IE1 H6LT</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Type II IE1-related HHV-6 latency-associated transcript</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>immediate early 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BAB86864.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MESAKDTTPTSMFILGKPSGNNMESNEERMQNYHPDPVVEESIKEILEESLKCDVSFESLLFPELEAFDLFIPESSNDIASKNVSYSSNVEEGASEEFKTLVAQSVGTCIQSIGASVKAAMKQELSNMEDDLINSAGLLTLHRSMLEGLVLEQLGQLININLLSSVSSKFVSSYAKMLSGKNLDFFNWCEPRFIVFACDKFDGLVKKMASESRDLLMDLKANMNNQFVIAIKNIFSKAYVALDCEKLNMVSTSLLLMAHNKEMSNPDISNKDFCGRVNLLKQELLESRNEIIENHVKNMKMFQEFANKQMNQIFMDNCDRTFLKIHVNCKNLITAAKNISTAVLQSIVLCSSEFSWQYLKPHRHQFKITIMNMITHACEYLETVYDDTGLIKPLTSSDIMEGYIAINKDRESSICDLNIDPSESILLELAEFDEHGKYSEESSIESIHEDDDNVEYLKYMEVQSPTDNNTPTPSKNNESPTRQKLTNIHEKDVEKMYPDTPSPDVPGKSKEAKTFIENSRQIGKKQTSPNCVCTASVTDLGGPNNFKSITGLESCKHVLIEKLLETQPDSVVVETGSEQQDILAYSPDQRSQTKERIQEKGSNSKCTETLPCMTFTDSATPVKSHDAIQDTLNPESKIDKELGAVESLVNLCDGFHDNPLISEMITFGYETDHSAPYESESDNNDETDYIADCDSTVRTNNIHMNNTNENTPFSKSLYSPPEVTPSKENDKTEKIVPVTQKCKSKKRTAKRKNVPIKPSKSKKIKIDKLPETTNVIVISSESEDEEDGNNNIDSSILKKTIKSEPNSESSSESDDCTSEDNYLHLSDYDKVINNGHCKSKGFVSPVFTIPIRSMPGTHDIRNKFVPKKNWLWFLRKTHKVDNCVIHSSAKMNVKNDSDGTEANHCFINHFVPIKMDDEEYNKDNVSYTYSKIQDSKTDLGVITPTKKLITEMVMENFMDLTDIIKHGIDKHCQDLSSKYTVITSTACEKNLNVTNSQSLVTAETQIFDPQGTGNNSPILNIINDTTCHNDENRCMEGTSNDNEKCTIRSDCNSDKMEVFKLDGYPSDYDPFEENAQIY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tcgtcacagaatctaaaaacaaaccatccgtgattttttccattcttaaggaatgtatgcaaatatataatcaatacattaacataaaaaagacatatcttttcactaaccggtatgtacaggaagtagtggattcagtgcagctggcaagagatgtgcttacatgcttcagcgccacagtcacagcttcgagatcagtagtaacagtaggcggtgtctgaatttgcatcttaatatacaatggagtcagcaaaagatacaacccctacttctatgttcattctcggaaaaccctctggaaacaacatggaatccaatgaggaacgtatgcaaaactaccatcccgatccagtggtggaagaatccatcaaagaaatattggaagagagtctcaagtgtgatgtgtcctttgaaagcctgctttttccagaactggaagcctttgatcttttcatcccagagtcttccaacgacatcgcttccaagaatgtgtcctattccagtaatgtggaagaaggagcatctgaagaattcaaaactttggttgctcagtccgttggcacttgcatccaaagtattggtgcatcagtgaaggctgccatgaaacaggaactgtctaacatggaagacgatttaattaactccgctggcttattaacgctgcacagatccatgttggaggggctggtattagaacaattaggacagttgataaatattaatttactaagtagtgtttcatctaaatttgtttcaagttatgcaaaaatgttatctggaaaaaacttggatttttttaattggtgcgaaccgcgattcattgtttttgcatgtgataaatttgatgggttagtgaaaaagatggcatcagaatccagagatttgctcatggatttgaaagctaatatgaacaatcaatttgttatagccatcaaaaacattttttccaaagcttatgtggcattagattgtgaaaaattgaacatggtttccacctcattgttgttgatggcacacaacaaagagatgtccaatcctgacatctccaataaggatttttgtgggcgagtaaatttacttaaacaggaactactggaaagtagaaatgagataatagaaaaccatgttaaaaatatgaaaatgtttcaggaatttgctaataagcagatgaatcaaatctttatggataactgtgatagaacattccttaaaattcatgtgaattgtaaaaatttaattactgccgccaaaaatattagcactgctgttctccaaagtattgttctatgcagcagtgaattttcatggcaatacctcaaacctcacagacaccagtttaaaattaccataatgaatatgatcacccacgcatgtgaatacttagaaacagtttatgatgatactggtttgattaaacctttaacttcctctgatataatggaaggctacattgctataaataaagatagagagtcttccatctgtgatttaaacatagacccttcagaatcaatactattagagttagctgaatttgatgaacatggaaaatattcagaggaatcttctatcgaatctatccatgaagatgatgacaatgtagaatatttaaaatacatggaagtacaatctcctactgataataatactcccaccccatcaaagaacaatgaatccccaacaagacaaaaacttacaaacatacatgaaaaagatgtagaaaaaatgtatccagatactccttctccagatgtgccagggaaatccaaagaggcaaaaacattcattgaaaatagcagacagatagggaaaaaacaaacaagccctaactgtgtatgtacagcctcagtgacagatctgggcggccctaataactttaaatccattactggccttgaaagttgtaaacacgtcttgatagaaaaactacttgaaactcaacccgactcagtagttgtagagaccgggtctgaacaacaagacattttggcttacagccccgatcaaaggtcacagacaaaagaaaggattcaggaaaaaggttctaactccaagtgtaccgaaacgcttccttgtatgacctttaccgactcagcaactcctgtcaaaagtcatgatgcaattcaggatactttaaatccagaaagtaaaatagacaaagaattgggagctgtagaaagtctagtgaatctatgtgatggtttccatgacaaccctttaatatcagaaatgataacatttggttatgaaactgatcactcagcaccttatgagagtgaaagcgataacaatgatgaaactgattacattgcagactgtgattcaactgtcagaactaataacattcatatgaataacactaatgagaatacaccatttagcaagtctctatattcaccaccagaggtcactccttctaaggaaaatgacaaaactgagaaaattgtgcctgtgactcagaaatgcaaatctaaaaagaggacagctaaaaggaaaaatgttccaattaaaccatccaaatctaaaaagattaagatagataagttacctgaaaccacaaacgtaattgttataagttcagagagtgaagatgaagaggatggtaacaataatattgatagctcaatcttaaaaaaaactattaaatcagaacctaattctgaatcgagcagcgagtcagatgactgtacatctgaagataattacttacatttgagtgattatgataaagtgatcaataatggtcattgtaaaagtaaaggttttgtatccccagtgtttaccatcccaataaggtcaatgccgggtacccatgatatcagaaacaaatttgttcccaaaaaaaattggttgtggtttctgaggaaaactcacaaagtagacaattgtgttatacacagttctgcaaaaatgaatgtaaaaaatgacagtgatgggacagaagccaatcactgcttcatcaatcactttgtccccattaaaatggatgatgaagaatataataaggataatgtctcatatacttatagtaaaatacaggatagcaaaacagacttgggagtcataacaccaaccaagaaacttatcacagaaatggtcatggaaaattttatggatctaactgatatcattaaacacggcatagacaaacattgccaagatctttccagtaaatatactgttatcacctctactgcatgtgagaaaaatttaaatgtgacaaattcccaaagtcttgtaacagccgaaactcaaatatttgacccgcagggaacaggaaataactcccccatactaaatattatcaatgacacaacatgtcacaatgatgagaacagatgtatggaaggtacaagtaatgataatgaaaaatgtaccattagaagtgattgcaacagtgataaaatggaagtctttaaattagatggctatccctctgattatgatccattcgaagaaaatgctcaaatttattagctagatgaaaccaagatgtaaattgattagcaatcattagcatacagatgtgtattatgtaaatatgc</GBSeq_sequence>
+  </GBSeq>

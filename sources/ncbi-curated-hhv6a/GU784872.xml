@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>GU784872</GBSeq_locus>
+    <GBSeq_length>1000</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PRI</GBSeq_division>
+    <GBSeq_update-date>05-APR-2010</GBSeq_update-date>
+    <GBSeq_create-date>05-APR-2010</GBSeq_create-date>
+    <GBSeq_definition>Homo sapiens chromosome 17 Human herpesvirus 6A integration site</GBSeq_definition>
+    <GBSeq_primary-accession>GU784872</GBSeq_primary-accession>
+    <GBSeq_accession-version>GU784872.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|GU784872.1|</GBSeqid>
+      <GBSeqid>gi|292660898</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Homo sapiens (human)</GBSeq_source>
+    <GBSeq_organism>Homo sapiens</GBSeq_organism>
+    <GBSeq_taxonomy>Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae; Homo</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1000</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Arbuckle,J.H.</GBAuthor>
+          <GBAuthor>Medveczky,M.M.</GBAuthor>
+          <GBAuthor>Luka,J.</GBAuthor>
+          <GBAuthor>Hadley,S.H.</GBAuthor>
+          <GBAuthor>Luegmayr,A.</GBAuthor>
+          <GBAuthor>Ablashi,D.</GBAuthor>
+          <GBAuthor>Lund,T.C.</GBAuthor>
+          <GBAuthor>Tolar,J.</GBAuthor>
+          <GBAuthor>De Meirleir,K.</GBAuthor>
+          <GBAuthor>Montoya,J.G.</GBAuthor>
+          <GBAuthor>Komaroff,A.L.</GBAuthor>
+          <GBAuthor>Ambros,P.F.</GBAuthor>
+          <GBAuthor>Medveczky,P.G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>The latent human herpesvirus-6A genome specifically integrates in telomeres of human chromosomes in vivo and in vitro</GBReference_title>
+        <GBReference_journal>Proc. Natl. Acad. Sci. U.S.A. 107 (12), 5563-5568 (2010)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1073/pnas.0913586107</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>20212114</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1000</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Arbuckle,J.H.</GBAuthor>
+          <GBAuthor>Medveczky,M.M.</GBAuthor>
+          <GBAuthor>Medveczky,P.G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (11-FEB-2010) Molecular Medicine, University of South Florida College of Medicine, 12901 Bruce B. Downs Blvd., Tampa, FL 33612, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..317</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>317</GBInterval_to>
+            <GBInterval_accession>GU784872.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:9606</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>chromosome</GBQualifier_name>
+            <GBQualifier_value>17</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>map</GBQualifier_name>
+            <GBQualifier_value>17p13.3 subtelomere</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>focus</GBQualifier_name>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>318..1000</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>318</GBInterval_from>
+            <GBInterval_to>1000</GBInterval_to>
+            <GBInterval_accession>GU784872.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human herpesvirus 6A</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:32603</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tcgaatccacggattgctttgtgtactttgggaaacttaacaatgtggtctacaaatccacaaataagatacatttttacatttactggaagtttaatttccttaagtaatgtcttataatttccctcatctaagtcttgtcgtttcattccatttattcctaagtataatattgctattggtattgtttaaggtagaattttcataatttggtttagagattattcattcctagcatatacatataaaatggaatgtttggctaggcacccgggctcatacctgtaacccaagcaggttgagaggctgaggaagggttagggttagggttagggttagggttagggttagccggtggtttcctttggcaccgtgccaggcgaccgtcggtcccagacggtggcacgtcgcgcgcgatgtcgttttgaattgtcttcaagtctcaccccggtatgccccatctacgtacccacccgcgactaccacatgggtgggttgtgcgtgtctgtgtgtctgcgtgtgtacgcgtccgtggtagatacgcggtgacaacggattacggaggtgactgttgcgttgggtgggacggcgagggggtgaagaggtgtttcccgtataggtgtttttggaacatggttttttttcttatacttgccatgctagcggtcgccctctgtcttcggtccgcgtgaccgtgtcgtgtgcacttccgcatacttttgtctttgcgcctccatacaccccgttgattggatgatcgccacatgtgtattcgatgtcatagtctgctattttttttcactgtctatttttaaacctgttgtcgtcttcccgccaaggctgtgcgtctccgccttttattatttttttttacgctgtttcttttctacgttcgcctccaactccggacgcacctcctttgtatgtcgactcctcccactccctggggtgcctatataagagaccaacgcgacgcgctttcaagcagtcccgatctatg</GBSeq_sequence>
+  </GBSeq>

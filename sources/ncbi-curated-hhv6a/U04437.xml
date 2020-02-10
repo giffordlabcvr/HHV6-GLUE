@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HHU04437</GBSeq_locus>
+    <GBSeq_length>2711</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>04-APR-2017</GBSeq_update-date>
+    <GBSeq_create-date>11-FEB-1994</GBSeq_create-date>
+    <GBSeq_definition>Human betaherpesvirus 6A hypothetical protein gene, partial cds; and protein P41 gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>U04437</GBSeq_primary-accession>
+    <GBSeq_accession-version>U04437.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|U04437.1|HHU04437</GBSeqid>
+      <GBSeqid>gi|454034</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human betaherpesvirus 6A</GBSeq_source>
+    <GBSeq_organism>Human betaherpesvirus 6A</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; dsDNA viruses, no RNA stage; Herpesvirales; Herpesviridae; Betaherpesvirinae; Roseolovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2700</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Zhou,Y.</GBAuthor>
+          <GBAuthor>Chang,C.K.</GBAuthor>
+          <GBAuthor>Qian,G.</GBAuthor>
+          <GBAuthor>Chandran,B.</GBAuthor>
+          <GBAuthor>Wood,C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>trans-activation of the HIV promoter by a cDNA and its genomic clones of human herpesvirus-6</GBReference_title>
+        <GBReference_journal>Virology 199 (2), 311-322 (1994)</GBReference_journal>
+        <GBReference_pubmed>8122364</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2711</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Chandran,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (15-DEC-1993) Chandran B., The University of Kansas Medical Center, 39th and Rainbow Blvd, Kansas City, KS 66160, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2711</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2711</GBInterval_to>
+            <GBInterval_accession>U04437.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human betaherpesvirus 6A</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>GS</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:32603</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..558</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>558</GBInterval_to>
+            <GBInterval_accession>U04437.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>ORF1, homologous to UL45 in GenBank Accession Number X17403</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>hypothetical protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAA18339.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>EFDIINSSESFWPMEDNKILRRSNIKVVIGKDGLNDVTSVYSSELKSLYIPVYNNLLLNRFNKHQQYLKTVGYRVLNVDTNLFTDKELDDLAVFKDGFSYHLNDLIEMYKSGLPFLDQGQANVFYFNDTVSLRLLLPLLYKAGFKVDMYKVLCNSEMYKHLDLSNPLPLIGKCSDGVVMHVKNIL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>regulatory</GBFeature_key>
+        <GBFeature_location>564..570</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>564</GBInterval_from>
+            <GBInterval_to>570</GBInterval_to>
+            <GBInterval_accession>U04437.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>regulatory_class</GBQualifier_name>
+            <GBQualifier_value>TATA_box</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>675..1781</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>675</GBInterval_from>
+            <GBInterval_to>1781</GBInterval_to>
+            <GBInterval_accession>U04437.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>ORF2, homologous to UL44 in GenBank Accession Number X17403</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>protein P41</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAA18340.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MERGSRDHHRDHRDHREHRETREPPTLAFHMKSWKTINKSLKAFAKLLKENATVTFTPQPSIIIQSAKNHLVQKLTIQAECLFLSDTDRFLTKTINNHIPLFESFMNIISNPEVTKMYIQHDSDLYTRVLVTASDTCTQASVPCVHGQEVVRDTGRSPLRIDLDHSTVSDVLKWLSPVTKTKRSGKSDALMAHIIVQVNPPTIKFVTEMNELEFSNSNKVIFYDVKNMRFNLSAKNLQQALSMCAVIKTSCSLRTVAAKDCKLILTSKSTLLTVEAFLTQEQLKEESRFERMGKQDDGKGDRSHKNEDGSALASKQEMQYEITNYMVPAKNGTAGSSLFNEKEDSESDDSMHFDYSSNPNPKRQRCVV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gaattcgatatcatcaactcttctgaatcgttctggccgatggaagacaataaaatcctaaggcggtcaaatatcaaagtcgtaattggaaaagacggtttaaatgatgtcacttcagtttattcgtcggaattaaaatcgttatatatccccgtgtataacaatctgttgctcaacagatttaacaagcatcagcaatatttgaagactgtgggatatagggtattaaacgtggacacgaacctatttacggacaaggagttggatgatttagccgttttcaaagatggttttagttatcatttgaatgatttgattgagatgtataagagtggattgccttttttagatcaggggcaggcaaatgtgttttatttcaacgatactgtgagtttgagactcttgctaccgttgctgtataaagccggatttaaagtcgatatgtataaggttttgtgtaattctgagatgtataaacaccttgatttatcaaatccgttaccgttgatcgggaaatgttcggatggtgtggttatgcacgtaaagaacattttgtagtgatgtaataaaatgttggcgcgaaaaaaatacagtatataatgtgttggtcatttcatttgttttttaaagcacataaggcgcgagttggtgctaggacttcgttcttgacagagatggagcgcggtagtcgagatcatcatcgtgatcaccgtgatcatcgggaacatagagaaacgagagaaccgccgaccctagcttttcatatgaaaagctggaaaactattaataaatcgcttaaagcgtttgcaaaactgttaaaagagaatgctacagtgactttcacgccgcagccgtcgataataattcagtctgctaaaaatcatctcgtgcaaaagctgactattcaggcggaatgtttgtttttgtcagatacggatcgttttttaacgaaaaccattaataatcatattccactttttgaaagttttatgaacatcatctcgaatcctgaggttacgaagatgtacattcagcatgatagtgatctatatacgagggttttggtaacggcttccgatacatgtacacaggcgtcggttccctgtgtgcacggacaagaagtggtgcgagacaccgggagatcgccgttgaggattgaccttgatcattcgaccgtttccgatgtgttgaaatggctttcacctgtaactaagactaaacgctctggtaaatctgacgctttaatggcgcacattatagtacaggttaatcctccgactataaaattcgtgacagagatgaatgaactggagttttcgaacagcaataaggttatattttacgatgttaagaacatgcggtttaatctatctgccaaaaatttacagcaggctttaagtatgtgtgctgtaatcaagacgtcgtgtagtttacgtacggtagccgctaaggactgtaaattgatattaacttccaaaagcacgttgttgacggtggaagcctttttaactcaggaacagctcaaagaggaatctcgctttgaacgaatgggtaaacaagatgacggaaaaggggataggagtcataagaacgaagacggaagtgcgttggcatcaaaacaggaaatgcaatatgaaataaccaactacatggtccccgctaaaaacggaactgcgggctctagcttatttaacgagaaggaagatagcgaaagtgacgattccatgcattttgactacagctctaatcccaatcccaagaggcagagatgcgtcgtctgacagatagttttattctcggtcttgctaagggtgccgttattccggggttgtatacgtttagaatgacagaggggaggtcccccctcggacagatcggcgttttgataaccgttgcgatttcctttttgttgacttttaaaagatttgatccacgcttttataaacccataggtgatttcaagattgtgtttctgtctttaatggcgccgaaactgccatcattattgtctgcagtggtcatgatctgcttgatattttccgagatgaggttgagaatgattttaagtcgttgtgtcatgattatgccgtcttattccccagctgtgtttacgggaatcatggtgtctttgttttttaagagtcaaatgttcgatgattattctgtcttgataacggctgcgtctctcctgccgattactgtgagatatggatggatgatacgatcgtctggattccttcttggtttgcaaaaatatcgtccgattttgaagtcaacgtcgtttcgtgaagttgatttgaaatgccttgtaaagtttacggtcgaatttttgttattatttacgatactctggatcggaaaaatgttcttgagtatgccaaaatctaaccatctttttttcctgactgtggtcaacaacgtattttttaaactaaacgtattcaaagcgctgcgtgcgcggtggtggcgatcttatcgggacttatgatgaacgtctgcctatatcgaattatctttgaagcctttgtaggtctcgggtttagttcgattatgttgaatttaagcagcgatctgaaagacagatctttctatgcgggtgatttattgaacggttttttttgtttagtcgtgtgttgcatgtattttggtgtgtgattagacaatttatcgtgcctgttttggtgaacaccaataaaattttttgcagtatt</GBSeq_sequence>
+  </GBSeq>

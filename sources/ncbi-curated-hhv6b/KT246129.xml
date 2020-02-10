@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KT246129</GBSeq_locus>
+    <GBSeq_length>2493</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>06-OCT-2015</GBSeq_update-date>
+    <GBSeq_create-date>06-OCT-2015</GBSeq_create-date>
+    <GBSeq_definition>Human herpesvirus 6B isolate 5261138 glycoprotein B (U39) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>KT246129</GBSeq_primary-accession>
+    <GBSeq_accession-version>KT246129.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KT246129.1|</GBSeqid>
+      <GBSeqid>gi|932171310</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human betaherpesvirus 6B</GBSeq_source>
+    <GBSeq_organism>Human betaherpesvirus 6B</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Herpesvirales; Herpesviridae; Betaherpesvirinae; Roseolovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2493</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Achour,A.</GBAuthor>
+          <GBAuthor>Malet,I.</GBAuthor>
+          <GBAuthor>Le Gal,F.</GBAuthor>
+          <GBAuthor>Dehee,A.</GBAuthor>
+          <GBAuthor>Gautheret-Dejean,A.</GBAuthor>
+          <GBAuthor>Bonnafous,P.</GBAuthor>
+          <GBAuthor>Agut,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Variability of gB and gH genes of human herpesvirus-6 among clinical specimens</GBReference_title>
+        <GBReference_journal>J. Med. Virol. 80 (7), 1211-1221 (2008)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1002/jmv.21205</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>18461623</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2493</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Achour,A.</GBAuthor>
+          <GBAuthor>Malet,I.</GBAuthor>
+          <GBAuthor>Le Gal,F.</GBAuthor>
+          <GBAuthor>Dehee,A.</GBAuthor>
+          <GBAuthor>Gautheret-Dejean,A.</GBAuthor>
+          <GBAuthor>Bonnafous,P.</GBAuthor>
+          <GBAuthor>Agut,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (02-JUL-2015) Equipe Persistent Viral Infections (PVI), CIMI-Paris, UPMC UMRS CR7 - Inserm U1135, Laboratoire de Virologie, batiment CERVI, Hopital Pitie-Salpetriere, 83 Boulevard de l'Hopital, Paris 75651, France</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2493</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2493</GBInterval_to>
+            <GBInterval_accession>KT246129.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human betaherpesvirus 6B</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>5261138</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:32604</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>France</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>10-Mar-2008</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collected_by</GBQualifier_name>
+            <GBQualifier_value>H Agut</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..2493</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2493</GBInterval_to>
+            <GBInterval_accession>KT246129.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>U39</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..2493</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2493</GBInterval_to>
+            <GBInterval_accession>KT246129.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>U39</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>glycoprotein B</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ALG62607.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSKMTVLFLAVFLMNSVLMIYCDSDNYIRAGYNHKYPFRICSIAKGTDLMRFDRDISCSPYKSNAKMSEGFFIIYKTNIETYTFPVRTYKNELTFQTSYRDVGVVYFLDRTVMGLAMPVYEANLVNSRAQCYSAVAIKRPDGTVFSAYHEDNNKNETLELFPLNFKSVTNKRFITTKEPYFARGPLWLYSTSTSLNCIVTEATAKAKYPFSYFALTTGEIVEGSPFFDGSNGKHFAEPLEKLTILENYTMIEDLMNGMNGATTLVRKIAFLEKGDTLFSWEIKEENESVCMLKHWTTVTHGLRAETDETYHFISKELTAAFVTPKDSLNLTDPKQTCIKNEFENIIKEVYMSDYNDTYSMNGSYQIFKTTGDLILIWQPLVQKSLMVLEQGSVNLRRRRDLVDVKSRHDILYVQLQYLYDTLKDYINDALGNLAESWCLDQKRTITMLHELSKISPSSIVSEVYGRPISAQLHGDVLAISKCIEVNQSSVQLHKSMRVVDAKGLRSETMCYNRPLVTFSFVNSTPEVVPGQLGLDNEILLGDHRTEECEIPSTKIFLSGNHAHVYTDYTHTNSTPIEDIEVLDAFIRLKIDPLENADFKLLDLYSPDELSRANVFDLENILREYNSYKSALYTIEAKIATNTPSYVNGINSFLQGLGAIGTGLGSVISVTAGALGDIVGGVVSFLKNPFGGGLMLILAIVVVVIIIVVFVRQKHVLSKPIDMMFPYATNPVTTVSSVTGTTVVKTPSVKDADGGTSVAVSEKEEGMADVSGQISGDEYSQEDALKMLKAIKSLDESYRRKPSSSESHASKPSLIDRIRYRGYKSVNVEEA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgagcaagatgacagtattattcctggctgtctttttgatgaatagtgttttaatgatatattgcgattcggataattatatcagagcgggctataatcacaaatatccttttcggatttgttcgattgccaaaggtacggatttgatgcggttcgacagagatatttcgtgctcgccatataagtctaatgcaaagatgtcggagggttttttcatcatttacaaaacaaatatcgagacctacacttttccagtgagaacgtataaaaacgagctgacgttccaaaccagttaccgtgatgtgggtgtggtttattttctggatcggacggtgatgggtttggctatgccggtgtacgaagcaaatttagttaattctcgtgcgcagtgttattcagccgtagcgataaaacgacccgatggtacggtgtttagtgcctatcatgaggataataataaaaacgaaactctagaattatttcctctgaatttcaagtctgttactaataaaagatttatcactacgaaagaaccctactttgcaaggggtcctttgtggctctattctacatcgacgtctctcaattgtattgtgacggaggctacggctaaggcgaaatatccgtttagttactttgctttgacgactggtgaaatcgtggaagggtctccgttcttcgacggttcaaacggtaaacattttgcagagccgttagaaaaattgacaatcttggaaaactatactatgatagaagatctaatgaatggtatgaatggggctactacgttagtaaggaagatcgcttttctcgagaaaggggatactctgttttcttgggaaatcaaggaagagaatgaatcggtgtgtatgctaaagcattggactacggtgactcacgggcttcgagcggagacggatgagacttatcactttatttctaaggagttgacagccgctttcgtcacccccaaggattctttaaatcttaccgaccccaaacaaacgtgtattaagaatgaatttgagaatataattaaagaagtctatatgtcagattataatgatacatacagcatgaacggtagttatcaaatttttaagactacgggagatctgattttgatttggcagcctcttgtgcaaaaatctcttatggttcttgagcagggttcagtaaacttacgtaggaggcgagatttggtggatgtcaagtctagacatgatattctttatgtgcaattacagtacctctatgatactttgaaagattatatcaacgatgccttggggaatttggcagaatcttggtgcctcgatcaaaaacgaacgataacgatgttgcacgaacttagtaagatcagtccatcgagtatcgtgtctgaggtttacggtcgtccgatatctgcacagttgcatggtgatgtgttagctatctcgaaatgcatagaagttaatcagtcatccgttcagcttcataagagtatgcgggttgtcgatgcgaagggattaaggagtgaaacgatgtgttataatcggcccttggtgacgtttagctttgtgaactccacgcctgaggttgtccctggtcagctagggttagataatgagattctgttgggtgatcataggacagaggaatgtgagatacctagtacaaagatatttctatctggaaatcatgcacacgtgtataccgattatacgcatacgaattcgacgcccatagaagacattgaggtattggatgcttttattagactaaagatcgaccctctcgaaaatgctgattttaaactacttgatttatattcgccggacgaattgagtagagcaaacgttttcgatttagagaatattcttcgtgaatataactcatataagagcgcactatatactatagaagctaaaattgctactaatacgccgtcgtatgtcaatgggattaattcttttttacaagggcttggggctataggcactggattgggctcggttataagtgttacggcaggagcacttggggatattgtgggtggagtggtgtcttttttaaaaaatccattcgggggtggtctcatgttgattttagcgatagtagttgttgtcataataattgtggttttcgttagacaaaaacatgtgcttagtaagcctattgacatgatgtttccttatgccaccaatccggtgactactgtgtccagtgttacggggaccactgtcgtcaagacgcctagtgttaaagatgctgacgggggcacatctgttgcggtttcggaaaaagaggagggtatggctgacgtcagtggacaaataagtggtgatgaatattcacaagaagatgctttaaaaatgctcaaggccataaagtctttagacgagtcctacagaagaaaaccttcgtcttctgagtctcatgcctcaaaacctagtttgatagacaggatcaggtatagaggttataagagtgtaaatgtagaagaagcgtga</GBSeq_sequence>
+  </GBSeq>

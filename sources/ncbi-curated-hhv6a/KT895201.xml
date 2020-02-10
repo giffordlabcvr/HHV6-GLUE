@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KT895201</GBSeq_locus>
+    <GBSeq_length>1317</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PRI</GBSeq_division>
+    <GBSeq_update-date>16-MAR-2016</GBSeq_update-date>
+    <GBSeq_create-date>16-MAR-2016</GBSeq_create-date>
+    <GBSeq_definition>Homo sapiens isolate CzechRepublic_15929 CI-HHV-6A integration site junction genomic sequence</GBSeq_definition>
+    <GBSeq_primary-accession>KT895201</GBSeq_primary-accession>
+    <GBSeq_accession-version>KT895201.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KT895201.1|</GBSeqid>
+      <GBSeqid>gi|1004634370</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Homo sapiens (human)</GBSeq_source>
+    <GBSeq_organism>Homo sapiens</GBSeq_organism>
+    <GBSeq_taxonomy>Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae; Homo</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1317</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Tweedy,J.</GBAuthor>
+          <GBAuthor>Spyrou,M.A.</GBAuthor>
+          <GBAuthor>Pearson,M.</GBAuthor>
+          <GBAuthor>Lassner,D.</GBAuthor>
+          <GBAuthor>Kuhl,U.</GBAuthor>
+          <GBAuthor>Gompels,U.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Complete Genome Sequence of Germline Chromosomally Integrated Human Herpesvirus 6A and Analyses Integration Sites Define a New Human Endogenous Virus with Potential to Reactivate as an Emerging Infection</GBReference_title>
+        <GBReference_journal>Viruses 8 (1), 19 (2016)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.3390/v8010019</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>26784220</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1317</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Tweedy,J.</GBAuthor>
+          <GBAuthor>Spyrou,M.A.</GBAuthor>
+          <GBAuthor>Lassner,D.</GBAuthor>
+          <GBAuthor>Kuhl,U.</GBAuthor>
+          <GBAuthor>Gompels,U.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (10-OCT-2015) Pathogen Molecular Biology, London School of Hygiene &amp; Tropical Medicine, Keppel Street, London WC1E 7HT, United Kingdom</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..680</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>680</GBInterval_to>
+            <GBInterval_accession>KT895201.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>CzechRepublic_15929</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:9606</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>chromosome</GBQualifier_name>
+            <GBQualifier_value>17</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Czech Republic</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>focus</GBQualifier_name>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>681..1317</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>681</GBInterval_from>
+            <GBInterval_to>1317</GBInterval_to>
+            <GBInterval_accession>KT895201.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human herpesvirus 6A</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:32603</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1..1317</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1317</GBInterval_to>
+            <GBInterval_accession>KT895201.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>CI-HHV-6A integration site junction</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aatgtggtctacaaatccacaaataagatacatttttacatttactggaagtttaatttccttaagtaatgtcttataatttccctcatctaagtcttgtcgtttcattccatttattcctaagtataatattgctattggtattgtttaaggtagaattttcataatttggtttagagattattcattcctagcatatacatataaaatggaatgtttggctaggcacccgggctcatacctgtaacccaagcaggttgagaggctgaggaagggttagggttagggttggggttagggttagggttaggttagggttagggttagggttagggttagggttagggttagggttagggttaggggttagggttagggttagggttagggttagggttagggttagggtttagggtttagggttagggttagggtttagggtttagggtttagggtttagggttagggttagggttagggttagggttagggttagggttagggttagggttagggtagggttagggttagggttagggttagggttagggttaggggttaggggttaggggttagggttagggttagggttagggttagggttagggttaggttagggttagggttagggttggggttggggttggggttggggttggggttggggttggggttaggggttagggttagggttagggttagggttagggttagggttagccggtggtttcctttggcaccgtgccaggcgaccgtcggtcccagacggtggcacgtcgcgcgcgatgtcgttttgaattgtcttcaagtctcaccccggtatgccccatctacgtacccacccgcgactaccacatgggtgggttgtgcgtgtctgtgtgtctgcgtgtgtacgcgtccgtggtagatacgcggtgacaacggattacggaggtgactgttgcgttgggtgggacggcgagggggtgaagaggtgtttcccgtataggtgtttttggaacatggttttttttcttatacttgccatgctagcggtcgccctctgtcttcggtccgcgtgaccgtgtcgtgtgcacttccgcatacttttgtttttgcgcctccatacaccccgttgattggatgatcgccacatgtgtattcgatgtcatagtctgctattttttttcactgtctatttttaaacctgttgtcgtcttcccgccaaggctgtgcgtctccgccttttattatttttttttacgctgtttcttttctacgttcgcctccaactccggacgcacctcctttgtatgtcgactcctcccactccctggg</GBSeq_sequence>
+  </GBSeq>

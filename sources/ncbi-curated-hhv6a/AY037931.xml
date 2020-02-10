@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AY037931</GBSeq_locus>
+    <GBSeq_length>4690</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>mRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>04-APR-2017</GBSeq_update-date>
+    <GBSeq_create-date>28-SEP-2002</GBSeq_create-date>
+    <GBSeq_definition>Human betaherpesvirus 6A strain GS IE2 protein (ie2) mRNA, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>AY037931</GBSeq_primary-accession>
+    <GBSeq_accession-version>AY037931.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AY037931.1|</GBSeqid>
+      <GBSeqid>gi|23343879</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human betaherpesvirus 6A</GBSeq_source>
+    <GBSeq_organism>Human betaherpesvirus 6A</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; dsDNA viruses, no RNA stage; Herpesvirales; Herpesviridae; Betaherpesvirinae; Roseolovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..4690</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Gravel,A.</GBAuthor>
+          <GBAuthor>Tomoiu,A.</GBAuthor>
+          <GBAuthor>Cloutier,N.</GBAuthor>
+          <GBAuthor>Gosselin,J.</GBAuthor>
+          <GBAuthor>Flamand,L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Characterization of the immediate-early 2 protein of human herpesvirus 6, a promiscuous transcriptional activator</GBReference_title>
+        <GBReference_journal>Virology 308 (2), 340-353 (2003)</GBReference_journal>
+        <GBReference_pubmed>12706083</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..4690</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Gravel,A.</GBAuthor>
+          <GBAuthor>Flamand,L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (05-JUN-2001) Rheumatology and Immunology Research Center, T1-49, CHUL Research Center, 2705, Laurier Boulevard, Sainte-Foy, Quebec G1V 4G2, Canada</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..4690</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4690</GBInterval_to>
+            <GBInterval_accession>AY037931.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human betaherpesvirus 6A</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>GS</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:32603</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..4690</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4690</GBInterval_to>
+            <GBInterval_accession>AY037931.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ie2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>immediate-early 2</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>229..4629</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>229</GBInterval_from>
+            <GBInterval_to>4629</GBInterval_to>
+            <GBInterval_accession>AY037931.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ie2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>promiscuous transactivator</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>IE2 protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAK67493.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MEPAKPSGNNMGSNDERMQDYRPDPMMEESIQQILEDSLMCDTSFDDLILPGLESFGLIIPESSNNIESNNVEEGSNEDLKTLAEHKCKQGNDNDVIQSAMKLSGLYCDADITHTQPLSDNTHQDPIYSQETRIFSKTIQDPRIAAQTHRQCTSSASNLPSNESGSTQVRFASELPNQLLQPMYTSHNQNANLQNNFTSLPYQPYHDPYRDIESSYRESRNTNRGYDYNFRHHSYRPRGGNGKYNYYNPNSKYQQPYKRCFTRTYNRRGRGHRSYDCSDRSADLPYEHYTYPNYEQQNPDPRMNNYKDFTQLTNKFNFGANDYSMAFSTDSTHVQSDNYNHPTKAQTIPETTKTKKHKATKDNETSRGNQVLTSNDAISLSYRPSPIKLDIIKKIYDTDVIPLPKEALTANGSNRDVDIQKYKKAHIRCRSVQKKKERSSQTNKHDENHASSRSDLKERKSNEHEDKAVTKARDFSKLDPLLSPLPLTPEPAIDFADHTDKFYSTPEFNQIKQNLHRSKTSLQDTVPISKHTPRAPTKDNSYKKHHDSKDNYPKMKHSPGRTTSKKNTTNSNGHQNFKDVSVKNVSGKATSTSPKSKTHHYSSSSDEEGQYKSPVKTITPSPSPYCKLKNPSIMDKNSAKNHTASADKNLTDNSPIRSNLNPTAFNKSNNNKSITNSTSNSDECTDKKPNCNSTKNESKDPNRTCGKNSDKHLSKSCTMASKRAPSRASSRTSSRASSRASSRASSRASSRASSRASSRDSSRASSRAPSRASSRDSSRASSRDSSRDSNRASSKASSRASSRDSSRASSRDSSRASSKASRKASSRASSRASSRASSKASGKASSKASSRASSRAFSRNSSRASSRASSRASSRASSRASSRASSRDSSRALSRAFGRDSSRASSRASSRDSSRASSKASRKASSRASSRASSRASSRASSRELRQIYCDSNKRQTPPHDTSINTKFEISEIKFRCGEDLNFYKNTAARLQCFNHNDQFYNPRFRPHIRTNRKKSESTNDTDSESSMSRCKSHCRNSPDSLTIVRRKKHKSGSSSISSSIEENCRSNSHIVTGKEKFTPFYYQSSRTRSSSSSSSSSSASLSCSKSTLKTCRKTQNRDNKQIKSKSDSKHKTTNMSSDYESNRHADVFRNSPEAGEKFPLHNSSPFNTHEQSNHSENAIDEEQKKAPNITTSHLHQKQNVKLHNTKKCKKKRPRDDDSDSSIKNFCKKRISGAQKTESEVSEIDDLCYRDYVRLKERKVSEKFKIHRGRVATKDFQKLFRNTMRAFEYKQIPKKPCNDKNLKEAVYNICCNGLSNNAAIIMYFTRSKKVAQNIKIMQKELMIRPNITVSEAFKMNHAPPKYYDKDEIKRFIQLQKQGPQELWDKFENNTTHDLFTRHSDVKTMIIYAATPIDFVGAVKTCNKYAKDNPKEIVLRVCSIIDGDNPISIYNPISKDFKSKFSTLSKC</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gtggctccggagaacattctcatcacagacattctttcttatatcgttgcagtctgatttgtcacatcgattgcatcccatcaattattacattgctggattttcttcccacccagaagattgattgcgcccaaaaccaccacctggaatcatctccaaagaaacctccaccttgaattactcttaaaagcacagtaggcggtgtctcaatttgcatcttaatatacaatggagccagcaaaaccctctggaaacaacatgggatccaatgatgaacgtatgcaagactaccgtcccgatccaatgatggaagaatctatccaacagatattggaagacagtctcatgtgtgatacatcattcgatgacctgattcttccaggccttgaaagctttggtcttattataccagagtcttccaacaacatagagtccaataatgtagaagaaggatcaaatgaagacttgaaaactttagctgaacacaaatgcaaacaaggaaatgataacgacgtcattcaaagcgccatgaaattatccggactatactgtgatgcggacatcacacacacacaaccgttgagtgataatacgcatcaagatcctatatattctcaagaaaccagaatattttcaaaaactatccaggatccacggatagcagctcagacccacagacaatgcacatcctctgcttccaatctaccatcaaacgaaagcggttcgacccaggtgcgctttgcttcggaactaccgaatcaactcctacagcccatgtacacgtcacataaccaaaatgcaaatctacagaacaatttcacctcgttgccatatcaaccttatcatgatccatacagagatatagagagttcctacagagaatctagaaataccaatagaggatatgactataactttagacatcattcatataggcccagaggaggaaatggaaaatataattactacaatccaaactcaaagtatcaacagccatacaaaagatgttttaccagaacttataacagacgcggaagaggccacagatcatacgattgctcagacagatccgcggatttaccatatgaacattacacgtatccaaactacgaacaacagaatccagacccccgtatgaataactataaagattttacacaactaacaaacaagttcaattttggagccaatgactatagcatggcattctcaacagactccacacacgtacaatctgacaattacaatcatccaacaaaagcacagacaataccagaaactacaaaaactaaaaaacataaggctactaaggataacgaaacatccagaggaaatcaagttttaacatctaatgacgcgatcagtttatcatacagacctagtcccataaaactggatattattaaaaaaatatatgacactgacgttattccgttaccgaaggaagccttaacagccaatggctcaaatcgtgacgtggatattcagaagtacaaaaaagcacatatccgttgtagatcagtccagaagaaaaaagaacgcagttctcaaacaaacaaacatgatgaaaaccatgcctcatcacgttctgatcttaaagagagaaaatctaatgagcatgaagataaagccgttactaaagctagagatttttcaaaattagatcccctattatctcctcttccgttgacacctgaacccgccatagactttgcggaccatacggataaattctattcaacaccagaattcaaccaaataaaacaaaatctacaccgatcaaaaacttctctacaagacacagttcccatatcaaaacatactccaagagccccgaccaaagataattcttacaaaaaacatcatgactccaaagacaattatcctaaaatgaaacattctcctggacgtacaacatctaaaaaaaatactacaaactccaacggacaccaaaactttaaggacgtatccgttaagaatgtttcagggaaagccacatctacatcaccaaaatcaaaaacacaccattattccagtagctctgatgaagaaggtcaatacaaatctccggtaaaaactattaccccatcaccttctccatattgcaagttaaaaaatccttcaattatggacaaaaacagtgctaaaaaccacactgcaagcgccgacaaaaatttaacagacaattcacctattcggagtaatttaaatcctactgcttttaacaaatccaacaataacaaaagcatcacgaatagcacttctaacagtgatgagtgtactgacaagaaacctaactgcaattccaccaaaaatgaatctaaagatcctaaccgaacttgtggcaaaaactctgataaacatctgagtaaaagttgcaccatggcttctaaaagggctcccagcagagcctcaagcagaacctccagcagagcttccagcagggcctcaagcagagcctccagcagagcttccagcagggcctcaagcagagcctccagcagggattctagcagggcatcaagcagagcccccagcagagcctccagcagggattctagcagagcctccagcagggattctagcagggattctaacagggcctcaagcaaagcctccagcagagcctccagcagggattctagcagagcctccagcagggattctagcagagcctcaagtaaagcctcaagaaaagcctccagcagagcctccagcagggcttccagcagggcctcaagcaaagcctccggtaaagcctcaagcaaagcctccagcagagcctccagcagagccttcagcaggaattctagcagggcctcaagcagagcctcaagcagagcctcaagcagagcctcaagcagagcctcaagcagagcctccagcagggattctagtagggccttaagcagagccttcggcagggattctagcagagcctccagcagagcctccagtagggattctagcagggcctcaagtaaagcctcaagaaaagcctccagcagagcctccagcagagcctccagcagggcttccagcagggcttccagcagggagctgaggcagatttattgcgattctaataaaagacaaacgcctccacatgacacctcaattaatacaaaatttgaaatatcagaaataaaatttcgatgtggagaagatctaaatttctacaaaaatactgcagctcgactccagtgctttaatcacaatgatcaattttacaacccccgattcagacctcatataagaaccaacagaaaaaaatcagaatccaccaatgacaccgattcagaaagttctatgtctagatgcaaatctcactgtcgaaattcaccagattcactgaccattgtaagaagaaaaaaacacaaatctggatcatcaagcatctcttccagtattgaagaaaattgcagatctaattcacatatagtaaccggaaaagagaagtttacaccattttactatcagtcttccagaactagatcatcatcatcatcatcatcatcatcatcagcttctttatcatgttccaaatccacattaaaaacatgccgcaaaactcaaaatagagacaataaacaaataaaatctaaatcagattcaaaacacaaaactacaaacatgtcttcagattacgaatcgaatagacatgcagatgtgtttagaaactccccggaagcaggtgaaaaatttcccctacacaattctagtccatttaacacacatgaacaatccaatcattccgaaaacgccattgatgaagaacaaaaaaaggcacctaatatcacgacttctcacctacatcaaaaacaaaatgtcaaattacacaacacaaaaaaatgcaaaaaaaaacgcccccgcgatgatgattcagattccagcataaaaaatttctgcaagaaaagaatatccggagcgcagaaaacagagtctgaagtaagtgaaattgacgatttgtgttatagagattatgttagactaaaagaaagaaaagtatcagaaaaatttaaaattcaccgcgggagggtggctacaaaagattttcaaaaactatttagaaatactatgagagcatttgaatacaaacagatccccaaaaaaccttgcaatgacaaaaatctaaaagaagctgtatacaacatctgctgtaatgggctctctaacaacgcagccatcattatgtactttacaagatcaaaaaaagtagctcaaaacataaagataatgcaaaaagaattaatgattcgacccaacatcactgtttcagaggcatttaaaatgaatcatgcaccgcctaagtattatgacaaagatgaaattaaacgatttatccaactacaaaaacaaggaccgcaagaattatgggataaatttgaaaacaacacaacacatgatctatttacgagacattcggacgtaaagactatgataatttacgccgctacgcccatcgactttgtaggagctgttaaaacatgcaataagtatgccaaagataaccctaaagaaattgtccttcgggtgtgttcaatcatcgacggtgacaatcctatctccatctataatcctatcagcaaagattttaaatcgaaatttagtacactttcaaaatgttaactcccaactttttaaaaaaaaaataaaacagtataacggaaaaaaaaaaaaaaaaaaaaaa</GBSeq_sequence>
+  </GBSeq>

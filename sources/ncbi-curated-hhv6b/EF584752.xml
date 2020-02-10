@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>EF584752</GBSeq_locus>
+    <GBSeq_length>1692</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>29-MAY-2007</GBSeq_update-date>
+    <GBSeq_create-date>29-MAY-2007</GBSeq_create-date>
+    <GBSeq_definition>Human herpesvirus 6B isolate CRIPJ thymidine kinase (TK) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>EF584752</GBSeq_primary-accession>
+    <GBSeq_accession-version>EF584752.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|EF584752.1|</GBSeqid>
+      <GBSeqid>gi|148285584</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human betaherpesvirus 6B</GBSeq_source>
+    <GBSeq_organism>Human betaherpesvirus 6B</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; dsDNA viruses, no RNA stage; Herpesvirales; Herpesviridae; Betaherpesvirinae; Roseolovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1692</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Chande,A.G.</GBAuthor>
+          <GBAuthor>Chakkaramakkil,S.V.</GBAuthor>
+          <GBAuthor>Mukopadhyaya,R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (30-APR-2007) Virology, Tata Memorial Centre, ACTREC, Kharghar, Navi Mumbai, Maharashtra 410208, India</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1692</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1692</GBInterval_to>
+            <GBInterval_accession>EF584752.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human betaherpesvirus 6B</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>CRIPJ</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:32604</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>India</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>subtype: B</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..1692</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1692</GBInterval_to>
+            <GBInterval_accession>EF584752.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>TK</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..1692</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1692</GBInterval_to>
+            <GBInterval_accession>EF584752.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>TK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>protein kinase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>thymidine kinase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ABQ57489.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDNGVETPQGQKTQPINLPPDRKRLRKHDGLGKGVKRKLFAEDSSPLKKQIPACSDMETLPSPVKFGCKSRSASALDESFGKCKHETACDCSAIEELLCHESLLDSPMKLSNAHTMFSSDKWKLELEKIIASKQIFLDMSENVELVAYGETLCNLRIFEKISSPFLFDVQSEERSYSVVYVPHNKELCGQFCQPEKTMARVLGVGAYGKVFDIDKVAIKTANEDESVISAFIAGVIRAKSGADLLSHDCVINNLLISNSVCMDHKVSLSRTYDVDLYKFEDWDVRNVMNYYSVFCKLADAVRFLNLKCRINHFDISPMNIFINHKKEIIFDAVLADYSLSEIHPEYNGTCAIAKEYDRNLQLVPISRNKFCDMFNPGFRPLVANAMILVNVCEAFDGENNPLRHCNLDLCAFAQVVLLCVLRMTDKRGCREAQLYYEKRLFALANEACRLNPLRYPFAYRDACCKVLAEHVVLLGLLFYRDVVDIYEKIYDFLDERGEFGLRDLFEATFLNNSKLTRRQPIRGGLASLQSSEYGEKLLHDLRALFLITSSADLDKDTSSLFQM</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggacaacggtgtggagacacctcaaggtcaaaaaactcagccgataaatttgccaccagacaggaaaaggttgagaaaacatgacggacttggaaaaggtgttaaacgaaaactttttgccgaagatagttctccgttaaagaaacagatccccgcctgcagcgatatggaaacacttccttcgcctgtaaagtttggatgcaagtcgcgaagtgcttctgctctcgatgaaagtttcggaaaatgtaaacacgaaactgcttgcgattgttctgcgatagaggaattgctttgtcacgagtcgcttttagactcgccgatgaaactgtcgaatgcccacaccatgttcagctcagacaaatggaaactggagctagagaaaattatagcttcaaagcagatatttctagacatgagcgagaatgttgaacttgtggcctacggcgagactttgtgtaacctgagaattttcgaaaagatcagctcgccgtttttgtttgacgtgcaaagcgaggagcgttcgtattcagtggtttacgtccctcacaacaaagaactttgtggacagttttgtcaacctgaaaagactatggctcgagttctcggagtgggtgcctacgggaaggtgtttgatatagataaagtggccataaagacggccaacgaagacgagagtgtcatttcggctttcatagccggtgtcatccgtgcaaaatcgggagccgacttattatctcacgactgtgttattaataaccttctgatttcaaattccgtttgtatggatcataaagtgtctttgtcacgtacttatgatgttgatctctataagttcgaagattgggatgtcaggaatgtaatgaattattacagtgtgttttgtaagttagctgatgctgtaaggtttctaaatctgaaatgtagaattaatcatttcgatatctcacctatgaatatctttataaatcataaaaaagagataatctttgatgccgtgttggcggattacagcttgtccgaaatacatcccgagtataacggcacgtgtgctattgctaaagagtatgacagaaatcttcaacttgtgccaatcagtcgtaacaaattctgtgacatgtttaatcctggatttcgaccacttgtcgccaatgcaatgatattggtcaatgtatgcgaggcttttgatggtgaaaataatcctcttagacactgtaatttggatctgtgcgcctttgctcaggtcgtattattgtgtgtcctgagaatgacagataaacgcggatgccgcgaagctcagctatactacgagaaaaggttgtttgcgttggctaacgaggcctgtcgattgaatcctcttagatatccatttgcttacagggatgcttgctgtaaagtattggctgagcatgtagtgttgctagggttattgttttaccgagacgtggttgatatatatgaaaaaatatacgattttctagatgaaagaggggaatttgggttacgagacctgtttgaggcaacttttttaaataatagtaaacttaccagacgtcagccaatcagaggaggtcttgcgtctctacagtcgtccgagtatggagaaaaacttttacatgaccttagagcgttgttcttgatcacttcttctgcagatctggataaagatacatcatctctctttcagatgtga</GBSeq_sequence>
+  </GBSeq>

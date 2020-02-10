@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MK388090</GBSeq_locus>
+    <GBSeq_length>1551</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>mRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>10-AUG-2019</GBSeq_update-date>
+    <GBSeq_create-date>10-AUG-2019</GBSeq_create-date>
+    <GBSeq_definition>Human betaherpesvirus 6B strain HST envelope glycoprotein Q1 (U100) mRNA, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>MK388090</GBSeq_primary-accession>
+    <GBSeq_accession-version>MK388090.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MK388090.1|</GBSeqid>
+      <GBSeqid>gi|1717344053</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human betaherpesvirus 6B</GBSeq_source>
+    <GBSeq_organism>Human betaherpesvirus 6B</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Herpesvirales; Herpesviridae; Betaherpesvirinae; Roseolovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1551</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Huamin,T.</GBAuthor>
+          <GBAuthor>Mori,Y.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-JAN-2019) Division of Clinical Virology, Center for Infectious Diseases (CID), Kobe University Graduate School of Medicine, 7-5-1, Kusunoki-Cho, Chuo-Ku, Kobe, Hyogo 650-0017, Japan</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1551</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1551</GBInterval_to>
+            <GBInterval_accession>MK388090.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human betaherpesvirus 6B</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>HST</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:32604</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Japan</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>02-Jun-2012</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..1551</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1551</GBInterval_to>
+            <GBInterval_accession>MK388090.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>U100</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..1551</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1551</GBInterval_to>
+            <GBInterval_accession>MK388090.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>U100</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein Q1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QDX46967.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MRPPRCSAPILVCAISMATALSNATVYRDAGTVESTPPPDDEDNYTAKYYDDSIYFNIYDGTNPTPRRRTLPEIISKFSTSEMSRLGGLKVFVPVDYTPTTTLEDIEDLLNYAICDDNSCGCLIETEARIMFGDIIICVPLSAESRGVRNLKNRLMPMGLSQILSSGLGLHFSLLYGAFGSNYNSLAYMERLKPLTAMTAIAFCPMTSKLELRQNYRLEKARCELIVNIELLKIQNHGGQTIKTLTSFAIVRKDNDGQDWETCTRFASVSIEDILKSKPAANGTCCPPRDVHHDRPTLQSSNSWTRTEYFEPWQDVVDAYVPINDNHCPNDSYVVFQTLQGHEWCSRLNKNDTKNYLSSVLAFKNALYETEELMETIGMRLASQILSLVGQRGTSIRNIDPAIVSALWHSLPEKLTTTNIKYDIASPTHMSPALCTIFVQTGTSKQRFRNAGLLMVNNIFTVQARYSKQNMFEKKIYGYEHLGQALCEGGHVFYNPRDVYFQNIKMAATEPTVVRT</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgagaccgccgagatgttctgcgccgatactcgtgtgcgcgatttccatggcgacagccctgtcgaatgctacggtctaccgagatgcgggaaccgtggaatccacaccgccgccggacgacgaagacaactataccgcaaaatactatgacgacagcatttattttaacatttacgacggtacaaatcctacgcccagaagacgaacgctacccgaaatcatctctaaattttctacctccgaaatgtcacgtctaggaggccttaaagtttttgtccccgtagattataccccaactactaccttagaagatatagaagacctcctgaactacgccatttgcgatgataacagctgcggttgtctcatagagacagaggcacgcatcatgttcggagatatcataatctgcgttcctctctcggccgaaagcagaggagtgagaaatttgaaaaacagattaatgcctatgggtctatcacagattctctctagcggcctcggccttcacttctctctgctatatggcgctttcgggagcaactataatagtttggcctatatggagcgcctgaaaccactaaccgcgatgacggcgatagctttttgtccaatgactagtaaattggagctacgccaaaactacagactggaaaaggctcgatgcgaactgatcgtcaatatcgaactcttgaagatacaaaaccatggcggacagactatcaaaacgttaacctcgtttgcgatcgttcgaaaagacaacgacgggcaagattgggaaacctgcacgcgcttcgcgtccgttagcatagaggacatattgaagtctaaacctgccgccaatggcacatgttgtcctccccgagacgtgcaccatgatcgtcctacgttacaatcttctaactcatggactcggactgagtatttcgaaccgtggcaggacgtcgttgacgcatacgtccctataaacgataatcattgtccaaacgatagctacgtcgtatttcaaaccctgcaaggtcacgaatggtgttcacgtttgaataagaacgacacgaagaattatttatcttccgtactagcgtttaaaaatgcactgtacgaaactgaggaactgatggaaaccatcggaatgcgacttgcctcacaaatattgtcactggtcggacagcgaggaacatctatacgcaacatagatccggccatcgtaagcgcattgtggcactctttgccagaaaaactgacaacgactaatattaaatacgatatagccagtccgacccatatgagtcccgcattatgcaccatctttgtacagaccggaacttcaaaacaacgtttcagaaatgcgggactactgatggttaacaacatcttcactgtccaagcgagatatagtaaacaaaatatgttcgaaaaaaaaatatatggatatgaacacctcggacaagctttatgcgagggtgggcacgtattttacaacccgagagatgtatactttcagaacatcaaaatggcagctacagaacctactgtcgtgagaacctga</GBSeq_sequence>
+  </GBSeq>
