@@ -1,21 +1,6 @@
 <compoundAligner>
 	<aligners>
 
-<!--
-		<codonAwareBlastAligner>
-			<featureName>DR1</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>DR1R</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>DR6</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>DR6R</featureName>
-		</codonAwareBlastAligner>
--->
-
 		<codonAwareBlastAligner>
 			<featureName>U10</featureName>
 		</codonAwareBlastAligner>
