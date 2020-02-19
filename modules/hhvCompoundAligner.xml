@@ -1,431 +1,240 @@
 <compoundAligner>
 	<aligners>
+
+<!--
 		<codonAwareBlastAligner>
-			<featureName>NS</featureName>
+			<featureName>DR1</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>VP</featureName>
+			<featureName>DR1R</featureName>
 		</codonAwareBlastAligner>
-		
-
-  create feature DR1 -p whole_genome "protein DR1"
-  feature DR1 set metatag OWN_CODON_NUMBERING true
-  feature DR1 set metatag INCLUDE_IN_SUMMARY true
-  feature DR1 set metatag CODES_AMINO_ACIDS true
-
-  create feature DR1R -p whole_genome "protein DR1R"
-  feature DR1R set metatag OWN_CODON_NUMBERING true
-  feature DR1R set metatag INCLUDE_IN_SUMMARY true
-  feature DR1R set metatag CODES_AMINO_ACIDS true
-
-  create feature DR6 -p whole_genome "protein DR6"
-  feature DR1 set metatag OWN_CODON_NUMBERING true
-  feature DR1 set metatag INCLUDE_IN_SUMMARY true
-  feature DR1 set metatag CODES_AMINO_ACIDS true
-  
-  create feature DR6R -p whole_genome "protein DR6R"
-  feature DR6R set metatag OWN_CODON_NUMBERING true
-  feature DR6R set metatag INCLUDE_IN_SUMMARY true
-  feature DR6R set metatag CODES_AMINO_ACIDS true
-  
-  create feature U2 -p whole_genome "tegument protein U2"
-  feature U2 set metatag OWN_CODON_NUMBERING true
-  feature U2 set metatag INCLUDE_IN_SUMMARY true
-  feature U2 set metatag CODES_AMINO_ACIDS true
-
-  create feature U3 -p whole_genome "tegument protein U3"
-  feature U3 set metatag OWN_CODON_NUMBERING true
-  feature U3 set metatag INCLUDE_IN_SUMMARY true
-  feature U3 set metatag CODES_AMINO_ACIDS true
-  
-  create feature U4 -p whole_genome "protein U4"
-  feature U4 set metatag OWN_CODON_NUMBERING true
-  feature U4 set metatag INCLUDE_IN_SUMMARY true
-  feature U4 set metatag CODES_AMINO_ACIDS true
- 
-  create feature U7 -p whole_genome "protein U7"
-  feature U7 set metatag OWN_CODON_NUMBERING true
-  feature U7 set metatag INCLUDE_IN_SUMMARY true
-  feature U7 set metatag CODES_AMINO_ACIDS true
- 
-  create feature U10 -p whole_genome "protein U10"
-  feature U10 set metatag OWN_CODON_NUMBERING true
-  feature U10 set metatag INCLUDE_IN_SUMMARY true
-  feature U10 set metatag CODES_AMINO_ACIDS true
-  
-  create feature U36 -p whole_genome "tegument protein U36"
-  feature U36 set metatag OWN_CODON_NUMBERING true
-  feature U36 set metatag INCLUDE_IN_SUMMARY true
-  feature U36 set metatag CODES_AMINO_ACIDS true
-
-  create feature U35 -p whole_genome "membrane protein U35"
-  feature U35 set metatag OWN_CODON_NUMBERING true
-  feature U35 set metatag INCLUDE_IN_SUMMARY true
-  feature U35 set metatag CODES_AMINO_ACIDS true
-
-  create feature U13 -p whole_genome "protein U13"
-  feature U13 set metatag OWN_CODON_NUMBERING true
-  feature U13 set metatag INCLUDE_IN_SUMMARY true
-  feature U13 set metatag CODES_AMINO_ACIDS true
-
-  create feature U33 -p whole_genome "tegument protein U33"
-  feature U33 set metatag OWN_CODON_NUMBERING true
-  feature U33 set metatag INCLUDE_IN_SUMMARY true
-  feature U33 set metatag CODES_AMINO_ACIDS true
-
-  create feature U15 -p whole_genome "protein U15"
-  feature U15 set metatag OWN_CODON_NUMBERING true
-  feature U15 set metatag INCLUDE_IN_SUMMARY true
-  feature U15 set metatag CODES_AMINO_ACIDS true
-
-  create feature U17 -p whole_genome "tegument protein U17"
-  feature U17 set metatag OWN_CODON_NUMBERING true
-  feature U17 set metatag INCLUDE_IN_SUMMARY true
-  feature U17 set metatag CODES_AMINO_ACIDS true
-
-  create feature U18 -p whole_genome "membrane protein U18"
-  feature U18 set metatag OWN_CODON_NUMBERING true
-  feature U18 set metatag INCLUDE_IN_SUMMARY true
-  feature U18 set metatag CODES_AMINO_ACIDS true
-
-  create feature U20 -p whole_genome "membrane protein U20"
-  feature U20 set metatag OWN_CODON_NUMBERING true
-  feature U20 set metatag INCLUDE_IN_SUMMARY true
-  feature U20 set metatag CODES_AMINO_ACIDS true
-
-  create feature U21 -p whole_genome "membrane protein U21"
-  feature U21 set metatag OWN_CODON_NUMBERING true
-  feature U21 set metatag INCLUDE_IN_SUMMARY true
-  feature U21 set metatag CODES_AMINO_ACIDS true
-
-  create feature U22 -p whole_genome "membrane protein U22"
-  feature U22 set metatag OWN_CODON_NUMBERING true
-  feature U22 set metatag INCLUDE_IN_SUMMARY true
-  feature U22 set metatag CODES_AMINO_ACIDS true
-
-  create feature U23 -p whole_genome "membrane protein U23"
-  feature U23 set metatag OWN_CODON_NUMBERING true
-  feature U23 set metatag INCLUDE_IN_SUMMARY true
-  feature U23 set metatag CODES_AMINO_ACIDS true
-
-  create feature U24 -p whole_genome "protein U24"
-  feature U24 set metatag OWN_CODON_NUMBERING true
-  feature U24 set metatag INCLUDE_IN_SUMMARY true
-  feature U24 set metatag CODES_AMINO_ACIDS true
-
-  create feature U24A -p whole_genome "protein U24A"
-  feature U24A set metatag OWN_CODON_NUMBERING true
-  feature U24A set metatag INCLUDE_IN_SUMMARY true
-  feature U24A set metatag CODES_AMINO_ACIDS true
-
-  create feature U25 -p whole_genome "tegument protein U25"
-  feature U25 set metatag OWN_CODON_NUMBERING true
-  feature U25 set metatag INCLUDE_IN_SUMMARY true
-  feature U25 set metatag CODES_AMINO_ACIDS true
- 
-  create feature U27 -p whole_genome "DNA polymerase processivity subunit U27"
-  feature U27 set metatag OWN_CODON_NUMBERING true
-  feature U27 set metatag INCLUDE_IN_SUMMARY true
-  feature U27 set metatag CODES_AMINO_ACIDS true
-
-  create feature U28 -p whole_genome "Ribonucleotide reductase subunit 1 U28"
-  feature U28 set metatag OWN_CODON_NUMBERING true
-  feature U28 set metatag INCLUDE_IN_SUMMARY true
-  feature U28 set metatag CODES_AMINO_ACIDS true
-
-  create feature U29 -p whole_genome "Capsid triplex subunit 1 U29"
-  feature U29 set metatag OWN_CODON_NUMBERING true
-  feature U29 set metatag INCLUDE_IN_SUMMARY true
-  feature U29 set metatag CODES_AMINO_ACIDS true
-  
-  create feature U30 -p whole_genome "tegument protein U30"
-  feature U30 set metatag OWN_CODON_NUMBERING true
-  feature U30 set metatag INCLUDE_IN_SUMMARY true
-  feature U30 set metatag CODES_AMINO_ACIDS true
-  
-  create feature U31 -p whole_genome "large tegument protein U31"
-  feature U31 set metatag OWN_CODON_NUMBERING true
-  feature U31 set metatag INCLUDE_IN_SUMMARY true
-  feature U31 set metatag CODES_AMINO_ACIDS true
- 
-  create feature U33a -p whole_genome "small capsid protein U33"
-  feature U33a set metatag OWN_CODON_NUMBERING true
-  feature U33a set metatag INCLUDE_IN_SUMMARY true
-  feature U33a set metatag CODES_AMINO_ACIDS true
- 
-  create feature U34 -p whole_genome "protein U34"
-  feature U34 set metatag OWN_CODON_NUMBERING true
-  feature U34 set metatag INCLUDE_IN_SUMMARY true
-  feature U34 set metatag CODES_AMINO_ACIDS true
-  
-  #create feature U13 -p whole_genome "Nuclear egress membrane protein U13"
-  #feature U13 set metatag OWN_CODON_NUMBERING true
-  #feature U13 set metatag INCLUDE_IN_SUMMARY true
-  #feature U13 set metatag CODES_AMINO_ACIDS true
-
-  create feature U12 -p whole_genome "DNA packaging protein U12"
-  feature U12 set metatag OWN_CODON_NUMBERING true
-  feature U12 set metatag INCLUDE_IN_SUMMARY true
-  feature U12 set metatag CODES_AMINO_ACIDS true
-
-  #create feature U36 -p whole_genome "DNA packaging protein U36"
-  #feature U36 set metatag OWN_CODON_NUMBERING true
-  #feature U36 set metatag INCLUDE_IN_SUMMARY true
-  #feature U36 set metatag CODES_AMINO_ACIDS true
-
-  #create feature U37 -p whole_genome "Nuclear egress membrane protein U37
-  #feature U37 set metatag OWN_CODON_NUMBERING true
-  #feature U37 set metatag INCLUDE_IN_SUMMARY true
-  #feature U37 set metatag CODES_AMINO_ACIDS true
-
-  create feature U38 -p whole_genome "DNA polymerase catalytic subunit U38"
-  feature U38 set metatag OWN_CODON_NUMBERING true
-  feature U38 set metatag INCLUDE_IN_SUMMARY true
-  feature U38 set metatag CODES_AMINO_ACIDS true
-
-  create feature U26 -p whole_genome "membrane protein type 3"
-  feature U26 set metatag OWN_CODON_NUMBERING true
-  feature U26 set metatag INCLUDE_IN_SUMMARY true
-  feature U26 set metatag CODES_AMINO_ACIDS true
-
-  create feature U40 -p whole_genome "DNA packaging terminase subunit 2 U40"
-  feature U40 set metatag OWN_CODON_NUMBERING true
-  feature U40 set metatag INCLUDE_IN_SUMMARY true
-  feature U40 set metatag CODES_AMINO_ACIDS true</u>
-
-  create feature U41 -p whole_genome "single-stranded DNA-binding protein U41"
-  feature U41 set metatag OWN_CODON_NUMBERING true
-  feature U41 set metatag INCLUDE_IN_SUMMARY true
-  feature U41 set metatag CODES_AMINO_ACIDS true
-
-  create feature U42 -p whole_genome "multifunctional expression regulator U42"
-  feature U42 set metatag OWN_CODON_NUMBERING true
-  feature U42 set metatag INCLUDE_IN_SUMMARY true
-  feature U42 set metatag CODES_AMINO_ACIDS true
-
-  create feature U44 -p whole_genome "tegument protein U44"
-  feature U44 set metatag OWN_CODON_NUMBERING true
-  feature U44 set metatag INCLUDE_IN_SUMMARY true
-  feature U44 set metatag CODES_AMINO_ACIDS true
-
-  create feature U45 -p whole_genome "deoxyuridine triphosphatase U45"
-  feature U45 set metatag OWN_CODON_NUMBERING true
-  feature U45 set metatag INCLUDE_IN_SUMMARY true
-  feature U45 set metatag CODES_AMINO_ACIDS true
-
-  create feature U72 -p whole_genome "Glycoprotein M U72"
-  feature U72 set metatag OWN_CODON_NUMBERING true
-  feature U72 set metatag INCLUDE_IN_SUMMARY true
-  feature U72 set metatag CODES_AMINO_ACIDS true
-
-  create feature U47 -p whole_genome "Glycoprotein O U47"
-  feature U47 set metatag OWN_CODON_NUMBERING true
-  feature U47 set metatag INCLUDE_IN_SUMMARY true
-  feature U47 set metatag CODES_AMINO_ACIDS true
-
-  create feature U48 -p whole_genome "Glycoprotein H U48"
-  feature U48 set metatag OWN_CODON_NUMBERING true
-  feature U48 set metatag INCLUDE_IN_SUMMARY true
-  feature U48 set metatag CODES_AMINO_ACIDS true
-  
-  #create feature U24 -p whole_genome "Glycoprotein U24"
-  #feature U24 set metatag OWN_CODON_NUMBERING true
-  #feature U24 set metatag INCLUDE_IN_SUMMARY true
-  #feature U24 set metatag CODES_AMINO_ACIDS true
-  
-  create feature U82 -p whole_genome "Glycoprotein U82"
-  feature U82 set metatag OWN_CODON_NUMBERING true
-  feature U82 set metatag INCLUDE_IN_SUMMARY true
-  feature U82 set metatag CODES_AMINO_ACIDS true
-  
-
-  create feature U49 -p whole_genome "nuclear protein U49"
-  feature U49 set metatag OWN_CODON_NUMBERING true
-  feature U49 set metatag INCLUDE_IN_SUMMARY true
-  feature U49 set metatag CODES_AMINO_ACIDS true
-
-  create feature U14 -p whole_genome "DNA packaging tegument protein U14"
-  feature U14 set metatag OWN_CODON_NUMBERING true
-  feature U14 set metatag INCLUDE_IN_SUMMARY true
-  feature U14 set metatag CODES_AMINO_ACIDS true
-
-  create feature U51 -p whole_genome "envelope protein U51"
-  feature U51 set metatag OWN_CODON_NUMBERING true
-  feature U51 set metatag INCLUDE_IN_SUMMARY true
-  feature U51 set metatag CODES_AMINO_ACIDS true
-
-  create feature U52 -p whole_genome "protein U52"
-  feature U52 set metatag OWN_CODON_NUMBERING true
-  feature U52 set metatag INCLUDE_IN_SUMMARY true
-  feature U52 set metatag CODES_AMINO_ACIDS true
-
-  create feature U53 -p whole_genome "Capsid maturation protease U53"
-  feature U53 set metatag OWN_CODON_NUMBERING true
-  feature U53 set metatag INCLUDE_IN_SUMMARY true
-  feature U53 set metatag CODES_AMINO_ACIDS true
-
-  create feature U54 -p whole_genome "tegument protein U54"
-  feature U54 set metatag OWN_CODON_NUMBERING true
-  feature U54 set metatag INCLUDE_IN_SUMMARY true
-  feature U54 set metatag CODES_AMINO_ACIDS true
-
-  create feature U55 -p whole_genome "protein U55"
-  feature U55 set metatag OWN_CODON_NUMBERING true
-  feature U55 set metatag INCLUDE_IN_SUMMARY true
-  feature U55 set metatag CODES_AMINO_ACIDS true
-
-  create feature U56 -p whole_genome "Capsid triplex subunit 2 U56"
-  feature U56 set metatag OWN_CODON_NUMBERING true
-  feature U56 set metatag INCLUDE_IN_SUMMARY true
-  feature U56 set metatag CODES_AMINO_ACIDS true
- 
-  create feature U57 -p whole_genome "Major capsid protein U57"
-  feature U57 set metatag OWN_CODON_NUMBERING true
-  feature U57 set metatag INCLUDE_IN_SUMMARY true
-  feature U57 set metatag CODES_AMINO_ACIDS true
-
-  create feature U58 -p whole_genome "protein U58"
-  feature U58 set metatag OWN_CODON_NUMBERING true
-  feature U58 set metatag INCLUDE_IN_SUMMARY true
-  feature U58 set metatag CODES_AMINO_ACIDS true
-
-  create feature U59 -p whole_genome "tegument protein U59"
-  feature U59 set metatag OWN_CODON_NUMBERING true
-  feature U59 set metatag INCLUDE_IN_SUMMARY true
-  feature U59 set metatag CODES_AMINO_ACIDS true
-
-
-  #create feature U35 -p whole_genome "DNA packaging terminase subunit 1 U35"
-  #feature U35 set metatag OWN_CODON_NUMBERING true
-  #feature U35 set metatag INCLUDE_IN_SUMMARY true
-  #feature U35 set metatag CODES_AMINO_ACIDS true
-
-  create feature U62 -p whole_genome "protein U62"
-  feature U62 set metatag OWN_CODON_NUMBERING true
-  feature U62 set metatag INCLUDE_IN_SUMMARY true
-  feature U62 set metatag CODES_AMINO_ACIDS true
-
-  create feature U63 -p whole_genome "protein U63"
-  feature U63 set metatag OWN_CODON_NUMBERING true
-  feature U63 set metatag INCLUDE_IN_SUMMARY true
-  feature U63 set metatag CODES_AMINO_ACIDS true
-
-  create feature U64 -p whole_genome "DNA packaging tegument protein U64"
-  feature U64 set metatag OWN_CODON_NUMBERING true
-  feature U64 set metatag INCLUDE_IN_SUMMARY true
-  feature U64 set metatag CODES_AMINO_ACIDS true
-
-  create feature U65 -p whole_genome "tegument protein U65"
-  feature U65 set metatag OWN_CODON_NUMBERING true
-  feature U65 set metatag INCLUDE_IN_SUMMARY true
-  feature U65 set metatag CODES_AMINO_ACIDS true
-
-  create feature U67 -p whole_genome "protein U67"
-  feature U67 set metatag OWN_CODON_NUMBERING true
-  feature U67 set metatag INCLUDE_IN_SUMMARY true
-  feature U67 set metatag CODES_AMINO_ACIDS true
-
-  create feature U69 -p whole_genome "Tegument serine/threonine protein kinase U69"
-  feature U69 set metatag OWN_CODON_NUMBERING true
-  feature U69 set metatag INCLUDE_IN_SUMMARY true
-  feature U69 set metatag CODES_AMINO_ACIDS true
-
-  create feature U70 -p whole_genome "alkaline exonuclease U70"
-  feature U70 set metatag OWN_CODON_NUMBERING true
-  feature U70 set metatag INCLUDE_IN_SUMMARY true
-  feature U70 set metatag CODES_AMINO_ACIDS true
- 
-  create feature U71 -p whole_genome "Myristylated tegument protein U71"
-  feature U71 set metatag OWN_CODON_NUMBERING true
-  feature U71 set metatag INCLUDE_IN_SUMMARY true
-  feature U71 set metatag CODES_AMINO_ACIDS true
-
-  create feature U73 -p whole_genome "DNA replication origin-binding helicase U73"
-  feature U73 set metatag OWN_CODON_NUMBERING true
-  feature U73 set metatag INCLUDE_IN_SUMMARY true
-  feature U73 set metatag CODES_AMINO_ACIDS true
-
-  create feature U74 -p whole_genome "helicase-primase subunit U74"
-  feature U74 set metatag OWN_CODON_NUMBERING true
-  feature U74 set metatag INCLUDE_IN_SUMMARY true
-  feature U74 set metatag CODES_AMINO_ACIDS true
-
-  create feature U75 -p whole_genome "tegument protein U75"
-  feature U75 set metatag OWN_CODON_NUMBERING true
-  feature U75 set metatag INCLUDE_IN_SUMMARY true
-  feature U75 set metatag CODES_AMINO_ACIDS true
- 
-  create feature U76 -p whole_genome "capsid portal protein U76"
-  feature U76 set metatag OWN_CODON_NUMBERING true
-  feature U76 set metatag INCLUDE_IN_SUMMARY true
-  feature U76 set metatag CODES_AMINO_ACIDS true
-
-  create feature U77 -p whole_genome "helicase-primase helicase subunit U77"
-  feature U77 set metatag OWN_CODON_NUMBERING true
-  feature U77 set metatag INCLUDE_IN_SUMMARY true
-  feature U77 set metatag CODES_AMINO_ACIDS true
-
-  create feature U79 -p whole_genome "protein U79"
-  feature U79 set metatag OWN_CODON_NUMBERING true
-  feature U79 set metatag INCLUDE_IN_SUMMARY true
-  feature U79 set metatag CODES_AMINO_ACIDS true
-
-  create feature U81 -p whole_genome "uracil-DNA glycosylase U81"
-  feature U81 set metatag OWN_CODON_NUMBERING true
-  feature U81 set metatag INCLUDE_IN_SUMMARY true
-  feature U81 set metatag CODES_AMINO_ACIDS true
-
-  #create feature U82 -p whole_genome "membrane protein L U82"
-  #feature U82 set metatag OWN_CODON_NUMBERING true
-  #feature U82 set metatag INCLUDE_IN_SUMMARY true
-  #feature U82 set metatag CODES_AMINO_ACIDS true
-
-  create feature U83 -p whole_genome "chemokine U83"
-  feature U83 set metatag OWN_CODON_NUMBERING true
-  feature U83 set metatag INCLUDE_IN_SUMMARY true
-  feature U83 set metatag CODES_AMINO_ACIDS true
-
-  create feature U84 -p whole_genome "protein U84"
-  feature U84 set metatag OWN_CODON_NUMBERING true
-  feature U84 set metatag INCLUDE_IN_SUMMARY true
-  feature U84 set metatag CODES_AMINO_ACIDS true
-
-  create feature U85 -p whole_genome "membrane glycoprotein U85"
-  feature U85 set metatag OWN_CODON_NUMBERING true
-  feature U85 set metatag INCLUDE_IN_SUMMARY true
-  feature U85 set metatag CODES_AMINO_ACIDS true
-
-  create feature U86 -p whole_genome "regulatory protein U86"
-  feature U86 set metatag OWN_CODON_NUMBERING true
-  feature U86 set metatag INCLUDE_IN_SUMMARY true
-  feature U86 set metatag CODES_AMINO_ACIDS true
-
-  create feature U90 -p whole_genome "regulatory protein U90"
-  feature U90 set metatag OWN_CODON_NUMBERING true
-  feature U90 set metatag INCLUDE_IN_SUMMARY true
-  feature U90 set metatag CODES_AMINO_ACIDS true
-
-  create feature U91 -p whole_genome "membrane protein U91"
-  feature U91 set metatag OWN_CODON_NUMBERING true
-  feature U91 set metatag INCLUDE_IN_SUMMARY true
-  feature U91 set metatag CODES_AMINO_ACIDS true
-
-  create feature U94 -p whole_genome "Rep protein U94"
-  feature U94 set metatag OWN_CODON_NUMBERING true
-  feature U94 set metatag INCLUDE_IN_SUMMARY true
-  feature U94 set metatag CODES_AMINO_ACIDS true
-
-  create feature U95 -p whole_genome "protein U95"
-  feature U95 set metatag OWN_CODON_NUMBERING true
-  feature U95 set metatag INCLUDE_IN_SUMMARY true
-  feature U95 set metatag CODES_AMINO_ACIDS true
-  
-  create feature U100 -p whole_genome "Glycoprotein Q U100"
-  feature U100 set metatag OWN_CODON_NUMBERING true
-  feature U100 set metatag INCLUDE_IN_SUMMARY true
-  feature U100 set metatag CODES_AMINO_ACIDS true
-
-		
+		<codonAwareBlastAligner>
+			<featureName>DR6</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>DR6R</featureName>
+		</codonAwareBlastAligner>
+-->
+
+		<codonAwareBlastAligner>
+			<featureName>U10</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U100</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U12</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U13</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U14</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U15</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U17</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U18</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U2</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U20</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U21</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U22</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U23</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U24</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U24A</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U25</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U26</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U27</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U28</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U29</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U3</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U30</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U31</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U33</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U33a</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U34</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U35</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U36</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U38</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U4</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U40</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U41</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U42</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U44</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U45</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U47</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U48</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U49</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U51</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U52</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U53</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U54</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U55</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U56</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U57</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U58</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U59</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U62</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U63</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U64</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U65</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U67</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U69</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U7</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U70</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U71</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U72</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U73</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U74</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U75</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U76</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U77</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U79</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U81</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U82</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U83</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U84</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U85</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U86</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U90</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U91</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U94</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U95</featureName>
+		</codonAwareBlastAligner>		
 
 		<blastAligner/>
 	</aligners>
