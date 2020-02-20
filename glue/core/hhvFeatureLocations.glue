@@ -54,10 +54,16 @@
     feature-location U10 
      add segment 17600 19111
      exit
-  
+
+    add feature-location U12
+    feature-location U12 
+     add segment 21729 21761 --spliceIndex 1
+     add segment 21851 22861 --spliceIndex 2
+     exit
+
     add feature-location U36 
     feature-location U36 
-     add segment 19015 21627
+     add segment 54301 55755
      exit
 
     add feature-location U35
@@ -91,7 +97,12 @@
 
     add feature-location U18 
     feature-location U18 
-     add segment 13210 17087 
+     add segment 28557 29438 
+     exit
+
+    add feature-location U19
+    feature-location U19 
+     add segment 29698 30867 
      exit
 
     add feature-location U20
@@ -169,11 +180,6 @@
     # add segment 53982 54302
     # exit
 
-    #add feature-location U36
-    #feature-location U36 
-    # add segment 54301 55755
-    # exit
-
     #add feature-location U37 
     #feature-location U37 
     # add segment 55759 56553
@@ -236,7 +242,7 @@
 
     add feature-location U49
     feature-location U49 
-     add segment 53135 53965
+     add segment 80329 81087
      exit
      
     add feature-location U82
@@ -256,7 +262,7 @@
 
     add feature-location U52
     feature-location U52 
-     add segment 83550 84326
+     add segment 83553 84326
      exit
 
     add feature-location U53
@@ -367,7 +373,7 @@
 
     add feature-location U79
     feature-location U79 
-     add segment 120216 121818
+     add segment 120216 121817
      exit
 
     add feature-location U81
@@ -404,7 +410,9 @@
 
     add feature-location U90
     feature-location U90 
-     add segment 127549 128233
+     add segment 133146 135718 --spliceIndex 1
+     add segment 135826 136019 --spliceIndex 2
+     add segment 136108 136166 --spliceIndex 3
      exit
 
     add feature-location U91
@@ -414,7 +422,7 @@
 
     add feature-location U94
     feature-location U94
-     add segment 140076 140951
+     add segment 141449 142921
      exit
   
     add feature-location U95
@@ -424,7 +432,16 @@
   
     add feature-location U100
     feature-location U100 
-     add segment 146696 150336
+     add segment 146696 147038 --spliceIndex 1
+     add segment 147149 147277 --spliceIndex 2
+     add segment 147428 147437 --spliceIndex 3
+     add segment 147949 148109 --spliceIndex 4
+     add segment 148196 148309 --spliceIndex 5
+     add segment 148401 148508 --spliceIndex 6
+     add segment 148605 148682 --spliceIndex 7
+     add segment 148800 149135 --spliceIndex 8
+     add segment 149544 149825 --spliceIndex 9
+     add segment 149927 150336 --spliceIndex 10
      exit
 
 
