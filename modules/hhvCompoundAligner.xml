@@ -74,9 +74,6 @@
 			<featureName>U33</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>U33a</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
 			<featureName>U34</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
