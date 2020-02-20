@@ -14,23 +14,8 @@
     </textFileColumn>
 
     <textFileColumn>
-        <header>virus_full_name</header>
-        <property>full_name</property>
-    </textFileColumn>
-
-    <textFileColumn>
-        <header>virus_genus</header>
-        <property>genus</property>
-    </textFileColumn>
-
-    <textFileColumn>
         <header>virus_clade</header>
         <property>clade</property>
-    </textFileColumn>
-
-    <textFileColumn>
-        <header>virus_subfamily</header>
-        <property>subfamily</property>
     </textFileColumn>
 
     <textFileColumn>

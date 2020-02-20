@@ -1,0 +1,10 @@
+delete module hhvCompoundAligner
+delete alignment AL_HHV6A
+
+
+create module -f modules/hhvCompoundAligner.xml
+
+create alignment AL_HHV6A -r REF_MASTER_HHV6A
+alignment AL_HHV6A add member -w "source.name = 'ncbi-curated-hhv6a'"
+compute alignment AL_HHV6A hhvCompoundAligner
+

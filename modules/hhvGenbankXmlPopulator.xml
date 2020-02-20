@@ -1,4 +1,20 @@
 <genbankXmlPopulator>
+
+	<gbOrganism>
+		<propertyPopulator property="name"/>
+		<propertyPopulator property="full_name"/>
+	</gbOrganism>
+
+
+	<gbLength>
+		<propertyPopulator property="length"/>
+	</gbLength>
+
+	<gbReference>
+		<gbRefPubmed>
+			<propertyPopulator property="pubmed_id"/>
+		</gbRefPubmed>
+	</gbReference>
 	
 	<gbFeature key="source">
 	
@@ -14,14 +30,14 @@
 		</gbQualifier>
 
 		<gbQualifier name="host">
-			<propertyPopulator property="host_sci_name">
+		
+			<propertyPopulator property="isolate_data.host_sci_name">
 
 				<!-- #### Human -->																																									
 				<valueConverter>
 					<matchPattern>.*Homo [sS]apiens.*</matchPattern>
 					<outputTemplate>Homo sapiens</outputTemplate>
 				</valueConverter>
-	
 				
 			</propertyPopulator>
 		</gbQualifier>
@@ -41,8 +57,6 @@
 				<outputTemplate>${g1}</outputTemplate>
 			</propertyPopulator>
 		</gbQualifier>
-		
-		
 		
 	</gbFeature>
 	

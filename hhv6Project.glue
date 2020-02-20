@@ -11,5 +11,5 @@ schema-project hhv
 run file glue/build/buildCoreProject.glue
   
 # Build EVE extension (incorporates EVE loci)
-run file glue/build/buildEveExtension.glue
+#run file glue/build/buildEveExtension.glue
 
