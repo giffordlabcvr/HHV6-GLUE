@@ -216,7 +216,9 @@
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
 			<featureName>U95</featureName>
-		</codonAwareBlastAligner>		
+		<blastAligner>
+			<featureName>whole_genome</featureName>
+		</blastAligner>
 
 		<blastAligner/>
 	</aligners>
