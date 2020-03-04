@@ -1,24 +1,10 @@
-project aav
+project hhv6
 
-  import source sources/ncbi-curated/
-  
-  module aavGenbankXmlPopulator populate
-  
-  #module aavTextFilePopulator populate -f tabular/aav-data.tsv
-  
-  # Extend constrained alignment tree
-  run file glue/aavAlignmentTreeExtension.glue
+  # Import NCBI reference sequences 
+  import source sources/ncbi-curated-hhv6a
+  import source sources/ncbi-curated-hhv6b
 
-  
+  # Validate
+  validate
+
   exit
-  
-
-
-
-
-
-
-
-
-
-
