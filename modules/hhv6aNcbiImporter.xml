@@ -3,7 +3,7 @@
        An alternative to eSearchTerm is to specify specific GI numbers or Primary Accessions 
        to retrieve. See ncbiImporterGiNumbers.xml and ncbiImporterPrimaryAccessions.xml for syntax examples -->
   <eSearchTerm>
-     "Human betaherpesvirus 6A"[Organism] AND 500:18000[SLEN]
+     "Human betaherpesvirus 6A"[Organism] AND 100000:180000[SLEN]
   </eSearchTerm>  
   <sequenceFormat>GENBANK_XML</sequenceFormat>
   <sourceName>ncbi-curated-hhv6a</sourceName>
