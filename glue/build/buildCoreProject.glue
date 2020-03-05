@@ -1,4 +1,4 @@
-project hhv
+project hhv6
 
   # load project settings
   run file glue/core/projectSettings.glue
@@ -8,9 +8,7 @@ project hhv
 
   # Import NCBI reference sequences 
   import source sources/ncbi-refseqs
-  import source sources/ncbi-curated-hhv6a
-  import source sources/ncbi-curated-hhv6b
-  
+
   # Import data 
   run file glue/core/hhvLoadVirusData.glue
 

@@ -1,8 +1,8 @@
-delete project hhv
+delete project hhv6
 
-create project hhv "Comparative analysis of human herpesvirus 6 genomes" --minVersion 0.1.66
+create project hhv6 "Comparative analysis of human herpesvirus 6 genomes" --minVersion 0.1.66
 
-schema-project hhv
+schema-project hhv6
 
   run file glue/core/hhvSchemaExtensions.glue
   exit
