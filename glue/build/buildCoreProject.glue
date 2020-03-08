@@ -21,8 +21,6 @@ project hhv6
   # Add feature locations to reference sequences
   run file glue/core/hhvFeatureLocations.glue
 
-  # Import alignments and build constrained alignment tree
-  #run file glue/core/hhvAlignments.glue
 
   # Validate
   validate

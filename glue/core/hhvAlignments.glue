@@ -1,9 +1,0 @@
-# Import unconstrained pre-built alignments
-
-  module unconstrainedAlignmentImporter 
-
-    #~# Root-level alignments
-    #import AL_DEPENDO_UNC -f alignments/root/dependo-genome.fna
-    exit
-
-

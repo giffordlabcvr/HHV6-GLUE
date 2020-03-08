@@ -7,8 +7,11 @@ schema-project hhv6
   run file glue/core/hhvSchemaExtensions.glue
   exit
 
-# Build core project
+# Build core project (reference sequences only)
 run file glue/build/buildCoreProject.glue
+ 
+# Build project extension (incorporates curated set)
+run file glue/build/buildProjectExtension.glue
   
 # Build EVE extension (incorporates EVE loci)
 #run file glue/build/buildEveExtension.glue
