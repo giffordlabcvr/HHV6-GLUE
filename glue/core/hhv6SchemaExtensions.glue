@@ -1,6 +1,7 @@
   table sequence
     create field name VARCHAR 100  
-    create field full_name VARCHAR 100
+    create field exogenous BOOLEAN
+    create field locus VARCHAR 50
     create field clade VARCHAR 50
     create field length INTEGER
     create field pubmed_id VARCHAR 50
@@ -18,12 +19,12 @@
   table isolate_data
     create field isolate VARCHAR 100
     create field host_sci_name VARCHAR 100
-    create field sample_date DATE
-    create field place_sampled VARCHAR 100
-    create field country_iso VARCHAR
+    create field country_iso VARCHAR 100
     create field country VARCHAR 200
-    create field collection_year INTEGER 
-    create field collection_month VARCHAR
+    create field place_sampled VARCHAR 100
+    create field sample_date DATE
+    create field collection_year  VARCHAR 10
+    create field collection_month VARCHAR 10
     create field collection_month_day INTEGER
   exit
 

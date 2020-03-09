@@ -2,7 +2,6 @@
 
 	<gbOrganism>
 		<propertyPopulator property="name"/>
-		<propertyPopulator property="full_name"/>
 	</gbOrganism>
 
 
@@ -17,10 +16,15 @@
 	</gbReference>
 	
 	<gbFeature key="source">
+
 	
 		<gbQualifier name="isolate">
 			<propertyPopulator property="isolate_data.isolate"/>
 		</gbQualifier>
+		<gbQualifier name="strain">
+			<propertyPopulator property="isolate_data.isolate"/>
+		</gbQualifier>
+		
 		<gbQualifier name="country">
 			<propertyPopulator property="isolate_data.country"/>
 			<propertyPopulator property="isolate_data.place_sampled">

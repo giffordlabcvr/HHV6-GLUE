@@ -4,23 +4,38 @@
     
     <textFileColumn>
         <identifier>true</identifier>
-        <header>accession-ID</header>
+        <header>sequenceID</header>
         <property>sequenceID</property>
     </textFileColumn>
 
     <textFileColumn>
-        <header>virus_name</header>
-        <property>name</property>
+        <header>exogenous</header>
+        <property>exogenous</property>
     </textFileColumn>
 
     <textFileColumn>
-        <header>virus_clade</header>
+        <header>locus</header>
+        <property>locus</property>
+    </textFileColumn>
+
+    <textFileColumn>
+        <header>clade</header>
         <property>clade</property>
     </textFileColumn>
 
     <textFileColumn>
-        <header>host_species</header>
-        <property>isolate_data.host_sci_name</property>
+        <header>isolate</header>
+        <property>isolate_data.isolate</property>
+    </textFileColumn>
+
+    <textFileColumn>
+        <header>country</header>
+        <property>isolate_data.country_iso</property>
+    </textFileColumn>
+
+    <textFileColumn>
+        <header>collection_year</header>
+        <property>isolate_data.collection_year</property>
     </textFileColumn>
 
     <skipMissing>true</skipMissing>
