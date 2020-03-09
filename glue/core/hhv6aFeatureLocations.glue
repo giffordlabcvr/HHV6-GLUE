@@ -12,8 +12,7 @@
      add segment 501 759 --spliceIndex 1
      add segment 843 2653 --spliceIndex 2
      exit
-  
-  
+   
     add feature-location DR6
     feature-location DR6
      add segment 4725 5028 --spliceIndex 1
@@ -30,7 +29,6 @@
     feature-location U2 
      add segment 8712 9812
      exit
-
 
     add feature-location U3 
     feature-location U3 
@@ -49,7 +47,6 @@
      add segment 16025 17087 --spliceIndex 3
      exit
 
- 
     add feature-location U10
     feature-location U10 
      add segment 17600 19111
@@ -164,7 +161,7 @@
     feature-location U31 
      add segment 45199 51432 
      exit
-
+     
     #add feature-location U33
     #feature-location U33 
     # add segment 51772 53184 

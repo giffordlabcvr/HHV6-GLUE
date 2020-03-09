@@ -1,0 +1,13 @@
+project hhv6
+
+  # Import NCBI reference sequences 
+  import source sources/ncbi-curated-hhv6a
+  import source sources/ncbi-curated-hhv6b
+
+  # Import alignments and build constrained alignment tree
+  run file glue/core/hhv6CreateAlignments.glue
+
+  # Validate
+  validate
+
+  exit

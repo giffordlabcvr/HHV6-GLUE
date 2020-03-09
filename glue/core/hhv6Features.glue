@@ -1,3 +1,5 @@
+### Features in both HHV6a and HHV6b 
+
   create feature whole_genome "Whole genome"
   feature whole_genome set metatag INFORMATIONAL true
 
@@ -19,7 +21,7 @@
   feature DR1R set metatag INCLUDE_IN_SUMMARY true
   feature DR1R set metatag CODES_AMINO_ACIDS true
 
-  create feature DR6 -p whole_genome "protein DR6"
+  create feature DR6 -p whole_genome "Transactivator gene"
   feature DR6 set metatag OWN_CODON_NUMBERING true
   feature DR6 set metatag INCLUDE_IN_SUMMARY true
   feature DR6 set metatag CODES_AMINO_ACIDS true
@@ -365,11 +367,11 @@
   feature U72 set metatag INCLUDE_IN_SUMMARY true
   feature U72 set metatag CODES_AMINO_ACIDS true
   feature U72 set metatag REVERSE_COMPLEMENT_TRANSLATION true
+  
   #create feature U72 -p whole_genome "Glycoprotein M U72"
   #feature U72 set metatag OWN_CODON_NUMBERING true
   #feature U72 set metatag INCLUDE_IN_SUMMARY true
   #feature U72 set metatag CODES_AMINO_ACIDS true
-
 
   create feature U73 -p whole_genome "DNA replication origin-binding helicase U73"
   feature U73 set metatag OWN_CODON_NUMBERING true
@@ -470,4 +472,81 @@
   #feature DR1 set metatag OWN_CODON_NUMBERING true
   #feature DR1 set metatag INCLUDE_IN_SUMMARY true
   #feature DR1 set metatag CODES_AMINO_ACIDS true
+
+### Features in HHV6a only
+
+
+### Features in HHV6b only
+
+  create feature DR3 -p whole_genome "protein DR3"
+  feature DR3 set metatag OWN_CODON_NUMBERING true
+  feature DR3 set metatag INCLUDE_IN_SUMMARY true
+  feature DR3 set metatag CODES_AMINO_ACIDS true
+  feature DR3 set metatag REVERSE_COMPLEMENT_TRANSLATION true
+
+  create feature B1 -p whole_genome "protein B1"
+  feature B1 set metatag OWN_CODON_NUMBERING true
+  feature B1 set metatag INCLUDE_IN_SUMMARY true
+  feature B1 set metatag CODES_AMINO_ACIDS true
+
+  create feature B2 -p whole_genome "protein B2"
+  feature B2 set metatag OWN_CODON_NUMBERING true
+  feature B2 set metatag INCLUDE_IN_SUMMARY true
+  feature B2 set metatag CODES_AMINO_ACIDS true
+
+  create feature B3 -p whole_genome "protein B3"
+  feature B3 set metatag OWN_CODON_NUMBERING true
+  feature B3 set metatag INCLUDE_IN_SUMMARY true
+  feature B3 set metatag CODES_AMINO_ACIDS true
+
+  create feature B4 -p whole_genome "protein B4"
+  feature B4 set metatag OWN_CODON_NUMBERING true
+  feature B4 set metatag INCLUDE_IN_SUMMARY true
+  feature B4 set metatag CODES_AMINO_ACIDS true
+  feature B4 set metatag REVERSE_COMPLEMENT_TRANSLATION true
+
+  create feature U6 -p whole_genome "protein U6"
+  feature U6 set metatag OWN_CODON_NUMBERING true
+  feature U6 set metatag INCLUDE_IN_SUMMARY true
+
+  create feature U8 -p whole_genome "protein U8"
+  feature U8 set metatag OWN_CODON_NUMBERING true
+  feature U8 set metatag INCLUDE_IN_SUMMARY true
+
+  create feature U9 -p whole_genome "protein U9"
+  feature U9 set metatag OWN_CODON_NUMBERING true
+  feature U9 set metatag INCLUDE_IN_SUMMARY true
+
+  create feature U32 -p whole_genome "protein U32"
+  feature U32 set metatag OWN_CODON_NUMBERING true
+  feature U32 set metatag INCLUDE_IN_SUMMARY true
+
+  create feature U37 -p whole_genome "protein U37"
+  feature U37 set metatag OWN_CODON_NUMBERING true
+  feature U37 set metatag INCLUDE_IN_SUMMARY true
+
+  create feature U39 -p whole_genome "protein U39"
+  feature U39 set metatag OWN_CODON_NUMBERING true
+  feature U39 set metatag INCLUDE_IN_SUMMARY true
+
+  create feature U43 -p whole_genome "protein U43"
+  feature U43 set metatag OWN_CODON_NUMBERING true
+  feature U43 set metatag INCLUDE_IN_SUMMARY true
+
+  create feature U46 -p whole_genome "protein U46"
+  feature U46 set metatag OWN_CODON_NUMBERING true
+  feature U46 set metatag INCLUDE_IN_SUMMARY true
+
+  create feature U50 -p whole_genome "protein U50"
+  feature U50 set metatag OWN_CODON_NUMBERING true
+  feature U50 set metatag INCLUDE_IN_SUMMARY true
+
+  create feature U66 -p whole_genome "protein U66"
+  feature U66 set metatag OWN_CODON_NUMBERING true
+  feature U66 set metatag INCLUDE_IN_SUMMARY true
+
+  create feature U68 -p whole_genome "protein U68"
+  feature U68 set metatag OWN_CODON_NUMBERING true
+  feature U68 set metatag INCLUDE_IN_SUMMARY true
+
 
