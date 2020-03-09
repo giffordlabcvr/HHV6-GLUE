@@ -4,15 +4,15 @@ create project hhv6 "Comparative analysis of human herpesvirus 6 genomes" --minV
 
 schema-project hhv6
 
-  run file glue/core/hhvSchemaExtensions.glue
+  run file glue/core/hhv6SchemaExtensions.glue
   exit
 
 # Build core project (reference sequences only)
-run file glue/build/buildCoreProject.glue
+run file glue/core/buildCoreProject.glue
  
 # Build project extension (incorporates curated set)
-run file glue/build/buildProjectExtension.glue
+run file glue/extension/buildProjectExtension.glue
   
 # Build EVE extension (incorporates EVE loci)
-#run file glue/build/buildEveExtension.glue
+#run file glue/eve/buildEveExtension.glue
 
