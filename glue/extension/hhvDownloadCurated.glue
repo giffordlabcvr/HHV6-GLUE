@@ -8,3 +8,10 @@ module hhv6aNcbiImporter import
 create module -f modules/hhv6bNcbiImporter.xml 
 module hhv6bNcbiImporter import
 
+# "HHV6"
+create module -f modules/hhv6NcbiImporter.xml 
+module hhv6NcbiImporter import
+
+export source ncbi-curated-hhv6
+export source ncbi-curated-hhv6a
+export source ncbi-curated-hhv6b

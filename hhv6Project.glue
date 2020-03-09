@@ -12,7 +12,4 @@ run file glue/core/buildCoreProject.glue
  
 # Build project extension (incorporates curated set)
 run file glue/extension/buildProjectExtension.glue
-  
-# Build EVE extension (incorporates EVE loci)
-#run file glue/eve/buildEveExtension.glue
 

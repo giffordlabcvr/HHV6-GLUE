@@ -152,7 +152,7 @@ KY316033	Human betaherpesvirus 6B	-	-	-	-	LEI-ALD	United Kingdom	-	Homo sapiens
 KY316034	Human betaherpesvirus 6B	-	-	-	-	HGDP01077	Italy: Sardinia	-	Homo sapiens
 KY316035	Human betaherpesvirus 6B	-	-	-	-	HGDP01065	Italy: Sardinia	-	Homo sapiens
 KY316036	Human betaherpesvirus 6B	-	-	-	-	HGDP00813	China: Han	-	Homo sapiens
-KY316037	Human betaherpesvirus 6B	-	-	-	-	HGDP00092	Pakistan: Balochi	-	Homo sapiens
+KY316037	Human betaherpesvirus 6B	TRUE	Chr15q	NK3	-	HGDP00092	Pakistan: Balochi	-	Homo sapiens
 KY316038	Human betaherpesvirus 6B	-	-	-	-	HAPMAP_NA10863	USA: Utah	-	Homo sapiens
 KY316039	Human betaherpesvirus 6B	-	-	-	-	HAPMAP NA7022	USA: Utah	-	Homo sapiens
 KY316040	Human betaherpesvirus 6B	-	-	-	-	DER512	United Kingdom: England, Derbyshire	-	Homo sapiens
@@ -194,16 +194,16 @@ MF994825	Human betaherpesvirus 6B	-	-	-	-	KYO	Japan	1988	Homo sapiens
 MF994826	Human betaherpesvirus 6B	-	-	B2	-	MAR	France	1991	Homo sapiens
 MF994827	Human betaherpesvirus 6B	-	-	-	-	NAK	Japan	1988	Homo sapiens
 MF994828	Human betaherpesvirus 6A	-	-	A1	-	SIE	Cote d'Ivoire	1988	Homo sapiens
-MF994829	Human betaherpesvirus 6B	-	-	-	-	Z29	Democratic Republic of the Congo	1988	Homo sapiens
+MF994829	Human betaherpesvirus 6B	-	-	Z29	-	Z29	Democratic Republic of the Congo	1988	Homo sapiens
 MG894368	Human betaherpesvirus 6B	TRUE	Chr19p	B5	-	iciHG00245	United Kingdom	2011	-
 MG894369	Human betaherpesvirus 6B	-	-	-	-	iciHG00362	Finland	2011	-
 MG894370	Human betaherpesvirus 6A	-	-	-	-	iciHG00657	China	2011	-
 MG894371	Human betaherpesvirus 6A	TRUE	Chr19p	A3	-	iciHG01277	Colombia	2011	-
 MG894372	Human betaherpesvirus 6B	-	-	-	-	iciHG02016	Viet Nam	2011	-
-MG894373	Human betaherpesvirus 6B	-	-	-	-	iciHG02301	Peru	2011	-
+MG894373	Human betaherpesvirus 6B	TRUE	Chr3q	NK1	-	iciHG02301	Peru	2011	-
 MG894374	Human betaherpesvirus 6A	-	-	-	-	iciNA18999	Japan	2009	-
-MG894375	Human betaherpesvirus 6B	-	-	-	-	iciNA19381	Kenya	2009	-
-MG894376	Human betaherpesvirus 6B	-	-	-	-	iciNA19382	Kenya	2009	-
+MG894375	Human betaherpesvirus 6B	TRUE	Ch1q	NK2	-	iciNA19381	Kenya	2009	-
+MG894376	Human betaherpesvirus 6B	TRUE	Ch1q	NK2	-	iciNA19382	Kenya	2009	-
 MH698398	Human betaherpesvirus 6B	-	-	-	-	GTEX-14C38_icihhv6b	USA	2018	Homo sapiens
 MH698399	Human betaherpesvirus 6B	-	-	-	-	GTEX-13FLV_icihhv6b	USA	2018	Homo sapiens
 MH698400	Human betaherpesvirus 6A	-	-	-	-	GTEX-11DXY	USA	2018	Homo sapiens
