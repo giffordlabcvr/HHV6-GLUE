@@ -1,0 +1,8 @@
+  delete module hhv6FeaturePresenceRecorder
+  create module -f modules/hhv6FeaturePresenceRecorder.xml
+
+  module hhv6FeaturePresenceRecorder 
+    record feature-presence AL_HHV6A --recursive --whereClause "sequence.source.name = 'ncbi-curated-hhv6a'" --featureName whole_genome --descendentFeatures
+    record feature-presence AL_HHV6B --recursive --whereClause "sequence.source.name = 'ncbi-curated-hhv6b'" --featureName whole_genome --descendentFeatures
+    exit
+

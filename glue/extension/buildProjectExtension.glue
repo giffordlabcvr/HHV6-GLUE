@@ -19,6 +19,9 @@ project hhv6
   # Import alignments and build constrained alignment tree
   run file glue/extension/hhv6CreateAlignments.glue
 
+  # Record feature presence
+  run file glue/extension/hhv6RecordFeaturePresence.glue
+
   # Validate
   validate
 
