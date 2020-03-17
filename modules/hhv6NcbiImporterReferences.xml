@@ -1,0 +1,14 @@
+<!-- HHV6 reference sequences from NCBI -->
+<ncbiImporter>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sourceName>ncbi-refseqs</sourceName>
+  <specificPrimaryAccessions>
+
+	<primaryAccession>NC_001664</primaryAccession>
+	<primaryAccession>NC_000898</primaryAccession>
+	
+  </specificPrimaryAccessions>  
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>
+

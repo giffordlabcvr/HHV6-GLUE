@@ -1,0 +1,15 @@
+delete project hhv6
+
+create project hhv6 "Comparative analysis of human herpesvirus 6 genomes" --minVersion 0.1.66
+
+schema-project hhv6
+
+  run file glue/core/hhv6SchemaExtensions.glue
+  exit
+
+# Build core project (reference sequences only)
+run file glue/core/buildCoreProject.glue
+ 
+# Build project extension (incorporates curated set)
+run file glue/extension/buildProjectExtension.glue
+
