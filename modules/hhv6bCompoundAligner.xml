@@ -1,6 +1,5 @@
 <compoundAligner>
 	<aligners>
-
 		<codonAwareBlastAligner>
 			<featureName>DR1.5p</featureName>
 		</codonAwareBlastAligner>
@@ -108,7 +107,6 @@
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
 			<featureName>U71</featureName>
-		</codonAwareBlastAligner>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
 			<featureName>U74</featureName>
