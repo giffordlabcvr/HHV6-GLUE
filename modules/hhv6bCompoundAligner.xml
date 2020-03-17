@@ -2,31 +2,34 @@
 	<aligners>
 
 		<codonAwareBlastAligner>
-			<featureName>U10</featureName>
+			<featureName>DR1.5p</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>U100</featureName>
+			<featureName>DR3.5p</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>B4</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U2</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U4</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U6</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U9</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>U11</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
 			<featureName>U12</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>U13</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U14</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U15</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
 			<featureName>U17</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U18</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U2</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
 			<featureName>U20</featureName>
@@ -35,34 +38,13 @@
 			<featureName>U21</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>U22</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U23</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U24</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U24A</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
 			<featureName>U25</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U26</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
 			<featureName>U27</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>U28</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
 			<featureName>U29</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U3</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
 			<featureName>U30</featureName>
@@ -77,55 +59,31 @@
 			<featureName>U34</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>U35</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U36</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
 			<featureName>U38</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>U4</featureName>
+			<featureName>U39</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
 			<featureName>U40</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>U41</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
 			<featureName>U42</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U44</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
 			<featureName>U45</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>U47</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U48</featureName>
+			<featureName>U46</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
 			<featureName>U49</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>U51</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U52</featureName>
+			<featureName>U50</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
 			<featureName>U53</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U54</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U55</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
 			<featureName>U56</featureName>
@@ -134,25 +92,16 @@
 			<featureName>U57</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>U58</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
 			<featureName>U59</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>U64</featureName>
+			<featureName>U63</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>U65</featureName>
+			<featureName>U66</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
 			<featureName>U67</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U69</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U7</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
 			<featureName>U70</featureName>
@@ -160,11 +109,6 @@
 		<codonAwareBlastAligner>
 			<featureName>U71</featureName>
 		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U72</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U73</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
 			<featureName>U74</featureName>
@@ -173,28 +117,10 @@
 			<featureName>U75</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>U76</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U77</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U79</featureName>
+			<featureName>B6</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
 			<featureName>U81</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U82</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U83</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U84</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U85</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
 			<featureName>U86</featureName>
@@ -203,18 +129,23 @@
 			<featureName>U90</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
-			<featureName>U91</featureName>
-		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>U94</featureName>
+			<featureName>B8</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
 			<featureName>U95</featureName>
 		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>B9</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>DR3.3p</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>DR6.3p</featureName>
+		</codonAwareBlastAligner>
 		<blastAligner>
 			<featureName>whole_genome</featureName>
 		</blastAligner>
-
-		<blastAligner/>
 	</aligners>
+	
 </compoundAligner>

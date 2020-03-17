@@ -7,41 +7,25 @@
       add segment 1 162114
       exit
 
-    add feature-location DR1 
-    feature-location DR1 
+    add feature-location DR1.5p
+    feature-location DR1.5p 
      add segment 583 841 --spliceIndex 1
      add segment 955 2975 --spliceIndex 2
      exit
 
-    add feature-location DR3
-    feature-location DR3
-     add segment 156044 156646
+    add feature-location DR3.5p
+    feature-location DR3.5p
+     add segment 2723 3325
      exit
 
-    add feature-location B1
-    feature-location B1
-     add segment 156343 156822
+    add feature-location B4
+    feature-location B4
+     add segment 8911 9492
      exit
-
-    add feature-location B2
-    feature-location B2
-     add segment 3536 3775
-     exit
-
-    add feature-location DR6
-    feature-location DR6
-     add segment 5027 5330 --spliceIndex 1
-     add segment 6329 7203 --spliceIndex 2
-     exit
-       
+            
     add feature-location U2
     feature-location U2 
      add segment 9624 10715
-     exit
-
-    add feature-location U3
-    feature-location U3
-     add segment 11045 12205
      exit
 
     add feature-location U4
@@ -49,30 +33,14 @@
      add segment 12433 14040
      exit
 
-    add feature-location U7
-    feature-location U7 
-     add segment 14159 15800 --spliceIndex 1
-     add segment 15890 16959 --spliceIndex 2
-     exit
-
     add feature-location U6
     feature-location U6
      add segment 15603 15809
      exit
 
-    add feature-location U8
-    feature-location U8
-     add segment 16963 18198
-     exit
-
     add feature-location U9
     feature-location U9
      add segment 18179 18493
-     exit
-
-   add feature-location U10
-    feature-location U10
-     add segment 18543 20054
      exit
 
     add feature-location U11
@@ -85,37 +53,10 @@
      add segment 23343 23774
      exit
 
-    add feature-location U13
-    feature-location U13 
-     add segment 23856 24179
-     exit
-
-    add feature-location U14
-    feature-location U14
-     add segment 24277 26109
-     exit
-
-    add feature-location U15
-    feature-location U15 
-     add segment 26143 26328 --spliceIndex 1
-     add segment 26500 26572 --spliceIndex 2
-     add segment 26732 27048 --spliceIndex 3
-     exit
-
     add feature-location U17
     feature-location U17 
      add segment 27330 28105 --spliceIndex 1
      add segment 28193 28421 --spliceIndex 2
-     exit
-
-    add feature-location U18 
-    feature-location U18 
-     add segment 29601 30485 
-     exit
-
-    add feature-location U19
-    feature-location U19 
-     add segment 30751 31920 
      exit
 
     add feature-location U20
@@ -128,44 +69,14 @@
      add segment 33452 34954 
      exit
 
-    add feature-location U22
-    feature-location U22 
-     add segment 34851 35459 
-     exit
-
-    add feature-location U23
-    feature-location U23 
-     add segment 35487 36386 
-     exit
-
-    add feature-location U24
-    feature-location U24 
-     add segment 36511 36777
-     exit
-
-    add feature-location U24A
-    feature-location U24A 
-     add segment 36796 36969
-     exit
-
     add feature-location U25
     feature-location U25
      add segment 35913 36863 
      exit
  
-    add feature-location U26
-    feature-location U26
-     add segment 38044 38931 
-     exit
-
     add feature-location U27
     feature-location U27 
      add segment 38919 40019 
-     exit
-
-    add feature-location U28
-    feature-location U28 
-     add segment 40135 42549 
      exit
 
     add feature-location U29
@@ -182,11 +93,6 @@
     feature-location U31 
      add segment 46265 52498 
      exit
- 
-    add feature-location U32
-    feature-location U32 
-     add segment 52572 52841 
-     exit
 
     add feature-location U33
     feature-location U33 
@@ -198,21 +104,6 @@
      add segment 54206 55036
      exit
 
-    add feature-location U35
-    feature-location U35 
-     add segment 55053 55373
-     exit
-
-    add feature-location U36
-    feature-location U36
-     add segment 55372 56826
-     exit
-
-    add feature-location U37 
-    feature-location U37 
-     add segment 56830 57624
-     exit
- 
     add feature-location U38
     feature-location U38
      add segment 57670 60708
@@ -228,24 +119,9 @@
      add segment 62083 64263
      exit
 
-    add feature-location U41
-    feature-location U41 
-     add segment 65342 68740
-     exit
-
     add feature-location U42
     feature-location U42 
      add segment 70103 71653
-     exit
-
-    add feature-location U43
-    feature-location U43 
-     add segment 71878 74460
-     exit
-
-    add feature-location U44
-    feature-location U44 
-     add segment 74501 75196
      exit
 
     add feature-location U45
@@ -258,16 +134,6 @@
      add segment 76346 76600
      exit
 
-    add feature-location U47
-    feature-location U47 
-     add segment 76783 78999
-     exit
-
-    add feature-location U48
-    feature-location U48 
-     add segment 79265 81349
-     exit
-
     add feature-location U49
     feature-location U49 
      add segment 81508 82266
@@ -278,29 +144,9 @@
      add segment 82043 83710
      exit
  
-    add feature-location U51
-    feature-location U51
-     add segment 83808 84713
-     exit
-
-    add feature-location U52
-    feature-location U52 
-     add segment 84732 85508
-     exit
-
     add feature-location U53
     feature-location U53 
      add segment 85515 87101
-     exit
-
-    add feature-location U54
-    feature-location U54 
-     add segment 87336 88715
-     exit
-
-    add feature-location U55
-    feature-location U55 
-     add segment 88793 90271
      exit
 
     add feature-location U56
@@ -313,45 +159,26 @@
      add segment 91164 95201
      exit
 
-    add feature-location U58
-    feature-location U58 
-     add segment 95213 97531
-     exit
-
     add feature-location U59
     feature-location U59
      add segment 97528 98580
      exit
 
+    add feature-location U63
+    feature-location U63 
+     add segment 99921 100577
+     exit
+     
+     
     add feature-location U66
     feature-location U66
      add segment 98577  99704  --spliceIndex 1
      add segment 102912 103784 --spliceIndex 2
      exit
 
-    add feature-location U64
-    feature-location U64 
-     add segment 100555 101883
-     exit
-
-    add feature-location U65
-    feature-location U65 
-     add segment 101840 102847
-     exit
-
     add feature-location U67
     feature-location U67 
      add segment 103756 104817
-     exit
-
-    add feature-location U68
-    feature-location U68 
-     add segment 104817 105161
-     exit
-
-    add feature-location U69
-    feature-location U69 
-     add segment 105164 106855
      exit
 
     add feature-location U70
@@ -363,18 +190,8 @@
     feature-location U71 
      add segment 108266 108511
      exit
-     
-    add feature-location U72
-    feature-location U72
-     add segment 108593 109627
-     exit
-
-    add feature-location U73
-    feature-location U73 
-     add segment 109640 111982
-     exit
-
-    add feature-location U74
+ 
+     add feature-location U74
     feature-location U74 
      add segment 111951 113939
      exit
@@ -383,47 +200,15 @@
     feature-location U75 
      add segment 113974 114723
      exit
- 
-    add feature-location U76
-    feature-location U76 
-     add segment 114632 116620
-     exit
-
-    add feature-location U77
-    feature-location U77 
-     add segment 116415 118889
-     exit
-
-    add feature-location U79
-    feature-location U79 
-     add segment 121486 122116 --spliceIndex 1
-     add segment 122213 122412 --spliceIndex 2
-     add segment 122495 123106 --spliceIndex 3
-     exit
      
+    add feature-location B6
+    feature-location B6 
+     add segment  119139 119378
+     exit
+    
     add feature-location U81
     feature-location U81 
      add segment 123150 123917
-     exit
-
-    add feature-location U82 
-    feature-location U82 
-     add segment 123207 124745
-     exit
-
-    add feature-location U83 
-    feature-location U83 
-     add segment 124821 125162
-     exit
-
-    add feature-location U84
-    feature-location U84 
-     add segment 125268 126296
-     exit
-
-    add feature-location U85
-    feature-location U85 
-     add segment 126324 127202
      exit
 
     add feature-location U86
@@ -438,43 +223,31 @@
      add segment 138342 138436 --spliceIndex 3
      exit
 
-    add feature-location U91
-    feature-location U91 
-     add segment 138591 138816 --spliceIndex 1
-     add segment 138926 139170 --spliceIndex 2
-     exit
-
-    add feature-location U94
-    feature-location U94
-     add segment 143093 144565
+    add feature-location B8
+    feature-location B8 
+     add segment  141969 142766
      exit
   
     add feature-location U95
     feature-location U95 
      add segment 144640 148278
      exit
+
+    add feature-location B9
+    feature-location B9 
+     add segment  152932 153252
+     exit
   
-    add feature-location U100
-    feature-location U100 
-     add segment 148665 148911 --spliceIndex 1
-     add segment 149041 149169 --spliceIndex 2
-     add segment 149332 149341 --spliceIndex 3  
-     add segment 149848 150008 --spliceIndex 4
-     add segment 150159 150272 --spliceIndex 5
-     add segment 150369 150476 --spliceIndex 6
-     add segment 150587 150664 --spliceIndex 7
-     add segment 150786 151121 --spliceIndex 8
-     add segment 151526 151807 --spliceIndex 9
-     add segment 151940 152325 --spliceIndex 10
+    add feature-location DR3.3p
+    feature-location DR3.3p 
+     add segment  156044 156646
      exit
-
-    add feature-location DR1R
-    feature-location DR1R
-     add segment 153904 154162 --spliceIndex 1
-     add segment 154276 156296 --spliceIndex 2
-     exit
-
-
-           
-  exit 
      
+    add feature-location DR6.3p
+    feature-location DR6.3p
+     add segment 158348 158651 --spliceIndex 1
+     add segment 159650 160524 --spliceIndex 2
+     exit
+
+
+exit
