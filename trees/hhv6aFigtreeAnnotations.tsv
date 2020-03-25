@@ -1,0 +1,29 @@
+taxon	sequenceID	pubmed_id	name	exogenous	locus	isolate	country	collection_year
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/KC465951	KC465951	23766398	Human betaherpesvirus 6A	false	-	GS	USA	1985
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/KJ123690	KJ123690	-	Human betaherpesvirus 6A	false	-	GS	USA	-
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/KP257584	KP257584	8230490	Human betaherpesvirus 6A	false	-	AJ	Gambia	1987
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/KT355575	KT355575	26947392	Human betaherpesvirus 6A	true	Chr19p	LEI_1501	United Kingdom	-
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/KY316047	KY316047	-	Human betaherpesvirus 6A	false	-	NA18999	Japan	-
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/KY316048	KY316048	-	Human betaherpesvirus 6A	true	Chr17p	7A-17p13.3	United Kingdom	-
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/KY316049	KY316049	-	Human betaherpesvirus 6A	true	Chr10q	3A-10q26.3	United Kingdom	-
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/KY316054	KY316054	-	Human betaherpesvirus 6A	false	-	GLA_25506	United Kingdom	-
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/KY316055	KY316055	-	Human betaherpesvirus 6A	false	-	GLA_15137	United Kingdom	-
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/KY316056	KY316056	-	Human betaherpesvirus 6A	false	-	GLA_4298	United Kingdom	-
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/MF994813	MF994813	-	Human betaherpesvirus 6A	false	-	ABI-HHV6A	USA	1986
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/MF994815	MF994815	-	Human betaherpesvirus 6A	false	-	CO1	Germany	1991
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/MF994816	MF994816	-	Human betaherpesvirus 6A	false	-	CO2	Germany	1991
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/MF994817	MF994817	-	Human betaherpesvirus 6A	false	-	CO3	Germany	1991
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/MF994818	MF994818	-	Human betaherpesvirus 6A	false	-	CO4	Germany	1991
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/MF994819	MF994819	-	Human betaherpesvirus 6A	false	-	CO7	Germany	1991
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/MF994820	MF994820	-	Human betaherpesvirus 6A	false	-	DA	USA	1988
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/MF994822	MF994822	-	Human betaherpesvirus 6A	false	-	GS	USA	1986
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/MF994828	MF994828	-	Human betaherpesvirus 6A	false	-	SIE	Cote d'Ivoire	1988
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/MG894370	MG894370	29472617	Human betaherpesvirus 6A	false	-	iciHG00657	China	2011
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/MG894371	MG894371	29472617	Human betaherpesvirus 6A	true	Chr19p	iciHG01277	Colombia	2011
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/MG894374	MG894374	29472617	Human betaherpesvirus 6A	false	-	iciNA18999	Japan	2009
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/MH698400	MH698400	-	Human betaherpesvirus 6A	false	-	GTEX-11DXY	USA	2018
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/MH698403	MH698403	-	Human betaherpesvirus 6A	false	-	GTEX-1314G_icihhv6b	USA	2018
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/MK630133	MK630133	-	Human betaherpesvirus 6A	false	-	MOW-F1C	Russia	2017
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/MK630134	MK630134	-	Human betaherpesvirus 6A	false	-	MOW-F1M	Russia	2017
+alignment/AL_HHV6A/member/ncbi-refseqs/NC_001664	NC_001664	29301233	Human betaherpesvirus 6A	true	NULL	U1102	Uganda	-
+alignment/AL_HHV6A/member/ncbi-curated-hhv6a/X83413	X83413	2543772	Human betaherpesvirus 6A	false	-	U1102	Uganda	-

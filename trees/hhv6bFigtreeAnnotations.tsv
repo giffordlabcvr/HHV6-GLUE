@@ -1,0 +1,46 @@
+taxon	sequenceID	pubmed_id	name	exogenous	locus	isolate	country	collection_year
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/AB021506	AB021506	10482554	Human betaherpesvirus 6B	false	-	HST	-	-
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/DD138891	DD138891	-	Human betaherpesvirus 6B	false	-	-	-	-
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/DJ052726	DJ052726	-	Human betaherpesvirus 6B	false	-	-	-	-
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/DL242080	DL242080	-	Human betaherpesvirus 6B	false	-	-	-	-
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/KY316030	KY316030	-	Human betaherpesvirus 6B	false	-	ORCA3835	United Kingdom: Orkney	-
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/KY316031	KY316031	-	Human betaherpesvirus 6B	false	-	ORCA1622	United Kingdom: Orkney	-
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/KY316032	KY316032	-	Human betaherpesvirus 6B	false	-	ORCA1340	United Kingdom: Orkney	-
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/KY316033	KY316033	-	Human betaherpesvirus 6B	false	-	LEI-ALD	United Kingdom	-
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/KY316034	KY316034	-	Human betaherpesvirus 6B	false	-	HGDP01077	Italy: Sardinia	-
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/KY316035	KY316035	-	Human betaherpesvirus 6B	false	-	HGDP01065	Italy: Sardinia	-
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/KY316036	KY316036	-	Human betaherpesvirus 6B	false	-	HGDP00813	China: Han	-
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/KY316037	KY316037	-	Human betaherpesvirus 6B	true	Chr15q	HGDP00092	Pakistan: Balochi	-
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/KY316038	KY316038	-	Human betaherpesvirus 6B	false	-	HAPMAP_NA10863	USA: Utah	-
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/KY316039	KY316039	-	Human betaherpesvirus 6B	false	-	HAPMAP NA7022	USA: Utah	-
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/KY316040	KY316040	-	Human betaherpesvirus 6B	false	-	DER512	United Kingdom: England, Derbyshire	-
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/KY316041	KY316041	-	Human betaherpesvirus 6B	false	-	CUM082	United Kingdom: England, Cumbria	-
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/KY316042	KY316042	-	Human betaherpesvirus 6B	false	-	COR264	United Kingdom: England, Cornwall	-
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/KY316043	KY316043	-	Human betaherpesvirus 6B	false	-	BAN519	United Kingdom: Scotland, Banff	-
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/KY316044	KY316044	-	Human betaherpesvirus 6B	true	Ch11p	4B-11p15.5	United Kingdom	-
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/KY316045	KY316045	-	Human betaherpesvirus 6B	false	-	2B-9q34.3	United Kingdom	-
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/KY316046	KY316046	-	Human betaherpesvirus 6B	false	-	1-ciHHV-6B	United Kingdom	-
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/KY316050	KY316050	-	Human betaherpesvirus 6B	false	-	GLA_35629	United Kingdom	-
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/KY316051	KY316051	-	Human betaherpesvirus 6B	false	-	GLA_34108	United Kingdom	-
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/KY316052	KY316052	-	Human betaherpesvirus 6B	false	-	GLA_29221	United Kingdom	-
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/KY316053	KY316053	-	Human betaherpesvirus 6B	false	-	GLA_3986	United Kingdom	-
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/MF994814	MF994814	-	Human betaherpesvirus 6B	false	-	ABI-HHV6B	Zaire	1988
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/MF994821	MF994821	-	Human betaherpesvirus 6B	false	-	ENO	Japan	1988
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/MF994823	MF994823	-	Human betaherpesvirus 6B	false	-	HST-CBMC	Japan	1988
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/MF994824	MF994824	-	Human betaherpesvirus 6B	false	-	HST-MT4	Japan	1988
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/MF994825	MF994825	-	Human betaherpesvirus 6B	false	-	KYO	Japan	1988
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/MF994826	MF994826	-	Human betaherpesvirus 6B	false	-	MAR	France	1991
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/MF994827	MF994827	-	Human betaherpesvirus 6B	false	-	NAK	Japan	1988
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/MF994829	MF994829	-	Human betaherpesvirus 6B	false	-	Z29	Democratic Republic of the Congo	1988
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/MG894368	MG894368	29472617	Human betaherpesvirus 6B	true	Chr19p	iciHG00245	United Kingdom	2011
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/MG894369	MG894369	29472617	Human betaherpesvirus 6B	false	-	iciHG00362	Finland	2011
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/MG894372	MG894372	29472617	Human betaherpesvirus 6B	false	-	iciHG02016	Viet Nam	2011
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/MG894373	MG894373	29472617	Human betaherpesvirus 6B	true	Chr3q	iciHG02301	Peru	2011
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/MG894375	MG894375	29472617	Human betaherpesvirus 6B	true	Ch1q	iciNA19381	Kenya	2009
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/MG894376	MG894376	29472617	Human betaherpesvirus 6B	true	Ch1q	iciNA19382	Kenya	2009
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/MH698398	MH698398	-	Human betaherpesvirus 6B	false	-	GTEX-14C38_icihhv6b	USA	2018
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/MH698399	MH698399	-	Human betaherpesvirus 6B	false	-	GTEX-13FLV_icihhv6b	USA	2018
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/MH698401	MH698401	-	Human betaherpesvirus 6B	false	-	GTEX-YF7O_icihhv6b	USA	2018
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/MH698402	MH698402	-	Human betaherpesvirus 6B	false	-	GTEX-OXRO_icihv6b	USA	2018
+alignment/AL_HHV6B/member/ncbi-curated-hhv6b/MN242397	MN242397	-	Human betaherpesvirus 6B	false	-	MOW-F5C	Russia:Moscow	2019
+alignment/AL_HHV6B/member/ncbi-refseqs/NC_000898	NC_000898	10482553	Human betaherpesvirus 6B	true	NULL	Z29	Zaire	-
