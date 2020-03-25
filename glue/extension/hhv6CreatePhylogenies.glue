@@ -26,9 +26,10 @@
       --outputFile trees/hhv6bMidpointRerooted.tree NEWICK_BOOTSTRAPS
     exit
 
+
   module hhv6FigTreeAnnotationExporter 
-    export figtree-annotation AL_HHV6A -f trees/hhv6aFigtreeAnnotations.txt
-    export figtree-annotation AL_HHV6B -f trees/hhv6bFigtreeAnnotations.txt
+    export figtree-annotation AL_HHV6A -f trees/hhv6aFigtreeAnnotations.tsv
+    export figtree-annotation AL_HHV6B -f trees/hhv6bFigtreeAnnotations.tsv
   exit
   
   

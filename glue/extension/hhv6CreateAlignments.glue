@@ -7,11 +7,13 @@ delete alignment AL_HHV6B
 create module -f modules/hhv6aCompoundAligner.xml
 create alignment AL_HHV6A -r REF_MASTER_HHV6A
 alignment AL_HHV6A add member -w "source.name = 'ncbi-curated-hhv6a' and lab_construct = false"
+alignment AL_HHV6A add member -w "sequenceID = 'NC_001664'"
 compute alignment AL_HHV6A hhv6aCompoundAligner
 
 # Create HHV6B alignments
 create module -f modules/hhv6bCompoundAligner.xml
 create alignment AL_HHV6B -r REF_HHV6B
 alignment AL_HHV6B add member -w "source.name = 'ncbi-curated-hhv6b' and lab_construct = false"
+alignment AL_HHV6B add member -w "sequenceID = 'NC_000898'"
 compute alignment AL_HHV6B hhv6bCompoundAligner
 

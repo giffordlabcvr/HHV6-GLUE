@@ -8,6 +8,7 @@
 		<annotationName>pubmed_id</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.pubmed_id')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
+	
 	<figTreeAnnotation>
 		<annotationName>name</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.name')}</valueFreemarkerTemplate>
@@ -20,5 +21,19 @@
 		<annotationName>locus</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.locus')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
+	<figTreeAnnotation>
+		<annotationName>isolate</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.isolate')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	<figTreeAnnotation>
+		<annotationName>country</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.country')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	<figTreeAnnotation>
+		<annotationName>collection_year</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.collection_year')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+
 
 </figTreeAnnotationExporter>
