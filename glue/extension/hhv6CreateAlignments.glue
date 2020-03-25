@@ -1,7 +1,7 @@
 delete module hhv6aCompoundAligner
 delete module hhv6bCompoundAligner
 delete alignment AL_HHV6A
-delete alignment AL_HHV6A
+delete alignment AL_HHV6B
 
 # Create HHV6A alignments
 create module -f modules/hhv6aCompoundAligner.xml

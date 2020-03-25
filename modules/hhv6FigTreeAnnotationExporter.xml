@@ -1,0 +1,24 @@
+<figTreeAnnotationExporter>
+
+	<figTreeAnnotation>
+		<annotationName>sequenceID</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.sequenceID')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	<figTreeAnnotation>
+		<annotationName>pubmed_id</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.pubmed_id')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	<figTreeAnnotation>
+		<annotationName>name</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.name')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	<figTreeAnnotation>
+		<annotationName>exogenous</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.exogenous')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	<figTreeAnnotation>
+		<annotationName>locus</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.locus')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+</figTreeAnnotationExporter>

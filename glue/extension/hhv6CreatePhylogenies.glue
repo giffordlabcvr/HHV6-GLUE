@@ -1,0 +1,34 @@
+  delete module raxmlPhylogenyGenerator
+  delete module hhv6PhyloUtility
+  delete module hhv6FigTreeAnnotationExporter
+  
+  create module -t raxmlPhylogenyGenerator
+  create module -f modules/hhv6PhyloUtility.xml
+  create module -f modules/hhv6FigTreeAnnotationExporter.xml
+
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_HHV6A -a -o trees/hhv6a.tre NEWICK_BOOTSTRAPS 
+    exit
+    
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_HHV6B -a -o trees/hhv6b.tre NEWICK_BOOTSTRAPS
+    exit
+
+  module hhv6PhyloUtility
+	reroot-phylogeny \
+      --inputFile trees/hhv6a.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/hhv6aMidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/hhv6b.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/hhv6bMidpointRerooted.tree NEWICK_BOOTSTRAPS
+    exit
+
+  module hhv6FigTreeAnnotationExporter 
+    export figtree-annotation AL_HHV6A -f trees/hhv6aFigtreeAnnotations.txt
+    export figtree-annotation AL_HHV6B -f trees/hhv6bFigtreeAnnotations.txt
+  exit
+  
+  

@@ -1,10 +1,10 @@
   table sequence
     create field name VARCHAR 100  
-    create field exogenous BOOLEAN
-    create field locus VARCHAR 50
     create field clade VARCHAR 50
     create field length INTEGER
     create field pubmed_id VARCHAR 50
+    create field exogenous BOOLEAN
+    create field locus VARCHAR 50
     create field gb_lab_construct BOOLEAN
     exit
 
@@ -16,8 +16,6 @@
   table member_floc_note
   	create field ref_nt_coverage_pct DOUBLE
   	exit
-
-
 
   # Create schema extension
   create custom-table isolate_data
