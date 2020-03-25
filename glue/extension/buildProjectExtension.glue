@@ -23,7 +23,7 @@ project hhv6
   run file glue/extension/hhv6RecordFeaturePresence.glue
 
   # Build phylogenies
-  run file glue/extension/hhv6CreatePhylogenies.glue
+  #run file glue/extension/hhv6CreatePhylogenies.glue
 
   # Validate
   validate

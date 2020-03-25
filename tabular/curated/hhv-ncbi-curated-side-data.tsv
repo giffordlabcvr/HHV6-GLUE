@@ -1,16 +1,16 @@
-sequenceID	name	exogenous	locus	clade	gb_lab_construct	isolate	country	collection_year	host_sci_name
+sequenceID	name	exogenous	locus	clade	lab_construct	isolate	country	collection_year	host_sci_name
 AB021506	Human betaherpesvirus 6B	-	-	-	-	HST	-	-	-
 DD138891	Human betaherpesvirus 6B	-	-	-	-	-	-	-	-
 DJ052726	Human betaherpesvirus 6B	-	-	-	-	-	-	-	-
 DL242080	Human betaherpesvirus 6B	-	-	-	-	-	-	-	-
-FV537026	Human betaherpesvirus 6A	-	-	-	-	-	-	-	-
-FV537027	Human betaherpesvirus 6A	-	-	-	-	-	-	-	-
-FV537028	Human betaherpesvirus 6A	-	-	-	-	-	-	-	-
-FV537029	Human betaherpesvirus 6A	-	-	-	-	-	-	-	-
-FV537030	Human betaherpesvirus 6B	-	-	-	-	-	-	-	-
-FV537031	Human betaherpesvirus 6B	-	-	-	-	-	-	-	-
-FV537032	Human betaherpesvirus 6B	-	-	-	-	-	-	-	-
-FV537033	Human betaherpesvirus 6B	-	-	-	-	-	-	-	-
+FV537026	Human betaherpesvirus 6A	-	-	-	TRUE	-	-	-	-
+FV537027	Human betaherpesvirus 6A	-	-	-	TRUE	-	-	-	-
+FV537028	Human betaherpesvirus 6A	-	-	-	TRUE	-	-	-	-
+FV537029	Human betaherpesvirus 6A	-	-	-	TRUE	-	-	-	-
+FV537030	Human betaherpesvirus 6B	-	-	-	TRUE	-	-	-	-
+FV537031	Human betaherpesvirus 6B	-	-	-	TRUE	-	-	-	-
+FV537032	Human betaherpesvirus 6B	-	-	-	TRUE	-	-	-	-
+FV537033	Human betaherpesvirus 6B	-	-	-	TRUE	-	-	-	-
 KC465951	Human betaherpesvirus 6A	-	-	-	-	GS	USA	1985	Homo sapiens
 KJ123690	Human betaherpesvirus 6A	-	-	A1	-	GS	USA	-	-
 KP257584	Human betaherpesvirus 6A	-	-	A1	-	AJ	Gambia	1987	Homo sapiens

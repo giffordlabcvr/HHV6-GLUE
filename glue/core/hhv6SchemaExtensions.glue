@@ -5,7 +5,7 @@
     create field pubmed_id VARCHAR 50
     create field exogenous BOOLEAN
     create field locus VARCHAR 50
-    create field gb_lab_construct BOOLEAN
+    create field lab_construct BOOLEAN
     exit
 
   table alignment

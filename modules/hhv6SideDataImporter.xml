@@ -9,6 +9,11 @@
     </textFileColumn>
 
     <textFileColumn>
+        <header>lab_construct</header>
+        <property>lab_construct</property>
+    </textFileColumn>
+
+    <textFileColumn>
         <header>exogenous</header>
         <property>exogenous</property>
     </textFileColumn>
