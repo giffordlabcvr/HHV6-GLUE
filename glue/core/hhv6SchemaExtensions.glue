@@ -1,15 +1,24 @@
 schema-project hhv6
 
-  create custom-table cov_nt_mutation
-  create custom-table cov_nt_mutation_sequence --idFieldLength 200
+  create custom-table hhv6_replacement
+  create custom-table hhv6_replacement_sequence --idFieldLength 200
 
-  create custom-table cov_nt_deletion
-  create custom-table cov_nt_deletion_sequence --idFieldLength 200
+  create custom-table hhv6_deletion
+  create custom-table hhv6_deletion_sequence --idFieldLength 200
 
-  create custom-table cov_nt_insertion
-  create custom-table cov_nt_insertion_sequence --idFieldLength 200
+  create custom-table hhv6_insertion
+  create custom-table hhv6_insertion_sequence --idFieldLength 200
 
-  create custom-table cov_nt_mutation_sequence_missing --idFieldLength 200
+  create custom-table hhv6_nt_mutation
+  create custom-table hhv6_nt_mutation_sequence --idFieldLength 200
+
+  create custom-table hhv6_nt_deletion
+  create custom-table hhv6_nt_deletion_sequence --idFieldLength 200
+
+  create custom-table hhv6_nt_insertion
+  create custom-table hhv6_nt_insertion_sequence --idFieldLength 200
+
+  create custom-table hhv6_nt_mutation_sequence_missing --idFieldLength 200
 
   table sequence
     create field name VARCHAR 100  
@@ -48,30 +57,101 @@ schema-project hhv6
 
   create link sequence isolate_data
 
-  create link variation cov_nt_mutation -m ONE_TO_ONE
-  create link cov_nt_mutation cov_nt_mutation_sequence -m ONE_TO_MANY
-  create link sequence cov_nt_mutation_sequence -m ONE_TO_MANY
+  table hhv6_nt_mutation
+    create field display_name VARCHAR
+    create field reference_nt INTEGER
+    create field reference_base VARCHAR
+    create field mutation_base VARCHAR
+    exit
 
-  create link cov_nt_mutation cov_nt_mutation_sequence_missing -m ONE_TO_MANY
-  create link sequence cov_nt_mutation_sequence_missing -m ONE_TO_MANY
+  table hhv6_replacement
+    create field display_name VARCHAR
+    create field codon_label VARCHAR
+    create field codon_label_int INTEGER
+    create field reference_aa VARCHAR
+    create field reference_nt INTEGER
+    create field replacement_aa VARCHAR
+    create field num_seqs INTEGER
+    create field radical_hanada_category_i BOOLEAN
+    create field radical_hanada_category_ii BOOLEAN
+    create field radical_hanada_category_iii BOOLEAN
+    create field grantham_distance_double DOUBLE
+    create field grantham_distance_int INTEGER
+    create field miyata_distance DOUBLE
+    create field parent_feature VARCHAR
+    create field parent_codon_label VARCHAR
+    exit
 
-  create link variation cov_nt_deletion -m ONE_TO_ONE
-  create link cov_nt_deletion cov_nt_deletion_sequence -m ONE_TO_MANY
-  create link sequence cov_nt_deletion_sequence -m ONE_TO_MANY
+  table hhv6_nt_deletion
+    create field display_name VARCHAR
+    create field reference_nt_start INTEGER
+    create field reference_nt_end INTEGER
+    create field parent_feature VARCHAR
+    create field num_seqs INTEGER
+    exit
 
-  create link variation cov_nt_insertion -m ONE_TO_ONE
-  create link cov_nt_insertion cov_nt_insertion_sequence -m ONE_TO_MANY
-  create link sequence cov_nt_insertion_sequence -m ONE_TO_MANY
+  table hhv6_deletion
+    create field display_name VARCHAR
+    create field start_codon VARCHAR
+    create field start_codon_int INTEGER
+    create field end_codon VARCHAR
+    create field end_codon_int INTEGER
+    create field reference_nt_start INTEGER
+    create field reference_nt_end INTEGER
+    create field num_seqs INTEGER
+    create field parent_feature VARCHAR
+    create field parent_start_codon VARCHAR
+    create field parent_end_codon VARCHAR
+    exit
 
-  create link cov_deletion cov_nt_deletion -m ONE_TO_ONE
-  create link cov_insertion cov_nt_insertion -m ONE_TO_ONE
+  table hhv6_nt_insertion
+    create field display_name VARCHAR 300
+    create field last_ref_nt_before INTEGER
+    create field first_ref_nt_after INTEGER
+    create field num_seqs INTEGER
+    create field parent_feature VARCHAR
+    create field inserted_nts_length INTEGER
+    create field inserted_nts VARCHAR 100
+    exit
+
+  table hhv6_insertion
+    create field display_name VARCHAR 300
+    create field last_codon_before VARCHAR
+    create field last_codon_before_int INTEGER
+    create field first_codon_after VARCHAR
+    create field first_codon_after_int INTEGER
+    create field last_ref_nt_before INTEGER
+    create field first_ref_nt_after INTEGER
+    create field num_seqs INTEGER
+    create field parent_feature VARCHAR
+    create field parent_last_codon_before VARCHAR
+    create field parent_first_codon_after VARCHAR
+    create field inserted_aas_length INTEGER
+    create field inserted_aas VARCHAR
+    exit
+
+
+  create link variation hhv6_nt_mutation -m ONE_TO_ONE
+  create link hhv6_nt_mutation hhv6_nt_mutation_sequence -m ONE_TO_MANY
+  create link sequence hhv6_nt_mutation_sequence -m ONE_TO_MANY
+
+  create link hhv6_nt_mutation hhv6_nt_mutation_sequence_missing -m ONE_TO_MANY
+  create link sequence hhv6_nt_mutation_sequence_missing -m ONE_TO_MANY
+
+  create link variation hhv6_nt_deletion -m ONE_TO_ONE
+  create link hhv6_nt_deletion hhv6_nt_deletion_sequence -m ONE_TO_MANY
+  create link sequence hhv6_nt_deletion_sequence -m ONE_TO_MANY
+
+  create link variation hhv6_nt_insertion -m ONE_TO_ONE
+  create link hhv6_nt_insertion hhv6_nt_insertion_sequence -m ONE_TO_MANY
+  create link sequence hhv6_nt_insertion_sequence -m ONE_TO_MANY
+
+  create link hhv6_deletion hhv6_nt_deletion -m ONE_TO_ONE
+  create link hhv6_insertion hhv6_nt_insertion -m ONE_TO_ONE
 
 
   exit
 
   
-
-
-
 
 
