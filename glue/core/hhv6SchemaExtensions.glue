@@ -1,3 +1,16 @@
+schema-project hhv6
+
+  create custom-table cov_nt_mutation
+  create custom-table cov_nt_mutation_sequence --idFieldLength 200
+
+  create custom-table cov_nt_deletion
+  create custom-table cov_nt_deletion_sequence --idFieldLength 200
+
+  create custom-table cov_nt_insertion
+  create custom-table cov_nt_insertion_sequence --idFieldLength 200
+
+  create custom-table cov_nt_mutation_sequence_missing --idFieldLength 200
+
   table sequence
     create field name VARCHAR 100  
     create field clade VARCHAR 50
@@ -6,6 +19,7 @@
     create field exogenous BOOLEAN
     create field locus VARCHAR 50
     create field lab_construct BOOLEAN
+    create field num_unique_snps INTEGER
     exit
 
   table alignment
@@ -33,5 +47,31 @@
     exit
 
   create link sequence isolate_data
+
+  create link variation cov_nt_mutation -m ONE_TO_ONE
+  create link cov_nt_mutation cov_nt_mutation_sequence -m ONE_TO_MANY
+  create link sequence cov_nt_mutation_sequence -m ONE_TO_MANY
+
+  create link cov_nt_mutation cov_nt_mutation_sequence_missing -m ONE_TO_MANY
+  create link sequence cov_nt_mutation_sequence_missing -m ONE_TO_MANY
+
+  create link variation cov_nt_deletion -m ONE_TO_ONE
+  create link cov_nt_deletion cov_nt_deletion_sequence -m ONE_TO_MANY
+  create link sequence cov_nt_deletion_sequence -m ONE_TO_MANY
+
+  create link variation cov_nt_insertion -m ONE_TO_ONE
+  create link cov_nt_insertion cov_nt_insertion_sequence -m ONE_TO_MANY
+  create link sequence cov_nt_insertion_sequence -m ONE_TO_MANY
+
+  create link cov_deletion cov_nt_deletion -m ONE_TO_ONE
+  create link cov_insertion cov_nt_insertion -m ONE_TO_ONE
+
+
+  exit
+
+  
+
+
+
 
 
