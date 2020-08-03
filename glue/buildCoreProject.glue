@@ -8,8 +8,6 @@ project hhv6
 
   # Import NCBI reference sequences 
   import source sources/ncbi-curated-hhv6
-  import source sources/ncbi-curated-hhv6a
-  import source sources/ncbi-curated-hhv6b
 
   # Define genome features
   run file glue/hhv6Features.glue
@@ -34,8 +32,7 @@ project hhv6
   #run file glue/hhv6CreatePhylogenies.glue
 
   # now this has been populated we can count the unique SNPs (GISAID ONLY)
-  run script glue/hhva6CountUniqueSNPs.js
-  run script glue/hhvb6CountUniqueSNPs.js
+  #run script glue/hhv6CountUniqueSNPs.js
 
   # Validate
   validate

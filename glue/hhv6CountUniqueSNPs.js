@@ -24,7 +24,7 @@ var nucleotideAlmt;
 glue.inMode("module/hhv6FastaAlignmentExporterSeqIdOnly", function() {
 	nucleotideAlmt = glue.command(["export", "AL_HHV6A", 
 			"-r", "REF_MASTER_HHV6A", "-f", "whole_genome", 
-			"-a", 
+			"-w", "",  
 			"-p"]);
 });
 
