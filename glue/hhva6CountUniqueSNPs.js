@@ -41,6 +41,8 @@ _.each(nucleotideAlmt.nucleotideFasta.sequences, function(membObj) {
 		}
 	}
 	for(var i = 0; i < membObj.sequence.length; i++) {
+	
+	    //glue.logInfo("Counting unique SNP at position "+i);
 		var membNt = membObj.sequence[i];
 		if(membNt != '-' && membNt != 'N') {
 			var positionInfo = positionInfoArray[i];

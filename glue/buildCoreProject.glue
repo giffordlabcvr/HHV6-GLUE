@@ -33,6 +33,10 @@ project hhv6
   # Build phylogenies
   #run file glue/hhv6CreatePhylogenies.glue
 
+  # now this has been populated we can count the unique SNPs (GISAID ONLY)
+  run script glue/hhva6CountUniqueSNPs.js
+  run script glue/hhvb6CountUniqueSNPs.js
+
   # Validate
   validate
 
