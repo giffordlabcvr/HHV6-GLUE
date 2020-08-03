@@ -1,13 +1,11 @@
   # Link to isolate table
-  
-  # Link references to isolate data
-  run script glue/core/hhv6LoadRefseqIsolateData.js
+  run script glue/hhv6LoadIsolateData.js
 
   # Extract data from the XML files
   module genbankXmlPopulator populate
-  
+    
   # Import metadata for exogenous reference sequences from tabular
   module hhv6SideDataImporter 
+    populate -f tabular/curated/hhv-ncbi-curated-side-data.tsv
     populate -f tabular/references/hhv-ncbi-refseqs-side-data.tsv
     exit
-    
