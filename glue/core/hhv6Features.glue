@@ -1,6 +1,6 @@
-  ### features in both HHV6A and HHV6B
+### features in both HHV6A and HHV6B
 
-  create feature whole_genome "Whole genome"
+    create feature whole_genome "Whole genome"
   feature whole_genome set metatag INFORMATIONAL true
 
   create feature 3flank "3 prime genomic flanking sequence"

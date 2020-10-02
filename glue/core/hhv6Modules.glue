@@ -2,4 +2,3 @@
   create module -f modules/hhv6GenbankXmlPopulator.xml genbankXmlPopulator
   create module -f modules/featureLocationTextToGlue.xml 
   create module -f modules/hhv6TabularUtility.xml hhvTabularUtility
-  create module -f modules/hhv6FastaAlignmentExporterSeqIdOnly.xml
