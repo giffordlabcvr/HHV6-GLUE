@@ -1,0 +1,4 @@
+  ### Declare reference sequences
+	
+  create reference REF_MASTER_HHV6A  ncbi-refseqs   NC_001664  # HHV6A
+  create reference REF_HHV6B         ncbi-refseqs   NC_000898  # HHV6B
