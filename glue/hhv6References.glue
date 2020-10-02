@@ -1,4 +1,4 @@
   ### Declare reference sequences
 	
-  create reference REF_MASTER_HHV6A  ncbi-curated-hhv6 NC_001664  # HHV6A
-  create reference REF_HHV6B         ncbi-curated-hhv6 NC_000898  # HHV6B
+  create reference REF_MASTER_HHV6A  ncbi-curated-hhv6a NC_001664  # HHV6A
+  create reference REF_HHV6B         ncbi-curated-hhv6b NC_000898  # HHV6B
