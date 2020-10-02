@@ -1,436 +1,218 @@
-accession	human_gene_name	clade	subclade	zf_domains	other_domains	human_chr	branch_added	species	species_order	species_family	species_genus	chimpanzee	orangutan	macaque	baboon	marmoset	basal Primate	non-Primate	human gene status (transcript support, Gencode status, other notes)
-NM_181786	HKR1			13	K	19.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present hand-assembled	present	present	present	present	well validated
-NM_153688	ZFP1			8	K	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001083335	ZFP112			13	K	19.8		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001297619	ZFP14			13	K	19.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_020828	ZFP28			13	K	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_014898	ZFP30			12	K	19.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001282515	ZFP37			12	K	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001109809	ZFP57			6	K	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_133466	ZFP82			12	K	19.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	present	present	present	well validated
-NM_133458	ZFP90			13	K	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001136273	ZFP92			8	K	X.5		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	weakly validated
-NM_001321147	ZIK1			9	K	19.12	Basal	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	absent	validated
-NM_052882	ZIM3			10	K	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	present	validated
-NM_015394	ZNF10			10	K	12.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_173531	ZNF100			11	K	19.4	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	present	absent	absent	well validated
-NM_033204	ZNF101			8	K	19.4	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	well validated
-NM_016220	ZNF107			16	K	7.3	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	validated, KRAB domain out of frame in some transcripts but present ancestrally
-NM_153608	ZNF114			3	K	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_015852	ZNF117			10	K	7.3	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present hand-assembled	present hand-assembled	absent inc TA	absent	absent	validated, KRAB domain out of frame in some transcripts
-NM_016265	ZNF12			15	K	7.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_003433	ZNF132			17	K	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_003434	ZNF133			14	K	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_003435	ZNF134			10	cK	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present hand-assembled	present	present	present	present	present	validated, KRAB in genome but not in transcripts
-NM_007134	ZNF135			16	K	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_003437	ZNF136			13	K	19.3	Basal	Homo_sapiens	Primates	Hominidae	Homo	present	present	absent	present	present	present	absent	well validated
-NM_006524	ZNF138			2	K	7.3	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	absent inc TA and syntenic DNA	present	present	present	absent inc TA	absent	absent	well validated, KRAB missing from Ensembl gene model, only 2 canonical ZF
-NM_021030	ZNF14	cladeI		17	K	19.4	Basal	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	absent	well validated
-NM_003440	ZNF140			10	K	12.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001085384	ZNF154			10	K	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_003445	ZNF155			11	K	19.8	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	well validated
-NM_003446	ZNF157			12	K	X.2		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_033288	ZNF160			20	K	19.9	Basal	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	absent	well validated
-NM_003448	ZNF169			11	K	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	present	present	well validated
-NM_001330617	ZNF17			18	K	19.12	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	well validated
-NM_007147	ZNF175			13	K	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001172651	ZNF177			7	K	19.2		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_013256	ZNF180			12	K	19.8		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001029997	ZNF181			11	K	19.5		Homo_sapiens	Primates	Hominidae	Homo								well validated
-NM_003452	ZNF189			16	K	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_006961	ZNF19			9	K	16.5		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001130520	ZNF195			9	K	solo	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	well validated
-NM_021143	ZNF20			11	K	19.3	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	absent	absent	well validated
-NM_003456	ZNF205			8	K	16.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_007153	ZNF208			36	K	19.4	Hominoid/Hominid	Homo_sapiens	Primates	Hominidae	Homo	present	present hand-assembled	prob absent inc TA	absent inc TA	absent	absent	absent	very weakly validated, gene models have several introns in ZF exon, possible pseudogene
-NM_006962	ZNF21			14	K	X.3		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_006385	ZNF211			11	K	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_012256	ZNF212			4	K	7.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001354830	ZNF214			10	K	11.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_013359	ZNF221			15	K	19.8	Basal	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	present	present	absent	validated
-NM_001129996	ZNF222			8	K	19.8	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	absent inc TA	absent	absent	well validated
-NM_013361	ZNF223			8	K	19.8	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present hand-assembled	present	present	present	absent	absent	well validated
-NM_013398	ZNF224			18	K	19.8	Basal	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	present	prob present	absent	well validated
-NM_013362	ZNF225			17	K	19.8	Basal	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	prob present	absent	well validated
-NM_001032372	ZNF226			17	K	19.8		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001289166	ZNF227			18	K	19.8		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_014518	ZNF229			16	K	19.8		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	present	present	validated
-NM_145911	ZNF23			16	K	16.5		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_006300	ZNF230			7	K	19.8	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	absent	absent	well validated
-NM_181756	ZNF233			7	K	19.8		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	present	present	validated
-NM_006630	ZNF234			18	K	19.8		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_004234	ZNF235			15	K	19.8		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_005674	ZNF239			9	cK	10.3		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated, genomic KRAB out of frame in gene models
-NM_021045	ZNF248			7	K	10.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001329647	ZNF25			12	K	10.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	present	present	present	well validated
-NM_021061	ZNF250			13	K	8.3		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_138367	ZNF251			12	K	8.3		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	partially validated
-NR_023392	ZNF252			8	K	8.3		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	present	present	validated but exact structure not clear
-NM_021047	ZNF253			11	K	19.4	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	absent	absent	well validated
-NM_001278677	ZNF254			13	K	19.4	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	present	absent	absent	well validated
-NM_005773	ZNF256			15	K	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_033468	ZNF257			11	K	19.4	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	prob present hand-assembled	absent	absent	validated
-NM_001256279	ZNF26			13	K	12.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_003417	ZNF264			13	K	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_006631	ZNF266			12	cK	19.2		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated, genomic KRAB present in some transcripts but no gene models
-NM_003414	ZNF267			13	K	16.4	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	well validated
-NM_003415	ZNF268			4	K	12.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_006635	ZNF460			11	K	19.12	Basal	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	prob present	absent	well validated
-NM_021148	ZNF273			10	K	7.3	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	well validated
-NM_001367757	ZNF275			11	K	X.5		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_006969	ZNF28			15	K	19.9	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present hand-assembled	absent inc TA	absent inc TA	absent	absent	validated, many ESTs support LLNL KRAB model
-NM_003575	ZNF282			5	K	7.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_181845	ZNF283			15	K	19.8		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_001037813	ZNF284			11	K	19.8	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	prob absent	absent	well validated
-NM_001291488	ZNF285			10	K	19.8		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_020652	ZNF286A			10	K	solo		Homo_sapiens	Primates	Hominidae	Homo								well validated
-NM_017715	ZNF3			8	K	7.5		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001099438	ZNF30			16	K	19.5		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	absent	present	well validated
-NM_018443	ZNF302			7	K	19.5		Homo_sapiens	Primates	Hominidae	Homo								well validated
-NM_001290318	ZNF304			15	K	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_001010877	ZNF311			13	K	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_020933	ZNF317			13	K	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_207333	ZNF320			11	K	19.9	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	prob absent inc TA	absent inc TA	absent	absent	validated
-NM_014347	ZNF324A			9	K	19.12		Homo_sapiens	Primates	Hominidae	Homo								validated
-NM_207395	ZNF324B			9	K	19.12		Homo_sapiens	Primates	Hominidae	Homo								validated
-NM_018555	ZNF331			12	K	19.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_032433	ZNF333			10	K	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_018102	ZNF334			14	K	20.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001290261	ZNF337			18	K	solo	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	present	absent	absent	well validated
-NM_006954	ZNF33A			16	K	10.1	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	absent inc TA	absent	absent	well validated
-NM_001305033	ZNF33B			16	K	10.2		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_030580	ZNF34			12	K	8.3		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_024325	ZNF343			12	K	solo	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	absent inc TA	prob absent	absent	well validated
-NM_003419	ZNF345			15	cK	19.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_001172674	ZNF347			17	K	19.9	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	well validated
-NM_021632	ZNF350			8	K	19.9		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001007094	ZNF37A			10	K	10.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NR_026777	ZNF37B pseudogene			NA	K	10.2		Homo_sapiens	Primates	Hominidae	Homo								Gencode manual and RefSeq pseudogene
-NM_032825	ZNF382			9	K	19.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_001345949	ZNF383			11	K	19.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_170686	ZNF398			6	K	7.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001033719	ZNF404			14	K	19.8		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	absent	present	validated
-NM_007130	ZNF41			17	K	X.2		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001136038	ZNF415			11	K	19.9	Basal	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	prob present	absent	well validated
-NM_017879	ZNF416			11	K	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_152475	ZNF417			12	K	19.12		Homo_sapiens	Primates	Hominidae	Homo								well validated
-NM_001317027	ZNF418			16	K	19.12	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	well validated
-NM_001098491	ZNF419			11	K	19.12	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	absent	absent	well validated
-NM_001329515	ZNF420			19	K	19.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001001661	ZNF425			19	K	7.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_024106	ZNF426			11	K	19.2		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001001415	ZNF429			15	K	19.4	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	absent inc TA	present hand-assembled	absent	absent	well validated
-NM_001256648	ZNF43			19	K	19.4	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	well validated
-NM_025189	ZNF430			11	K	19.4	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	absent inc TA	present	absent	absent	well validated
-NM_001319124	ZNF431			12	K	19.4	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	present	absent	absent	validated
-NM_014650	ZNF432			16	K	19.9		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001080411	ZNF433			18	K	19.3	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	validated
-NM_001348718	ZNF439			10	K	19.3	Hominoid/Hominid	Homo_sapiens	Primates	Hominidae	Homo	present	present	absent inc TA and syntenic DNA	absent inc TA	absent	absent	absent	validated
-NM_001164276	ZNF44			14	K	19.3	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	well validated
-NM_152357	ZNF440			9	K	19.3	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	absent	absent	well validated
-NM_152355	ZNF441			14	K	19.3	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present hand-assembled	present	present hand-assembled	present	absent	absent	validated
-NM_030824	ZNF442			14	K	19.3	Simian	Homo_sapiens	Primates	Hominidae	Homo	present hand-assembled	present	present	present	present	absent	absent	well validated
-NM_005815	ZNF443			16	K	19.3	Hominoid/Hominid	Homo_sapiens	Primates	Hominidae	Homo	present	present	absent inc TA and syntenic DNA	absent inc TA	absent inc TA	absent	absent	well validated
-NM_003425	ZNF45			15	K	19.8		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_153257	ZNF461			10	K	19.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001277120	ZNF468			10	K	19.9	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	absent inc TA	absent	absent	well validated
-NM_001001668	ZNF470			16	K	19.12		Homo_sapiens	Primates	Hominidae	Homo	present hand-assembled	present hand-assembled	present	present	present	present	present	validated
-NM_020813	ZNF471			14	K	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_015428	ZNF473			18	K	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_033273	ZNF479			11	K	7.2		Homo_sapiens	Primates	Hominidae	Homo								validated
-NM_144684	ZNF480			10	K	19.9	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	present	prob absent	absent	well validated
-NM_031486	ZNF484			15	K	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001318140	ZNF485			11	K	10.3		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	present	well validated
-NM_052852	ZNF486			9	K	19.4	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	absent inc TA	absent	absent	validated
-NM_020714	ZNF490			13	K	19.3	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	prob absent	absent	validated
-NM_152356	ZNF491			10	cK	19.3	Basal	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	absent inc TA	absent inc TA	prob present	absent	validated, genomic KRAB may be present in some transcripts
-NM_020855	ZNF492			12	K	19.4		Homo_sapiens	Primates	Hominidae	Homo								validated
-NM_175910	ZNF493			18	K	19.4	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present hand-assembled	present	present	present	absent inc TA	absent	absent	well validated
-NM_198458	ZNF497			14	cS	19.12	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	absent	absent	validated, SCAN in genome but not in transcripts
-NM_001099269	ZNF506			8	K	19.4	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	absent	absent	well validated
-NM_001314059	ZNF510			9	K	9.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_213605	ZNF517			9	K	8.3		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_145287	ZNF519			9	K	solo	Hominoid/Hominid	Homo_sapiens	Primates	Hominidae	Homo	present	present	absent inc TA and syntenic DNA	absent inc TA	absent inc TA	absent	absent	validated
-NM_001348156	ZNF525			8	K	19.1	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	prob present	absent inc TA	absent inc TA	absent	absent	partially validated
-NM_032453	ZNF527			11	K	19.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_032423	ZNF528			15	K	19.9	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	prob present	absent	absent	well validated
-NM_001145649	ZNF529			9	K	19.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_020880	ZNF530			13	K	19.12	Basal	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	absent inc TA	prob present	absent	validated
-NM_001143938	ZNF534			14	K	19.9	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	absent	absent	validated
-NM_001172225	ZNF540			17	K	19.6		Homo_sapiens	Primates	Hominidae	Homo	present	present hand-assembled	present	present	present	absent	present	well validated
-NR_033418	ZNF542P			7	cK	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	present	many transcripts but structure unclear, KRAB present in genome
-NM_213598	ZNF543			13	K	19.12	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	prob absent	absent	validated
-NM_014480	ZNF544			12	K	19.12	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	absent	absent	well validated
-NM_178544	ZNF546			22	K	19.7		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_173631	ZNF547			10	K	19.12	Basal	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	absent	validated
-NM_001172773	ZNF548			11	K	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001199295	ZNF549			11	K	19.12	Basal	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	absent	well validated
-NM_001277090	ZNF550			8	K	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_138347	ZNF551			14	K	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_024762	ZNF552			6	K	19.12	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	absent	absent	well validated
-NM_001102651	ZNF554			7	K	19.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_152791	ZNF555			15	K	19.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_024967	ZNF556			9	K	19.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	present	present	validated
-NM_024341	ZNF557			10	K	solo	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	absent	absent	well validated
-NM_144693	ZNF558			9	K	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001202406	ZNF559			9	K	19.2	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	well validated
-NM_152476	ZNF560			13	KK	19.2	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	validated
-NM_152289	ZNF561			8	K	19.2	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	prob absent inc TA	absent	absent	well validated
-NM_001130031	ZNF562			6	K	19.2	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present hand-assembled	present	present hand-assembled	absent inc TA	absent	absent	well validated
-NM_145276	ZNF563			10	K	19.3	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	well validated
-NM_144976	ZNF564			15	K	19.3	Basal	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	absent	well validated
-NM_001042474	ZNF565			12	K	19.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present hand-assembled	present	present	present	present	well validated
-NM_001145345	ZNF566			7	K	19.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present hand-assembled	present	present	present	present	well validated
-NM_001300979	ZNF567			14	K	19.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_198539	ZNF568			15	K	19.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_152484	ZNF569			18	K	19.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_173480	ZNF57			13	K	19.1	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	absent	absent	well validated
-NM_001300993	ZNF570			11	K	19.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_001290314	ZNF571			16	K	19.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	present	well validated
-NM_152360	ZNF573			19	K	19.6		Homo_sapiens	Primates	Hominidae	Homo	present hand-assembled	present	present	present	present	present	present	validated
-NM_032679	ZNF577			7	K	19.9		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001099694	ZNF578			10	K	19.9	Hominoid/Hominid	Homo_sapiens	Primates	Hominidae	Homo	present	present	absent inc TA and syntenic DNA	absent inc TA	absent	absent	absent	validated
-NM_001320371	ZNF582			9	K	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_152478	ZNF583			12	K	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_173548	ZNF584			8	K	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_152655	ZNF585A			21	K	19.6		Homo_sapiens	Primates	Hominidae	Homo								well validated
-NM_152279	ZNF585B			21	K	19.6		Homo_sapiens	Primates	Hominidae	Homo								well validated
-NM_017652	ZNF586			8	K	19.12	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	prob present hand-assembled	absent	absent	well validated
-NM_032828	ZNF587			13	K	19.12		Homo_sapiens	Primates	Hominidae	Homo								well validated
-NM_001042416	ZNF596			11	K	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_152457	ZNF597			7	K	16.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001007248	ZNF599			14	K	19.5		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_198457	ZNF600			18	K	19.9	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present hand-assembled	present hand-assembled	absent inc TA	absent	absent	partially validated, one EST supports LLNL KRAB model
-NM_183238	ZNF605			17	K	12.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_025027	ZNF606			13	K	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_032689	ZNF607			18	K	19.6	Basal	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	absent	validated
-NM_001161425	ZNF610			8	K	19.9	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	well validated
-NM_030972	ZNF611			13	K	19.9	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	absent inc TA	absent	absent	well validated
-NM_001031721	ZNF613			11	K	19.9		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_025040	ZNF614			10	K	19.9		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001199324	ZNF615			19	K	19.9		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_178523	ZNF616			21	K	19.9	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	well validated
-NM_020787	ZNF624			20	K	17.2		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	present	present	present	validated
-NM_145233	ZNF625			8	cK	19.3	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	validated, some transcripts have KRAB
-NM_001076675	ZNF626			10	K	19.4	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	absent inc TA	absent	absent	well validated
-NM_145295	ZNF627			10	K	19.3	Basal	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	absent	well validated
-NM_001037735	ZNF630			11	K	X.3		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	prob present hand-assembled	absent	present	well validated
-NM_152320	ZNF641			5	K	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_023074	ZNF649			10	K	19.9	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	absent	absent	well validated
-NM_138494	ZNF655			6	cK	7.4		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated, KRAB domain not found in ZF containing transcripts but present ancestrally
-NM_001317916	ZNF658			18	K	solo		Homo_sapiens	Primates	Hominidae	Homo								well validated
-NM_001355197	ZNF66			13	K	19.4	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	absent inc TA and syntenic DNA tree	present	absent inc TA	absent inc TA	absent	absent	unvalidated, possible pseudogene but present ancestrally
-NM_001353458	ZNF665			18	K	19.9	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	absent	absent	validated
-NM_022103	ZNF667			14	K	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_024833	ZNF671			9	K	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001039891	ZNF674			11	K	X.1		Homo_sapiens	Primates	Hominidae	Homo	present	present hand-assembled	present	present	present	present	present	well validated
-NM_138330	ZNF675			11	K	19.4	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	present	absent	absent	well validated
-NM_001001411	ZNF676			14	K	19.4	Hominoid/Hominid	Homo_sapiens	Primates	Hominidae	Homo	present	present had	absent inc TA	absent inc TA	absent inc TA	absent	absent	weakly validated
-NM_001317998	ZNF677			10	K	19.9		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	present	present	well validated
-NM_153363	ZNF679			7	K	7.3	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	absent	absent	validated
-NG_055543	ZNF67P pseudogene			NA	K	19.4		Homo_sapiens	Primates	Hominidae	Homo								Gencode manual and RefSeq pseudogene
-NM_178558	ZNF680			12	K	7.3	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	well validated
-NM_138286	ZNF681			11	K	19.4	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	absent	absent	validated
-NM_033196	ZNF682			10	K	19.4	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	validated
-NM_145271	ZNF688			2	K	16.2		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_138447	ZNF689			10	K	16.2		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001321163	ZNF69			12	K	19.3	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	absent inc TA	absent	absent	validated
-NM_198535	ZNF699			14	K	19.2		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_001282795	ZNF7			14	K	8.3		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_144566	ZNF700	cladeI		17	K	19.3	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	absent	absent	well validated
-NM_001172655	ZNF701			7	K	19.9	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	absent inc TA	absent inc TA	absent	absent	well validated
-NM_001004328	ZNF705A			3	K	solo		Homo_sapiens	Primates	Hominidae	Homo								well validated
-NM_001039615	ZNF705D			3	K	solo		Homo_sapiens	Primates	Hominidae	Homo								validated
-NM_001278713	ZNF705E			2	K	solo		Homo_sapiens	Primates	Hominidae	Homo								unvalidated but so similar to ZNF705A that unclear transcript mapping
-NM_001164457	ZNF705G			2	K	solo		Homo_sapiens	Primates	Hominidae	Homo								partially validated
-NM_173831	ZNF707			7	K	8.2		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	prob present	present	present	well validated
-NM_021269	ZNF708			14	K	19.4	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present hand-assembled	present	present hand-assembled	present	absent	absent	validated
-NM_152601	ZNF709			19	K	19.3		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_021216	ZNF71			13	K	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated, some transcripts have KRAB
-NM_182633	ZNF713			5	K	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_182515	ZNF714			12	K	19.4	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	prob present	absent inc TA	absent inc TA	absent	absent	validated
-NM_001159279	ZNF716			9	K	7.2	Hominoid/Hominid	Homo_sapiens	Primates	Hominidae	Homo	present	present	absent inc TA and syntenic DNA	absent inc TA	absent inc TA	absent	absent	validated
-NM_001130913	ZNF720			11	K	16.4	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	partially validated, most transcripts don't have ZF in frame but present ancestrally
-NM_001349726	ZNF723			12	K	19.4	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	prob present hand-assembled	absent inc TA	absent inc TA	absent	absent	unvalidated
-NM_001355404	ZNF724			14	K	19.4	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	partially validated
-NG_011783	ZNF725P			9	K	19.4	Hominoid/Hominid	Homo_sapiens	Primates	Hominidae	Homo	present	present	absent inc TA and syntenic DNA	absent inc TA	absent	absent	absent	unvalidated, gene models have several introns in ZF exons, possible pseudogene but present ancestrally
-NM_001244038	ZNF726			14	K	19.4	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present hand-assembled	present	present	present	absent inc TA	absent	absent	unvalidated but Gencode annotated gene
-NM_001159522	ZNF727			10	K	7.3	Hominoid/Hominid	Homo_sapiens	Primates	Hominidae	Homo	present	present	absent inc TA and syntenic DNA	prob absent TA done	absent TA done	absent	absent	weakly supported by EST but Gencode annotates as pseudogene, present ancestrally
-NM_001267716	ZNF728			14	K	19.4	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present hand-assembled	absent inc TA	absent inc TA	absent	absent	weakly validated
-NM_001242680	ZNF729			34	K	19.4		Homo_sapiens	Primates	Hominidae	Homo								very weakly validated, possible pseudogene
-NM_001277403	ZNF730			10	K	19.4	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present hand-assembled	present	present hand-assembled	absent inc TA	absent inc TA	absent	absent	validated
-NG_009437	ZNF734P			11	K	7.3		Homo_sapiens	Primates	Hominidae	Homo								validated
-NM_001159524	ZNF735			6	K	7.3	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present hand-assembled	present	present	absent inc TA	absent inc TA	absent	absent	Gencode manual pseudogene, RefSeq gives tentative gene but no transcript or EST support, present ancestrally
-NM_001170905	ZNF736			9	K	7.3	Simian	Homo_sapiens	Primates	Hominidae	Homo	present hand-assembled	present	present	present	present	absent	absent	validated
-NM_001159293	ZNF737			13	K	19.4	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present hand-assembled	present	absent inc TA	absent inc TA	absent	absent	validated
-NM_001355237	ZNF738			5	K	19.4	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	absent inc TA and syntenic DNA tree	present	present	present	absent	absent	unvalidated, possible pseudogene but present ancestrally
-NM_003426	ZNF74			12	K	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001163474	ZNF746			3	K	7.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001305018	ZNF747			4	K	16.2	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	validated, canonical gene model has stop before all ZF domains but present ancestrally
-NM_001023561	ZNF749			13	K	19.12	Simian	Homo_sapiens	Primates	Hominidae	Homo	present hand-assembled	present	present	present	prob present	absent	absent	validated
-NM_001302109	ZNF75A			5	cSK	16.1		Homo_sapiens	Primates	Hominidae	Homo								validated
-NM_001008401	ZNF761			17	K	19.1	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	absent	absent	validated
-NM_001367172	ZNF763			6	K	19.3	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	absent inc TA and syntenic DNA	absent inc TA	prob present	absent	absent	well validated
-NM_033410	ZNF764			7	K	16.2		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001040185	ZNF765			8	K	19.1	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	prob present	unclear inc TA	absent inc TA	absent	absent	validated
-NM_001010851	ZNF766			7	K	19.9	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	well validated
-NM_021217	ZNF77			12	K	19.1	Basal	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	prob absent	well validated
-NM_001024596	ZNF772			10	K	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_198542	ZNF773			9	K	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_173632	ZNF776			9	K	19.12	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	well validated
-NM_015694	ZNF777			9	K	7.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001201407	ZNF778			13	K	solo	Basal	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	prob present	absent	validated
-NM_001142577	ZNF780A			17	K	19.7	Simian	Homo_sapiens	Primates	Hominidae	Homo	present hand-assembled	present	present	present	present	absent	absent	validated
-NM_001005851	ZNF780B			21	K	19.7	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	prob present hand-assembled	present	present	present	absent	absent	validated
-NM_152605	ZNF781			3	cK	19.6	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	absent	absent	validated, genomic KRAB found in a few transcripts but not found in any gene models
-NM_001001662	ZNF782			11	K	9.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_001195220	ZNF783			4	K	7.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	weakly validated, confusing, but present ancestrally
-NM_152458	ZNF785			7	K	16.2		Homo_sapiens	Primates	Hominidae	Homo	present	present	absent inc TA and syntenic DNA	absent inc TA	present	present	present	well validated
-NM_152411	ZNF786			13	K	7.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001348163	ZNF788			14	cK	19.3	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	structure unclear, ZF probably out of frame with genomic KRAB
-NM_213603	ZNF789			8	K	7.4		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_007135	ZNF79			11	K	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_206894	ZNF790			12	K	19.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_153358	ZNF791			17	K	19.3		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_175872	ZNF792			12	K	19.5		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_001013659	ZNF793			6	K	19.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_001080821	ZNF799			15	K	19.3	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	validated, second ZF exon potentially alternatively spliced
-NM_021089	ZNF8			7	K	19.12		Homo_sapiens	Primates	Hominidae	Homo	present	present	present hand-assembled	present	present	present	present	well validated
-NM_001023563	ZNF805			13	K	19.12	Basal	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	absent	weak validation, KRAB in genome not in gene models other than LLNL
-NM_001039886	ZNF808			23	K	19.9	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	absent inc TA	absent	absent	validated
-NM_007137	ZNF81			12	K	X.3		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_001004301	ZNF813			13	K	19.1	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present hand-assembled	present hand-assembled	absent inc TA	absent	absent	validated
-NM_001144989	ZNF814			21	K	19.12	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	absent inc TA and syntenic DNA	present	present	absent	absent	partially validated
-NM_001031665	ZNF816A			14	K	19.9	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	prob absent inc TA	absent	absent	well validated
-NM_001080493	ZNF823			15	K	19.3	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	present	absent	absent	well validated
-NR_036455	ZNF826P			10	cK	19.4	Hominoid/Hominid	Homo_sapiens	Primates	Hominidae	Homo	absent inc TA and syntenic DNA	present	absent inc TA and syntenic DNA	absent inc TA	absent	absent	absent	partially validated, genomic KRAB may be in frame in some transcripts
-NM_001171979	ZNF829			9	K	19.6		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_001105549	ZNF83			14	cK	19.9		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	absent inc TA	present	present	validated, in-frame genomic KRAB found in many transcripts but no gene models
-NR_028594	ZNF833P			6	cK	19.3	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	absent inc TA and syntenic DNA	present	absent inc TA	absent	absent	validated, genomic KRAB may be present in some transcripts
-NM_001102657	ZNF836			24	K	19.9	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present hand-assembled	present	present	absent	absent	validated
-NM_003428	ZNF84			19	K	12.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001136499	ZNF841			20	K	19.9	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	validated
-NM_001136501	ZNF844	cladeI		6	K	19.3	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	absent	absent	well validated
-NM_138374	ZNF845			26	K	19.1	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	absent inc TA	absent	absent	validated
-NM_001077624	ZNF846			11	K	19.2		Homo_sapiens	Primates	Hominidae	Homo	present	present	present hand-assembled	present	present	present	present	validated
-NM_003429	ZNF85			15	K	19.4	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	absent	absent	well validated
-NM_001099220	ZNF862 no canonical ZF			NA	KK	7.6		Homo_sapiens	Primates	Hominidae	Homo								unclear validation, does not have canonical C2H2 ZFs despite name
-NM_007138	ZNF90			15	K	19.4	Hominoid/Hominid	Homo_sapiens	Primates	Hominidae	Homo	present	present	absent inc TA and syntenic DNA	absent inc TA	absent	absent	absent	partially validated
-NM_003430	ZNF91			31	K	19.4	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present hand-assembled	present	present	absent inc TA	absent	absent	well validated
-NM_007139	ZNF92			11	K	7.3	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	present	absent	absent	well validated
-NM_031218	ZNF93			16	K	19.4	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	absent	absent	well validated
-NM_001098626	ZNF98			13	K	19.4		Homo_sapiens	Primates	Hominidae	Homo								validated
-NM_001080409	ZNF99			21	K	19.4		Homo_sapiens	Primates	Hominidae	Homo								unvalidated, gene models have several introns in ZF exons, possible pseudogene
-NM_030613	ZFP2			13	K	5.2		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated, upstream KRAB out of frame in some transcripts
-NM_152283	ZFP62			20	none	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_003431	ZNF124			9	K	1.2	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	validated
-NM_003441	ZNF141			10	K	4.1	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	present	absent	absent	well validated
-NM_001318891	ZNF184			19	K	6.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_021088	ZNF2			8	K	2.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001172831	ZNF300			12	K	5.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001242797	ZNF322A			8	none	solo		Homo_sapiens	Primates	Hominidae	Homo								well validated
-NM_003420	ZNF35			11	none	3.2		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_005649	ZNF354A			13	K	5.2		Homo_sapiens	Primates	Hominidae	Homo								well validated
-NM_058230	ZNF354B			13	K	5.2		Homo_sapiens	Primates	Hominidae	Homo								well validated
-NM_014594	ZNF354C			11	K	5.2		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001322288	ZNF391			9	none	6.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001077195	ZNF436			12	K	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001178089	ZNF454			12	K	5.2		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_145044	ZNF501			9	none	3.2		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_033210	ZNF502			14	none	3.2		Homo_sapiens	Primates	Hominidae	Homo	present	present hand-assembled	present	present	present	present	present	well validated
-NM_001318005	ZNF514			7	K	2.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_016089	ZNF589			4	K	solo	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	validated
-NM_182524	ZNF595			14	K	4.1	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	absent	absent	well validated
-NM_001145082	ZNF619			10	K	3.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_175888	ZNF620			8	K	3.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_198484	ZNF621			7	K	3.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001320178	ZNF642			9	K	1.1		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001009992	ZNF648			9	none	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_173658	ZNF660			10	none	3.2		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated, no KRAB in genome
-NM_207404	ZNF662			8	K	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_024804	ZNF669			9	K	1.2	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present hand-assembled	present	present hand-assembled	present	absent	absent	well validated
-NM_033213	ZNF670	cladeI		8	K	1.2	Basal	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	absent	well validated
-NM_024836	ZNF672			12	none	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_178549	ZNF678			14	K	solo	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	absent inc TA	absent	absent	validated
-NM_152373	ZNF684			8	K	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001242739	ZNF691			7	none	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_020394	ZNF695			9	K	1.2	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	absent inc TA	absent	absent	validated
-NM_001080470	ZNF697			11	none	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	partially validated
-NM_001128223	ZNF717			18	K	solo	Hominoid/Hominid	Homo_sapiens	Primates	Hominidae	Homo	present hand-assembled	present	absent inc TA and syntenic DNA	absent inc TA	absent inc TA	absent	absent	partially validated
-NM_001039127	ZNF718			10	K	4.1	Simian	Homo_sapiens	Primates	Hominidae	Homo	present	present	present hand-assembled	prob present	present	absent	absent	some validation, probable alternative ZF exon for upstream ZNF595 exons
-NM_133474	ZNF721			23	K	4.1	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	absent inc TA	absent	absent	well validated
-NM_007136	ZNF80			5	cK	solo		Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present hand-assembled	present	present	present	validated, upstream KRAB not in gene model but present ancestrally
-NM_001304449	ZNF806 pseudogene			NA	K			Homo_sapiens	Primates	Hominidae	Homo								Gencode manual annotation pseudogene
-NM_001287349	ZNF852			12	K	3.2		Homo_sapiens	Primates	Hominidae	Homo								validated, named ZNF852 by GENCODE
-NM_001137674	ZNF860			12	K	solo	Catarrhine	Homo_sapiens	Primates	Hominidae	Homo	present	absent inc TA	present	present hand-assembled	prob absent inc TA	absent	absent	validated
-NM_199189	MATR3							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_006210	PEG3							Homo_sapiens	Primates	Hominidae	Homo								
-NM_001310214	PRDM9							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_014569	ZFP95							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_015363	ZIM2							Homo_sapiens	Primates	Hominidae	Homo								validated
-NM_003439	ZKSCAN1							Homo_sapiens	Primates	Hominidae	Homo								
-NM_003447	ZNF165							Homo_sapiens	Primates	Hominidae	Homo								
-NM_018651	ZNF167							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_003450	ZNF174							Homo_sapiens	Primates	Hominidae	Homo								
-NM_144680	ZNF18							Homo_sapiens	Primates	Hominidae	Homo								
-NM_001278119	ZNF192							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001199479	ZNF193							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_006991	ZNF197							Homo_sapiens	Primates	Hominidae	Homo								
-NM_003455	ZNF202							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_032805	ZNF206							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_004220	ZNF213							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated, no KRAB in genome, SCAN only
-NM_013250	ZNF215							Homo_sapiens	Primates	Hominidae	Homo								
-NM_014519	ZNF232							Homo_sapiens	Primates	Hominidae	Homo								
-NM_006965	ZNF24							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated but ZF in two exons, second ZF exon tracked for orthology
-NM_005741	ZNF263							Homo_sapiens	Primates	Hominidae	Homo								
-NM_021148	ZNF273							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	alternative splice form of ZIM2, distinct ZF exon
-NM_016325	ZNF274							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_003575	ZNF282							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001346167	ZNF287							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001098402	ZNF295							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001163391	ZNF305							Homo_sapiens	Primates	Hominidae	Homo								
-NM_001242894	ZNF306							Homo_sapiens	Primates	Hominidae	Homo								
-NM_019110	ZNF307							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_001377376   	ZNF31							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_030899	ZNF323							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_182976	ZNF326							Homo_sapiens	Primates	Hominidae	Homo								well validated
-NM_001362779	ZNF38							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_032164	ZNF394							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_001322286	ZNF396							Homo_sapiens	Primates	Hominidae	Homo								
-NM_001135178	ZNF397							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_003422	ZNF42							Homo_sapiens	Primates	Hominidae	Homo								
-NM_001284527	ZNF434							Homo_sapiens	Primates	Hominidae	Homo								
-NM_025231	ZNF435							Homo_sapiens	Primates	Hominidae	Homo								
-NM_018337	ZNF444							Homo_sapiens	Primates	Hominidae	Homo								
-NM_181489	ZNF445							Homo_sapiens	Primates	Hominidae	Homo								
-NM_017908	ZNF446							Homo_sapiens	Primates	Hominidae	Homo								
-NM_001145542	ZNF447							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_152695	ZNF449							Homo_sapiens	Primates	Hominidae	Homo								
-NM_021224	ZNF462							Homo_sapiens	Primates	Hominidae	Homo								
-NM_133464	ZNF483							Homo_sapiens	Primates	Hominidae	Homo								
-NM_032752	ZNF496							Homo_sapiens	Primates	Hominidae	Homo								
-NM_198458	ZNF497							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_145115	ZNF498							Homo_sapiens	Primates	Hominidae	Homo								well validated
-NM_001316978	ZNF499							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated, SCAN only
-NM_021646	ZNF500							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_152457	ZNF597							Homo_sapiens	Primates	Hominidae	Homo								Involved in alternative mRNA splicing with RNA polymerase II transcript elongation
-NM_133374	ZNF618							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_014497	ZNF638							Homo_sapiens	Primates	Hominidae	Homo								well validated gene but unique evolutionary properties, analyzed elsewhere
-NM_001320178	ZNF642							Homo_sapiens	Primates	Hominidae	Homo								well validated
-NM_023070	ZNF643							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated, KRAB domain not found in ZF containing transcripts but present ancestrally
-NM_201269	ZNF644							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated, SCAN only
-NM_014699	ZNF646							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_138494	ZNF655							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated
-NM_178558	ZNF680							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_001372080	ZNF690							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated, SCAN in genome but not in any transcript
-NM_001012981	ZNF694							Homo_sapiens	Primates	Hominidae	Homo								
-NM_001163474 	ZNF746							Homo_sapiens	Primates	Hominidae	Homo								
-NM_007131	ZNF75							Homo_sapiens	Primates	Hominidae	Homo								
-NM_001302109	ZNF75A							Homo_sapiens	Primates	Hominidae	Homo								
-NM_015694	ZNF777							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated
-NM_182572	ZSCAN1							Homo_sapiens	Primates	Hominidae	Homo								"NP220 (also known as ZNF638)  is the key protein that recruits the HUSH complex. 
-NM_181877	ZSCAN2							Homo_sapiens	Primates	Hominidae	Homo								
-NM_001362779	ZSCAN21							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	validated, no KRAB in genome
-NM_006965	ZSCAN3							Homo_sapiens	Primates	Hominidae	Homo								
-NM_152677	ZSCAN4							Homo_sapiens	Primates	Hominidae	Homo								
-NM_001322061	ZSCAN5							Homo_sapiens	Primates	Hominidae	Homo	present	present	present	present	present	present	present	well validated, an important paralog of this gene is ZNF777
+sequenceID	name	exogenous	locus	clade	lab_construct	isolate	country	collection_year	host_sci_name
+AB021506	Human betaherpesvirus 6B	-	-	-	-	HST	-	-	Homo sapiens
+DD138891	Human betaherpesvirus 6B	-	-	-	-	-	-	-	Homo sapiens
+DJ052726	Human betaherpesvirus 6B	-	-	-	-	-	-	-	Homo sapiens
+DL242080	Human betaherpesvirus 6B	-	-	-	-	-	-	-	Homo sapiens
+FV537026	Human betaherpesvirus 6A	-	-	-	TRUE	-	-	-	Homo sapiens
+FV537027	Human betaherpesvirus 6A	-	-	-	TRUE	-	-	-	Homo sapiens
+FV537028	Human betaherpesvirus 6A	-	-	-	TRUE	-	-	-	Homo sapiens
+FV537029	Human betaherpesvirus 6A	-	-	-	TRUE	-	-	-	Homo sapiens
+FV537030	Human betaherpesvirus 6B	-	-	-	TRUE	-	-	-	Homo sapiens
+FV537031	Human betaherpesvirus 6B	-	-	-	TRUE	-	-	-	Homo sapiens
+FV537032	Human betaherpesvirus 6B	-	-	-	TRUE	-	-	-	Homo sapiens
+FV537033	Human betaherpesvirus 6B	-	-	-	TRUE	-	-	-	Homo sapiens
+KC465951	Human betaherpesvirus 6A	-	-	-	-	GS	USA	1985	Homo sapiens
+KJ123690	Human betaherpesvirus 6A	-	-	A1	-	GS	USA	-	Homo sapiens
+KP257584	Human betaherpesvirus 6A	-	-	A1	-	AJ	Gambia	1987	Homo sapiens
+KT355575	Human betaherpesvirus 6A	TRUE	Chr19p	A3	-	LEI_1501	United Kingdom	-	Homo sapiens
+KY239023	Human betaherpesvirus 6B	-	-	-	-	japan-a1	Japan	2015	Homo sapiens
+KY274487	Human betaherpesvirus 6B	-	-	-	-	japan-a2	Japan	2015	Homo sapiens
+KY274488	Human betaherpesvirus 6B	-	-	-	-	japan-a3	Japan	2015	Homo sapiens
+KY274489	Human betaherpesvirus 6B	-	-	-	-	japan-a4	Japan	2015	Homo sapiens
+KY274490	Human betaherpesvirus 6B	-	-	-	-	japan-a5	Japan	2015	Homo sapiens
+KY274491	Human betaherpesvirus 6B	-	-	-	-	japan-a7	Japan	2015	Homo sapiens
+KY274492	Human betaherpesvirus 6B	-	-	-	-	japan-a8	Japan	2015	Homo sapiens
+KY274493	Human betaherpesvirus 6B	-	-	-	-	japan-a9	Japan	2015	Homo sapiens
+KY274494	Human betaherpesvirus 6B	-	-	-	-	japan-a10	Japan	2015	Homo sapiens
+KY274495	Human betaherpesvirus 6B	-	-	-	-	japan-a11	Japan	2015	Homo sapiens
+KY274496	Human betaherpesvirus 6B	-	-	-	-	japan-b1	Japan	2015	Homo sapiens
+KY274497	Human betaherpesvirus 6B	-	-	-	-	japan-b2	Japan	2015	Homo sapiens
+KY274498	Human betaherpesvirus 6B	-	-	-	-	japan-b3	Japan	2015	Homo sapiens
+KY274499	Human betaherpesvirus 6B	-	-	-	-	japan-b4	Japan	2015	Homo sapiens
+KY274500	Human betaherpesvirus 6B	-	-	-	-	japan-b5	Japan	2015	Homo sapiens
+KY274501	Human betaherpesvirus 6B	-	-	-	-	japan-b7	Japan	2015	Homo sapiens
+KY274502	Human betaherpesvirus 6B	-	-	-	-	japan-b8	Japan	2015	Homo sapiens
+KY274503	Human betaherpesvirus 6B	-	-	-	-	japan-b9	Japan	2015	Homo sapiens
+KY274504	Human betaherpesvirus 6B	-	-	-	-	japan-b10	Japan	2015	Homo sapiens
+KY274505	Human betaherpesvirus 6B	-	-	-	-	japan-b11	Japan	2015	Homo sapiens
+KY274506	Human betaherpesvirus 6B	-	-	-	-	HP10A10	USA	-	Homo sapiens
+KY274507	Human betaherpesvirus 6B	-	-	-	-	HP10H9	USA	-	Homo sapiens
+KY274508	Human betaherpesvirus 6B	-	-	-	-	HP15A11	USA	-	Homo sapiens
+KY274509	Human betaherpesvirus 6B	-	-	-	-	HP15H9	USA	-	Homo sapiens
+KY274510	Human betaherpesvirus 6B	-	-	-	-	HP17H8	USA	-	Homo sapiens
+KY274511	Human betaherpesvirus 6B	-	-	-	-	HP19G7	USA	-	Homo sapiens
+KY274512	Human betaherpesvirus 6B	-	-	-	-	HP21F9	USA	-	Homo sapiens
+KY274513	Human betaherpesvirus 6B	-	-	-	-	HP23G12	USA	-	Homo sapiens
+KY274514	Human betaherpesvirus 6B	-	-	-	-	HP24D3	USA	-	Homo sapiens
+KY274515	Human betaherpesvirus 6B	-	-	-	-	HP26A11	USA	-	Homo sapiens
+KY274516	Human betaherpesvirus 6B	-	-	-	-	HP30A9	USA	-	Homo sapiens
+KY274517	Human betaherpesvirus 6B	-	-	-	-	HP30E3	USA	-	Homo sapiens
+KY274518	Human betaherpesvirus 6B	-	-	-	-	HP31C9	United Kingdom	-	Homo sapiens
+KY274519	Human betaherpesvirus 6B	-	-	-	-	HP33G9	USA	-	Homo sapiens
+KY274520	Human betaherpesvirus 6B	-	-	-	-	HP34B2	USA	-	Homo sapiens
+KY274521	Human betaherpesvirus 6B	-	-	-	-	HP34B3	USA	-	Homo sapiens
+KY274522	Human betaherpesvirus 6B	TRUE	Chr9q	B6	-	HP34D9	USA	-	Homo sapiens
+KY274523	Human betaherpesvirus 6B	-	-	-	-	HP36G11	USA	-	Homo sapiens
+KY274524	Human betaherpesvirus 6B	-	-	-	-	HP38H8	USA	-	Homo sapiens
+KY274525	Human betaherpesvirus 6B	-	-	-	-	HP42C9	USA	-	Homo sapiens
+KY290171	Human betaherpesvirus 6B	-	-	-	-	HP44C1	USA	-	Homo sapiens
+KY290172	Human betaherpesvirus 6B	-	-	-	-	HP49H10	USA	-	Homo sapiens
+KY290173	Human betaherpesvirus 6B	-	-	-	-	HP51D11	USA	-	Homo sapiens
+KY290174	Human betaherpesvirus 6B	-	-	-	-	HP54B4	USA	-	Homo sapiens
+KY290175	Human betaherpesvirus 6B	-	-	-	-	HP54H11	USA	-	Homo sapiens
+KY290176	Human betaherpesvirus 6B	-	-	-	-	HP58A9	USA	-	Homo sapiens
+KY290177	Human betaherpesvirus 6B	-	-	-	-	HP58B9	USA	-	Homo sapiens
+KY290178	Human betaherpesvirus 6B	TRUE	Chr15p	B7	-	HP61C11	USA	-	Homo sapiens
+KY290179	Human betaherpesvirus 6B	-	-	-	-	HP63F10	USA	-	Homo sapiens
+KY290180	Human betaherpesvirus 6B	-	-	-	-	HP67A4	USA	-	Homo sapiens
+KY290181	Human betaherpesvirus 6A	TRUE	Chr17p	A2	-	HP69A10	USA	-	Homo sapiens
+KY290182	Human betaherpesvirus 6B	-	-	-	-	HP69F10	USA	-	Homo sapiens
+KY290183	Human betaherpesvirus 6B	-	-	-	-	HP73C5	USA	-	Homo sapiens
+KY290184	Human betaherpesvirus 6B	-	-	-	-	HP100E10	-	-	Homo sapiens
+KY290185	Human betaherpesvirus 6B	-	-	-	-	HP104A5	USA	-	Homo sapiens
+KY290186	Human betaherpesvirus 6B	-	-	-	-	HP104C1	USA	-	Homo sapiens
+KY290187	Human betaherpesvirus 6B	-	-	-	-	NY-32	USA	-	Homo sapiens
+KY290188	Human betaherpesvirus 6B	-	-	-	-	NY-40	USA	-	Homo sapiens
+KY290189	Human betaherpesvirus 6B	-	-	-	-	NY-104	USA	-	Homo sapiens
+KY290190	Human betaherpesvirus 6B	-	-	-	-	NY-129	USA	-	Homo sapiens
+KY290191	Human betaherpesvirus 6B	-	-	-	-	NY-144	USA	-	Homo sapiens
+KY290192	Human betaherpesvirus 6B	-	-	-	-	NY-156	USA	-	Homo sapiens
+KY290193	Human betaherpesvirus 6B	-	-	-	-	NY-200	USA	-	Homo sapiens
+KY290194	Human betaherpesvirus 6B	-	-	-	-	NY-214	USA	-	Homo sapiens
+KY290195	Human betaherpesvirus 6B	-	-	-	-	NY-233	USA	-	Homo sapiens
+KY290196	Human betaherpesvirus 6B	-	-	-	-	NY-236	USA	-	Homo sapiens
+KY290197	Human betaherpesvirus 6B	-	-	-	-	NY-241	USA	-	Homo sapiens
+KY290198	Human betaherpesvirus 6B	-	-	-	-	NY-275	USA	-	Homo sapiens
+KY290199	Human betaherpesvirus 6B	-	-	-	-	NY-306	USA	-	Homo sapiens
+KY290200	Human betaherpesvirus 6B	-	-	-	-	NY-309	USA	-	Homo sapiens
+KY290201	Human betaherpesvirus 6B	-	-	-	-	NY-310	USA	-	Homo sapiens
+KY290202	Human betaherpesvirus 6B	-	-	-	-	NY-317	USA	-	Homo sapiens
+KY290203	Human betaherpesvirus 6B	-	-	-	-	NY-319	USA	-	Homo sapiens
+KY290204	Human betaherpesvirus 6B	-	-	-	-	NY-332	USA	-	Homo sapiens
+KY290205	Human betaherpesvirus 6B	-	-	-	-	NY-335	USA	-	Homo sapiens
+KY290206	Human betaherpesvirus 6B	-	-	-	-	NY-338	USA	-	Homo sapiens
+KY290207	Human betaherpesvirus 6B	-	-	-	-	NY-350	USA	-	Homo sapiens
+KY290208	Human betaherpesvirus 6B	-	-	-	-	NY-351	USA	-	Homo sapiens
+KY290209	Human betaherpesvirus 6B	-	-	-	-	NY-353	USA	-	Homo sapiens
+KY290210	Human betaherpesvirus 6B	-	-	-	-	NY-357	USA	-	Homo sapiens
+KY290211	Human betaherpesvirus 6B	-	-	-	-	NY-373	USA	-	Homo sapiens
+KY290212	Human betaherpesvirus 6B	-	-	-	-	NY-379	USA	-	Homo sapiens
+KY290213	Human betaherpesvirus 6B	-	-	-	-	NY-380	USA	-	Homo sapiens
+KY290214	Human betaherpesvirus 6B	-	-	-	-	NY-390	USA	-	Homo sapiens
+KY290215	Human betaherpesvirus 6B	-	-	-	-	NY-393	USA	-	Homo sapiens
+KY290216	Human betaherpesvirus 6B	-	-	-	-	NY-394	USA	-	Homo sapiens
+KY290217	Human betaherpesvirus 6B	-	-	-	-	NY-397	USA	-	Homo sapiens
+KY290218	Human betaherpesvirus 6B	-	-	-	-	NY-399	USA	-	Homo sapiens
+KY290219	Human betaherpesvirus 6B	-	-	-	-	NY-405	USA	-	Homo sapiens
+KY290220	Human betaherpesvirus 6B	-	-	-	-	NY-434	USA	-	Homo sapiens
+KY290221	Human betaherpesvirus 6B	-	-	-	-	NY-436	USA	-	Homo sapiens
+KY315520	Human betaherpesvirus 6B	-	-	-	-	DNRC11	USA	-	Homo sapiens
+KY315521	Human betaherpesvirus 6B	-	-	-	-	HP1F1	USA	-	Homo sapiens
+KY315522	Human betaherpesvirus 6B	-	-	-	-	HP2C10	USA	-	Homo sapiens
+KY315523	Human betaherpesvirus 6B	-	-	-	-	HP4A11	USA	-	Homo sapiens
+KY315524	Human betaherpesvirus 6B	-	-	-	-	HP4C10	USA	-	Homo sapiens
+KY315525	Human betaherpesvirus 6B	-	-	-	-	HP5E3	USA	-	Homo sapiens
+KY315526	Human betaherpesvirus 6B	-	-	-	-	HP6G12	USA	-	Homo sapiens
+KY315527	Human betaherpesvirus 6B	-	-	-	-	HP8H1	USA	-	Homo sapiens
+KY315528	Human betaherpesvirus 6B	-	-	-	-	HP12F5	USA	-	Homo sapiens
+KY315529	Human betaherpesvirus 6B	-	-	-	-	HP12G6	USA	-	Homo sapiens
+KY315530	Human betaherpesvirus 6B	-	-	-	-	HP12H12	USA	-	Homo sapiens
+KY315531	Human betaherpesvirus 6B	-	-	-	-	HP23A7	USA	-	Homo sapiens
+KY315532	Human betaherpesvirus 6B	-	-	-	-	HP33A7	United Kingdom	-	Homo sapiens
+KY315533	Human betaherpesvirus 6B	-	-	-	-	HP36C6	Australia	-	Homo sapiens
+KY315534	Human betaherpesvirus 6B	-	-	-	-	HP40E6	USA	-	Homo sapiens
+KY315535	Human betaherpesvirus 6B	-	-	-	-	HP43E10	USA	-	Homo sapiens
+KY315536	Human betaherpesvirus 6B	TRUE	Ch17p	B8		HP46B12	USA	-	Homo sapiens
+KY315537	Human betaherpesvirus 6B	-	-	-	-	HP51G12	-	-	Homo sapiens
+KY315538	Human betaherpesvirus 6B	-	-	-	-	HP71B11	Germany	-	Homo sapiens
+KY315539	Human betaherpesvirus 6B	-	-	-	-	HP71F1	USA	-	Homo sapiens
+KY315540	Human betaherpesvirus 6A	TRUE	Chr18q	A4	-	HP73F12	Germany	-	Homo sapiens
+KY315541	Human betaherpesvirus 6B	-	-	-	-	HP79D8	USA	-	Homo sapiens
+KY315542	Human betaherpesvirus 6B	-	-	-	-	HP81C2	USA	-	Homo sapiens
+KY315543	Human betaherpesvirus 6B	-	-	-	-	HP81D12	USA	-	Homo sapiens
+KY315544	Human betaherpesvirus 6B	-	-	-	-	HP83H7	USA	-	Homo sapiens
+KY315545	Human betaherpesvirus 6B	-	-	-	-	HP88D9	USA	-	Homo sapiens
+KY315546	Human betaherpesvirus 6B	-	-	-	-	HP88H3	USA	-	Homo sapiens
+KY315547	Human betaherpesvirus 6B	-	-	-	-	HP91B10	USA	-	Homo sapiens
+KY315548	Human betaherpesvirus 6B	-	-	-	-	HP93H4	USA	-	Homo sapiens
+KY315549	Human betaherpesvirus 6B	-	-	-	-	HP94B11	USA	-	Homo sapiens
+KY315550	Human betaherpesvirus 6B	-	-	-	-	HP95C5	USA	-	Homo sapiens
+KY315551	Human betaherpesvirus 6B	-	-	-	-	HP96H2	USA	-	Homo sapiens
+KY315552	Human betaherpesvirus 6B	-	-	-	-	HP96H12	USA	-	Homo sapiens
+KY315553	Human betaherpesvirus 6B	-	-	-	-	JHPT-B12	USA	-	Homo sapiens
+KY315554	Human betaherpesvirus 6B	-	-	-	-	JHPT-C12	USA	-	Homo sapiens
+KY315555	Human betaherpesvirus 6B	-	-	-	-	JHPT-D12	USA	-	Homo sapiens
+KY315556	Human betaherpesvirus 6B	-	-	-	-	JHPT-D6	USA	-	Homo sapiens
+KY315557	Human betaherpesvirus 6B	-	-	B3	-	JHPT-E5	USA	-	Homo sapiens
+KY315558	Human betaherpesvirus 6B	-	-	-	-	JHPT-G1	USA	-	Homo sapiens
+KY316030	Human betaherpesvirus 6B	-	-	-	-	ORCA3835	United Kingdom: Orkney	-	Homo sapiens
+KY316031	Human betaherpesvirus 6B	-	-	-	-	ORCA1622	United Kingdom: Orkney	-	Homo sapiens
+KY316032	Human betaherpesvirus 6B	-	-	-	-	ORCA1340	United Kingdom: Orkney	-	Homo sapiens
+KY316033	Human betaherpesvirus 6B	-	-	-	-	LEI-ALD	United Kingdom	-	Homo sapiens
+KY316034	Human betaherpesvirus 6B	-	-	-	-	HGDP01077	Italy: Sardinia	-	Homo sapiens
+KY316035	Human betaherpesvirus 6B	-	-	-	-	HGDP01065	Italy: Sardinia	-	Homo sapiens
+KY316036	Human betaherpesvirus 6B	-	-	-	-	HGDP00813	China: Han	-	Homo sapiens
+KY316037	Human betaherpesvirus 6B	TRUE	Chr15q	NK3	-	HGDP00092	Pakistan: Balochi	-	Homo sapiens
+KY316038	Human betaherpesvirus 6B	-	-	-	-	HAPMAP_NA10863	USA: Utah	-	Homo sapiens
+KY316039	Human betaherpesvirus 6B	-	-	-	-	HAPMAP NA7022	USA: Utah	-	Homo sapiens
+KY316040	Human betaherpesvirus 6B	-	-	-	-	DER512	United Kingdom: England, Derbyshire	-	Homo sapiens
+KY316041	Human betaherpesvirus 6B	-	-	-	-	CUM082	United Kingdom: England, Cumbria	-	Homo sapiens
+KY316042	Human betaherpesvirus 6B	-	-	-	-	COR264	United Kingdom: England, Cornwall	-	Homo sapiens
+KY316043	Human betaherpesvirus 6B	-	-	-	-	BAN519	United Kingdom: Scotland, Banff	-	Homo sapiens
+KY316044	Human betaherpesvirus 6B	TRUE	Ch11p	B4	-	4B-11p15.5	United Kingdom	-	Homo sapiens
+KY316045	Human betaherpesvirus 6B	-	-	-	-	2B-9q34.3	United Kingdom	-	Homo sapiens
+KY316046	Human betaherpesvirus 6B	-	-	-	-	1-ciHHV-6B	United Kingdom	-	Homo sapiens
+KY316047	Human betaherpesvirus 6A	-	-	-	-	NA18999	Japan	-	Homo sapiens
+KY316048	Human betaherpesvirus 6A	TRUE	Chr17p	A2	-	7A-17p13.3	United Kingdom	-	Homo sapiens
+KY316049	Human betaherpesvirus 6A	TRUE	Chr10q	-	-	3A-10q26.3	United Kingdom	-	Homo sapiens
+KY316050	Human betaherpesvirus 6B	-	-	-	-	GLA_35629	United Kingdom	-	Homo sapiens
+KY316051	Human betaherpesvirus 6B	-	-	-	-	GLA_34108	United Kingdom	-	Homo sapiens
+KY316052	Human betaherpesvirus 6B	-	-	-	-	GLA_29221	United Kingdom	-	Homo sapiens
+KY316053	Human betaherpesvirus 6B	-	-	-	-	GLA_3986	United Kingdom	-	Homo sapiens
+KY316054	Human betaherpesvirus 6A	-	-	-	-	GLA_25506	United Kingdom	-	Homo sapiens
+KY316055	Human betaherpesvirus 6A	-	-	-	-	GLA_15137	United Kingdom	-	Homo sapiens
+KY316056	Human betaherpesvirus 6A	-	-	-	-	GLA_4298	United Kingdom	-	Homo sapiens
+MF511171	Human betaherpesvirus 6B	-	-	-	-	02-537-Pa	Uganda	-	Homo sapiens
+MF511172	Human betaherpesvirus 6B	-	-	-	-	02-537-S3	Uganda	-	Homo sapiens
+MF511173	Human betaherpesvirus 6B	-	-	-	-	02-542-S1a	Uganda	-	Homo sapiens
+MF511174	Human betaherpesvirus 6B	-	-	-	-	02-543-Pb	Uganda	-	Homo sapiens
+MF511175	Human betaherpesvirus 6B	-	-	-	-	02-543-S1a	Uganda	-	Homo sapiens
+MF511176	Human betaherpesvirus 6B	-	-	-	-	02-572-M	Uganda	-	Homo sapiens
+MF994813	Human betaherpesvirus 6A	-	-	A1	-	ABI-HHV6A	USA	1986	Homo sapiens
+MF994814	Human betaherpesvirus 6B	-	-	-	-	ABI-HHV6B	Zaire	1988	Homo sapiens
+MF994815	Human betaherpesvirus 6A	-	-	A1	-	CO1	Germany	1991	Homo sapiens
+MF994816	Human betaherpesvirus 6A	-	-	A1	-	CO2	Germany	1991	Homo sapiens
+MF994817	Human betaherpesvirus 6A	-	-	A1	-	CO3	Germany	1991	Homo sapiens
+MF994818	Human betaherpesvirus 6A	-	-	A1	-	CO4	Germany	1991	Homo sapiens
+MF994819	Human betaherpesvirus 6A	-	-	A1	-	CO7	Germany	1991	Homo sapiens
+MF994820	Human betaherpesvirus 6A	-	-	A1	-	DA	USA	1988	Homo sapiens
+MF994821	Human betaherpesvirus 6B	-	-	-	-	ENO	Japan	1988	Homo sapiens
+MF994822	Human betaherpesvirus 6A	-	-	A1	-	GS	USA	1986	Homo sapiens
+MF994823	Human betaherpesvirus 6B	-	-	-	-	HST-CBMC	Japan	1988	Homo sapiens
+MF994824	Human betaherpesvirus 6B	-	-	-	-	HST-MT4	Japan	1988	Homo sapiens
+MF994825	Human betaherpesvirus 6B	-	-	-	-	KYO	Japan	1988	Homo sapiens
+MF994826	Human betaherpesvirus 6B	-	-	B2	-	MAR	France	1991	Homo sapiens
+MF994827	Human betaherpesvirus 6B	-	-	-	-	NAK	Japan	1988	Homo sapiens
+MF994828	Human betaherpesvirus 6A	-	-	A1	-	SIE	Cote d'Ivoire	1988	Homo sapiens
+MF994829	Human betaherpesvirus 6B	-	-	Z29	-	Z29	Democratic Republic of the Congo	1988	Homo sapiens
+MG894368	Human betaherpesvirus 6B	TRUE	Chr19p	B5	-	iciHG00245	United Kingdom	2011	Homo sapiens
+MG894369	Human betaherpesvirus 6B	-	-	-	-	iciHG00362	Finland	2011	Homo sapiens
+MG894370	Human betaherpesvirus 6A	-	-	-	-	iciHG00657	China	2011	Homo sapiens
+MG894371	Human betaherpesvirus 6A	TRUE	Chr19p	A3	-	iciHG01277	Colombia	2011	Homo sapiens
+MG894372	Human betaherpesvirus 6B	-	-	-	-	iciHG02016	Viet Nam	2011	Homo sapiens
+MG894373	Human betaherpesvirus 6B	TRUE	Chr3q	NK1	-	iciHG02301	Peru	2011	Homo sapiens
+MG894374	Human betaherpesvirus 6A	-	-	-	-	iciNA18999	Japan	2009	Homo sapiens
+MG894375	Human betaherpesvirus 6B	TRUE	Ch1q	NK2	-	iciNA19381	Kenya	2009	Homo sapiens
+MG894376	Human betaherpesvirus 6B	TRUE	Ch1q	NK2	-	iciNA19382	Kenya	2009	Homo sapiens
+MH698398	Human betaherpesvirus 6B	-	-	-	-	GTEX-14C38_icihhv6b	USA	2018	Homo sapiens
+MH698399	Human betaherpesvirus 6B	-	-	-	-	GTEX-13FLV_icihhv6b	USA	2018	Homo sapiens
+MH698400	Human betaherpesvirus 6A	-	-	-	-	GTEX-11DXY	USA	2018	Homo sapiens
+MH698401	Human betaherpesvirus 6B	-	-	-	-	GTEX-YF7O_icihhv6b	USA	2018	Homo sapiens
+MH698402	Human betaherpesvirus 6B	-	-	-	-	GTEX-OXRO_icihv6b	USA	2018	Homo sapiens
+MH698403	Human betaherpesvirus 6A	-	-	-	-	GTEX-1314G_icihhv6b	USA	2018	Homo sapiens
+MK630133	Human betaherpesvirus 6A	-	-	-	-	MOW-F1C	Russia	2017	Homo sapiens
+MK630134	Human betaherpesvirus 6A	-	-	-	-	MOW-F1M	Russia	2017	Homo sapiens
+MN242397	Human betaherpesvirus 6B	-	-	-	-	MOW-F5C	Russia:Moscow	2019	Homo sapiens
+NC_000898	Human betaherpesvirus 6B	TRUE	NULL	-	-	Z29	Zaire	-	Homo sapiens
+NC_001664	Human betaherpesvirus 6A	TRUE	NULL	A1	-	U1102	Uganda	-	Homo sapiens
+X83413	Human betaherpesvirus 6A	-	-	-	-	U1102	Uganda	-	Homo sapiens
