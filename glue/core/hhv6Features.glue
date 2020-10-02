@@ -142,6 +142,12 @@
   feature U90 set metatag CODES_AMINO_ACIDS true
   feature U90 set metatag REVERSE_COMPLEMENT_TRANSLATION true
 
+  create feature U94 -p whole_genome "U94 HCLF2 Rep-derived protein"
+  feature U94 set metatag OWN_CODON_NUMBERING true
+  feature U94 set metatag INCLUDE_IN_SUMMARY true
+  feature U94 set metatag CODES_AMINO_ACIDS true
+  feature U90 set metatag REVERSE_COMPLEMENT_TRANSLATION true
+
   create feature U95 -p whole_genome "protein U95"
   feature U95 set metatag OWN_CODON_NUMBERING true
   feature U95 set metatag INCLUDE_IN_SUMMARY true

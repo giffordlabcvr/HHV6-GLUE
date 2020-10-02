@@ -214,6 +214,10 @@
      add segment 136321 136884
      exit
 
+    add feature-location U94
+    feature-location U94
+     add segment 141449 142921
+     exit
 
     add feature-location U95
     feature-location U95 

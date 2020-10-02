@@ -1,4 +1,4 @@
-  # Define features on NCBI refseq version of HHV6A reference strain (NC_001664)
+  # Define features on NCBI refseq version of HHV6B reference strain (NC_000898)
 
   reference REF_HHV6B
 
@@ -226,6 +226,11 @@
     add feature-location B8
     feature-location B8 
      add segment  141969 142766
+     exit
+ 
+     add feature-location U94
+    feature-location U94
+     add segment 142886 144565
      exit
   
     add feature-location U95
