@@ -19,8 +19,8 @@
     <section class="page-header">
       <h1 class="project-name">HHV6-GLUE</h1>
       <h2 class="project-tagline">A GLUE project for human herpesvirus 6 (HHV6)</h2>
-      <a href="viruses.html" class="btn">Viruses</a>
-      <a href="paleoviruses.html" class="btn">Paleoviruses</a>
+      <a href="./website/viruses.html" class="btn">Viruses</a>
+      <a href="./website/paleoviruses.html" class="btn">Paleoviruses</a>
       <a href="https://github.com/giffordlabcvr/HHV6-GLUE/zipball/master" class="btn">Download</a>
       <a href="https://github.com/giffordlabcvr/HHV6-GLUE" class="btn">View on GitHub</a>
     </section>
@@ -47,23 +47,184 @@
 
 
 
-	  <h3>
-		  <a id="about-hhv6-glue" class="anchor" href="#about-hhv6-glue" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>What is HHV6-GLUE?</strong>
-	  </h3>
+
+       <br>
+	   <h3>
+	   <a id="WhatGlueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>What is a GLUE project?</strong>
+	   </h3>
+       <hr>
 
 
-	  <p>
-        HHV6-GLUE is a genome sequence data resource for HHV6, created using the -- <a href="https://hhv-6foundation.org/what-is-hhv-6">GLUE software environment</a>.
-	    HHV6-GLUE contains aligned, annotated HHV6 genome sequence.
-	  </p>
+	   <p>
+		 <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/"><b>GLUE</b></a> is an open, integrated
+		 software toolkit that provides functionality for storage and interpretation of
+		 sequence data. 
+	   </p>
+
+	   <p>
+		 <b>GLUE</b> supports the development of <b>“projects”</b> containing the data items
+		 required for comparative genomic analysis 
+		 (e.g.  sequences, multiple sequence alignments, genome feature annotations,
+		 and other sequence-associated data). 
+	   </p>
+
+	   <p>
+		 Projects are loaded into the <b>GLUE "engine"</b>, creating a relational database
+		 that represents the semantic relationships between data items.
+		 This provides a robust foundation for the implementation of <b>systematic
+		 comparative analyses</b> and the development of <b>sequence-based resources</b>. 
+	   </p>
+
+	   <p>		 
+		  The core schema of this database can be extended to accommodate
+		  the idiosyncrasies of different projects, and
+		  GLUE provides a scripting layer (based on JavaScript) for developing custom
+		  analysis tools. 
+	   </p>
+
+	   <p>
+		  Hosting of GLUE projects in an online version control system (e.g. GitHub) provides
+		  a mechanism for their stable, collaborative development.
+	   </p>
+	   
+	   
+
+		   
+		 <p>
+		   Some examples of '<b>sequence-based resources</b>' built for viruses using GLUE include:
+
+		 </p>
+		   
+		   
+
+		 <p>
+
+		 <ul>
+		 		 
+		   <li> 
+			 <a target="_blank" href="http://cov-glue.cvr.gla.ac.uk/"><b>COV-GLUE</b></a>: 
+			 A GLUE resource for tracking genetic variation in SARS-COV2.
+			 CoV-GLUE contains a database of amino acid replacements, insertions and
+			 deletions which have been observed in GISAID hCoV-19 sequences sampled from the pandemic
+		   </li>
+		   <br>
+		   
+		   <li>
+			 <a target="_blank" href="http://rabv-glue.cvr.gla.ac.uk/"><b>RABV-GLUE</b></a>:
+			 Tailored toward epidemiological tracking of rabies virus (RABV).
+			 Includes a database of RABV sequences and metadata from NCBI, updated daily and arranged into major and minor clades, and
+			 an analysis tool providing genotyping, analysis and visualisation of submitted FASTA sequences.
+ 		   </li>
+ 		   <br>
+		   
+		   <li>
+			 <a target="_blank" href="http://hcv-glue.cvr.gla.ac.uk/"><b>HCV-GLUE</b></a>:
+			 This GLUE resource aims to support analysis of drug resistance and vaccine
+			 escape in hepatitis C virus (HCV).
+			 A database of HCV sequences and metadata from NCBI, updated daily and arranged
+			 into clades (genotypes, subtypes). As well as pre-built multiple-sequence
+			 alignments of NCBI sequences, it includes an analysis tool providing genotyping,
+			 drug resistance analysis and visualisation of submitted FASTA sequences.
+           </li>
+	   
+		 </ul>
+
+		   
+		 </p>
+	   
 
 
 
-	  <h3>
-		<a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Contributors</strong>
-	  </h3>
+	   <br>
+	   <h3>
+	   <a id="WhyGlueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>What does building the HHV6-GLUE project offer?</strong>
+	   </h3>
+	   <hr>
 
-	  <p>Robert J. Gifford (<a href="mailto:robert.gifford@glasgow.ac.uk">robert.gifford@glasgow.ac.uk</a>)</p>
+		 
+ 
+	   <p>
+		 
+		  HHV6-GLUE offers a number of advantages for performing comparative sequence
+		  analysis of HHV6A and HHV6B:
+
+
+		  <ol>
+
+			<li> <strong>Reproducibility</strong>. 
+			For many reasons, bioinformatics analyses are notoriously difficult to reproduce.
+			The GLUE framework supports the implementation of fully reproducible 
+			comparative genomics through the introduction of data standards and the use 
+			of a relational database to capture the semantic links between data items.
+			</li>
+			<br>
+		  
+			<li> <strong>Reusable data objects and analysis logic</strong>. 
+			For many - if not most - comparative genomic analyses, data preparation is nine
+			tenths of the battle. The GLUE framework has been designed to ensure that 
+			work spent preparing high-value data items such as multiple sequence alignments
+			need only be performed once. Hosting of GLUE projects in an online version control 
+			system such as GitHub allows for collaborative management of important data items
+			and community testing of hypotheses.
+			</li>
+			<br>
+
+
+			<li> <strong>Validation</strong>. 
+			Building GLUE projects entails mapping the semantic links between data items
+			(e.g. sequences, tabular data, multiple sequence alignments).
+			This process provides an opportunity 
+			for cross-validation, and thereby enforces a high level of data integrity.
+			</li>
+			<br>
+		
+			<li> <strong>Standardisation of the genomic co-ordinate space</strong>. GLUE
+			projects allow all sequences to utilise the coordinate space of a chosen 
+			reference sequence. Contingencies associated with insertions and deletions
+			(indels) are handled in a systematic way.
+			</li>
+			<br>
+		  
+			<li> <strong>Predefined, fully annotated reference sequences</strong>:
+			This project includes fully-annotated reference sequences for major lineages
+			within the <i>Hepadnaviridae</i> family.
+			</li>
+			<br>
+		  
+			<li> <strong>Alignment trees</strong>:
+			GLUE allows linking of alignments constructed at distinct taxonomic levels
+			via an ""<b>alignment tree</b>"
+			data structure. In the alignment tree, each alignment
+			is constrained to a standard reference sequence, thus all multiple sequence
+			alignments are linked to one another via a standardised coordinate system.
+			</li>
+			
+		  </ol>
+
+
+	   </p>
+
+
+
+	   <h3>
+		 <a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Contributors</strong>
+	   </h3>
+
+	   <p>Robert J. Gifford (<a href="mailto:robert.gifford@glasgow.ac.uk">robert.gifford@glasgow.ac.uk</a>)</p>
+
+
+
+	   <h3>
+		 <a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>License</strong>
+	   </h3>
+       <hr>
+
+	   <p>
+		 This project is licensed under the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero General Public License v. 3.0</a>.
+	   </p>
+
+	   <br>
+
 
 
 
